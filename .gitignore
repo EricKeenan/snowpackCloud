@@ -1,0 +1,14 @@
+__pycache__/
+
+# Output files
+SP/standard/output/*
+SP/standard/output.zip
+SP/standard/SP.smet
+
+AP/standard/output/*
+AP/standard/output.zip
+AP/standard/AP.smet
+
+# Exclusions
+!AP/standard/output/README.txt
+!SP/standard/output/README.txt

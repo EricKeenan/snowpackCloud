@@ -1,0 +1,29 @@
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_FLAGS failed with the following output:
+Change Dir: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a754a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a754a.dir/build.make CMakeFiles/cmTC_a754a.dir/build
+make[1]: Entering directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a754a.dir/src.c.o
+/usr/bin/cc   -DHAVE_STRUCT_STAT_ST_FLAGS   -o CMakeFiles/cmTC_a754a.dir/src.c.o   -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp/src.c
+/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp/src.c:6:37: error: ‘struct stat’ has no member named ‘st_flags’; did you mean ‘st_nlink’?
+    (void)sizeof(((struct stat *)0)->st_flags);
+                                     ^~~~~~~~
+                                     st_nlink
+CMakeFiles/cmTC_a754a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a754a.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a754a.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a754a/fast' failed
+make: *** [cmTC_a754a/fast] Error 2
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->st_flags);
+   return 0;
+}
+
