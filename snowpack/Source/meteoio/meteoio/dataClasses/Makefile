@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio
+CMAKE_SOURCE_DIR = /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio
+CMAKE_BINARY_DIR = /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -83,7 +83,7 @@ install/local/fast: preinstall/fast
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CPackSourceConfig.cmake
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -94,7 +94,7 @@ package_source/fast: package_source
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -148,14 +148,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(CMAKE_COMMAND) -E cmake_progress_start /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/CMakeFiles/progress.marks
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/dataClasses/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles 0
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(CMAKE_COMMAND) -E cmake_progress_start /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/CMakeFiles/progress.marks
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/dataClasses/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/dataClasses/clean
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/dataClasses/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,17 +165,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/dataClasses/preinstall
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/dataClasses/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/dataClasses/preinstall
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/dataClasses/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -203,6 +203,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

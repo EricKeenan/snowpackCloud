@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio
+CMAKE_SOURCE_DIR = /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio
+CMAKE_BINARY_DIR = /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio
 
 # Include any dependencies generated for this target.
 include meteoio/CMakeFiles/meteoio.dir/depend.make
@@ -59,16 +59,16 @@ include meteoio/CMakeFiles/meteoio.dir/flags.make
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.o: meteoio/dataClasses/Matrix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Matrix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Matrix.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Matrix.cc > CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Matrix.cc > CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Matrix.cc -o CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Matrix.cc -o CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.o.requires:
 
@@ -83,16 +83,16 @@ meteoio/CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.o.provides.build: meteoio/C
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.o: meteoio/dataClasses/Grid2DObject.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Grid2DObject.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Grid2DObject.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Grid2DObject.cc > CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Grid2DObject.cc > CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Grid2DObject.cc -o CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Grid2DObject.cc -o CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.o.requires:
 
@@ -107,16 +107,16 @@ meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.o.provides.build: met
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.o: meteoio/dataClasses/Grid3DObject.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Grid3DObject.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Grid3DObject.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Grid3DObject.cc > CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Grid3DObject.cc > CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Grid3DObject.cc -o CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Grid3DObject.cc -o CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.o.requires:
 
@@ -131,16 +131,16 @@ meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.o.provides.build: met
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Date.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Date.cc.o: meteoio/dataClasses/Date.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/Date.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/Date.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Date.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/Date.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/Date.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Date.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Date.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataClasses/Date.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Date.cc > CMakeFiles/meteoio.dir/dataClasses/Date.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Date.cc > CMakeFiles/meteoio.dir/dataClasses/Date.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Date.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataClasses/Date.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Date.cc -o CMakeFiles/meteoio.dir/dataClasses/Date.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Date.cc -o CMakeFiles/meteoio.dir/dataClasses/Date.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Date.cc.o.requires:
 
@@ -155,16 +155,16 @@ meteoio/CMakeFiles/meteoio.dir/dataClasses/Date.cc.o.provides.build: meteoio/CMa
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.o: meteoio/dataClasses/CoordsAlgorithms.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/CoordsAlgorithms.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/CoordsAlgorithms.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/CoordsAlgorithms.cc > CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/CoordsAlgorithms.cc > CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/CoordsAlgorithms.cc -o CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/CoordsAlgorithms.cc -o CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.o.requires:
 
@@ -179,16 +179,16 @@ meteoio/CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.o.provides.build:
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Coords.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Coords.cc.o: meteoio/dataClasses/Coords.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/Coords.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/Coords.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Coords.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/Coords.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/Coords.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Coords.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Coords.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataClasses/Coords.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Coords.cc > CMakeFiles/meteoio.dir/dataClasses/Coords.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Coords.cc > CMakeFiles/meteoio.dir/dataClasses/Coords.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Coords.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataClasses/Coords.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Coords.cc -o CMakeFiles/meteoio.dir/dataClasses/Coords.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Coords.cc -o CMakeFiles/meteoio.dir/dataClasses/Coords.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Coords.cc.o.requires:
 
@@ -203,16 +203,16 @@ meteoio/CMakeFiles/meteoio.dir/dataClasses/Coords.cc.o.provides.build: meteoio/C
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.o: meteoio/dataClasses/DEMObject.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/DEMObject.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/DEMObject.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/DEMObject.cc > CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/DEMObject.cc > CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/DEMObject.cc -o CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/DEMObject.cc -o CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.o.requires:
 
@@ -227,16 +227,16 @@ meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.o.provides.build: meteoi
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.o: meteoio/dataClasses/DEMAlgorithms.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/DEMAlgorithms.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/DEMAlgorithms.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/DEMAlgorithms.cc > CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/DEMAlgorithms.cc > CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/DEMAlgorithms.cc -o CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/DEMAlgorithms.cc -o CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.o.requires:
 
@@ -251,16 +251,16 @@ meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.o.provides.build: me
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/StationData.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataClasses/StationData.cc.o: meteoio/dataClasses/StationData.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/StationData.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/StationData.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/StationData.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/StationData.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/StationData.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/StationData.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/StationData.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataClasses/StationData.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/StationData.cc > CMakeFiles/meteoio.dir/dataClasses/StationData.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/StationData.cc > CMakeFiles/meteoio.dir/dataClasses/StationData.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/StationData.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataClasses/StationData.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/StationData.cc -o CMakeFiles/meteoio.dir/dataClasses/StationData.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/StationData.cc -o CMakeFiles/meteoio.dir/dataClasses/StationData.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/StationData.cc.o.requires:
 
@@ -275,16 +275,16 @@ meteoio/CMakeFiles/meteoio.dir/dataClasses/StationData.cc.o.provides.build: mete
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.o: meteoio/dataClasses/MeteoData.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/MeteoData.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/MeteoData.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/MeteoData.cc > CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/MeteoData.cc > CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/MeteoData.cc -o CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/MeteoData.cc -o CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.o.requires:
 
@@ -299,16 +299,16 @@ meteoio/CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.o.provides.build: meteoi
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.o: meteoio/dataClasses/Buffer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Buffer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Buffer.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Buffer.cc > CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Buffer.cc > CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Buffer.cc -o CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Buffer.cc -o CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.o.requires:
 
@@ -323,16 +323,16 @@ meteoio/CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.o.provides.build: meteoio/C
 
 meteoio/CMakeFiles/meteoio.dir/tinyexpr.c.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/tinyexpr.c.o: meteoio/tinyexpr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object meteoio/CMakeFiles/meteoio.dir/tinyexpr.c.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/meteoio.dir/tinyexpr.c.o   -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/tinyexpr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object meteoio/CMakeFiles/meteoio.dir/tinyexpr.c.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/meteoio.dir/tinyexpr.c.o   -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/tinyexpr.c
 
 meteoio/CMakeFiles/meteoio.dir/tinyexpr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/meteoio.dir/tinyexpr.c.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/tinyexpr.c > CMakeFiles/meteoio.dir/tinyexpr.c.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/tinyexpr.c > CMakeFiles/meteoio.dir/tinyexpr.c.i
 
 meteoio/CMakeFiles/meteoio.dir/tinyexpr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/meteoio.dir/tinyexpr.c.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/tinyexpr.c -o CMakeFiles/meteoio.dir/tinyexpr.c.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/tinyexpr.c -o CMakeFiles/meteoio.dir/tinyexpr.c.s
 
 meteoio/CMakeFiles/meteoio.dir/tinyexpr.c.o.requires:
 
@@ -347,16 +347,16 @@ meteoio/CMakeFiles/meteoio.dir/tinyexpr.c.o.provides.build: meteoio/CMakeFiles/m
 
 meteoio/CMakeFiles/meteoio.dir/Timer.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/Timer.cc.o: meteoio/Timer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object meteoio/CMakeFiles/meteoio.dir/Timer.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/Timer.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Timer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object meteoio/CMakeFiles/meteoio.dir/Timer.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/Timer.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Timer.cc
 
 meteoio/CMakeFiles/meteoio.dir/Timer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/Timer.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Timer.cc > CMakeFiles/meteoio.dir/Timer.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Timer.cc > CMakeFiles/meteoio.dir/Timer.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/Timer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/Timer.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Timer.cc -o CMakeFiles/meteoio.dir/Timer.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Timer.cc -o CMakeFiles/meteoio.dir/Timer.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/Timer.cc.o.requires:
 
@@ -371,16 +371,16 @@ meteoio/CMakeFiles/meteoio.dir/Timer.cc.o.provides.build: meteoio/CMakeFiles/met
 
 meteoio/CMakeFiles/meteoio.dir/Config.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/Config.cc.o: meteoio/Config.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object meteoio/CMakeFiles/meteoio.dir/Config.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/Config.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Config.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object meteoio/CMakeFiles/meteoio.dir/Config.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/Config.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Config.cc
 
 meteoio/CMakeFiles/meteoio.dir/Config.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/Config.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Config.cc > CMakeFiles/meteoio.dir/Config.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Config.cc > CMakeFiles/meteoio.dir/Config.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/Config.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/Config.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Config.cc -o CMakeFiles/meteoio.dir/Config.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Config.cc -o CMakeFiles/meteoio.dir/Config.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/Config.cc.o.requires:
 
@@ -395,16 +395,16 @@ meteoio/CMakeFiles/meteoio.dir/Config.cc.o.provides.build: meteoio/CMakeFiles/me
 
 meteoio/CMakeFiles/meteoio.dir/IOExceptions.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/IOExceptions.cc.o: meteoio/IOExceptions.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object meteoio/CMakeFiles/meteoio.dir/IOExceptions.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/IOExceptions.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOExceptions.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object meteoio/CMakeFiles/meteoio.dir/IOExceptions.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/IOExceptions.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOExceptions.cc
 
 meteoio/CMakeFiles/meteoio.dir/IOExceptions.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/IOExceptions.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOExceptions.cc > CMakeFiles/meteoio.dir/IOExceptions.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOExceptions.cc > CMakeFiles/meteoio.dir/IOExceptions.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/IOExceptions.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/IOExceptions.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOExceptions.cc -o CMakeFiles/meteoio.dir/IOExceptions.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOExceptions.cc -o CMakeFiles/meteoio.dir/IOExceptions.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/IOExceptions.cc.o.requires:
 
@@ -419,16 +419,16 @@ meteoio/CMakeFiles/meteoio.dir/IOExceptions.cc.o.provides.build: meteoio/CMakeFi
 
 meteoio/CMakeFiles/meteoio.dir/IOUtils.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/IOUtils.cc.o: meteoio/IOUtils.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object meteoio/CMakeFiles/meteoio.dir/IOUtils.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/IOUtils.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOUtils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object meteoio/CMakeFiles/meteoio.dir/IOUtils.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/IOUtils.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOUtils.cc
 
 meteoio/CMakeFiles/meteoio.dir/IOUtils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/IOUtils.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOUtils.cc > CMakeFiles/meteoio.dir/IOUtils.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOUtils.cc > CMakeFiles/meteoio.dir/IOUtils.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/IOUtils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/IOUtils.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOUtils.cc -o CMakeFiles/meteoio.dir/IOUtils.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOUtils.cc -o CMakeFiles/meteoio.dir/IOUtils.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/IOUtils.cc.o.requires:
 
@@ -443,16 +443,16 @@ meteoio/CMakeFiles/meteoio.dir/IOUtils.cc.o.provides.build: meteoio/CMakeFiles/m
 
 meteoio/CMakeFiles/meteoio.dir/FileUtils.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/FileUtils.cc.o: meteoio/FileUtils.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object meteoio/CMakeFiles/meteoio.dir/FileUtils.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/FileUtils.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/FileUtils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object meteoio/CMakeFiles/meteoio.dir/FileUtils.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/FileUtils.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/FileUtils.cc
 
 meteoio/CMakeFiles/meteoio.dir/FileUtils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/FileUtils.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/FileUtils.cc > CMakeFiles/meteoio.dir/FileUtils.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/FileUtils.cc > CMakeFiles/meteoio.dir/FileUtils.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/FileUtils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/FileUtils.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/FileUtils.cc -o CMakeFiles/meteoio.dir/FileUtils.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/FileUtils.cc -o CMakeFiles/meteoio.dir/FileUtils.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/FileUtils.cc.o.requires:
 
@@ -467,16 +467,16 @@ meteoio/CMakeFiles/meteoio.dir/FileUtils.cc.o.provides.build: meteoio/CMakeFiles
 
 meteoio/CMakeFiles/meteoio.dir/Graphics.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/Graphics.cc.o: meteoio/Graphics.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object meteoio/CMakeFiles/meteoio.dir/Graphics.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/Graphics.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Graphics.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object meteoio/CMakeFiles/meteoio.dir/Graphics.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/Graphics.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Graphics.cc
 
 meteoio/CMakeFiles/meteoio.dir/Graphics.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/Graphics.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Graphics.cc > CMakeFiles/meteoio.dir/Graphics.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Graphics.cc > CMakeFiles/meteoio.dir/Graphics.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/Graphics.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/Graphics.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Graphics.cc -o CMakeFiles/meteoio.dir/Graphics.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Graphics.cc -o CMakeFiles/meteoio.dir/Graphics.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/Graphics.cc.o.requires:
 
@@ -491,16 +491,16 @@ meteoio/CMakeFiles/meteoio.dir/Graphics.cc.o.provides.build: meteoio/CMakeFiles/
 
 meteoio/CMakeFiles/meteoio.dir/GridsManager.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/GridsManager.cc.o: meteoio/GridsManager.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object meteoio/CMakeFiles/meteoio.dir/GridsManager.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/GridsManager.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/GridsManager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object meteoio/CMakeFiles/meteoio.dir/GridsManager.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/GridsManager.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/GridsManager.cc
 
 meteoio/CMakeFiles/meteoio.dir/GridsManager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/GridsManager.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/GridsManager.cc > CMakeFiles/meteoio.dir/GridsManager.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/GridsManager.cc > CMakeFiles/meteoio.dir/GridsManager.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/GridsManager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/GridsManager.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/GridsManager.cc -o CMakeFiles/meteoio.dir/GridsManager.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/GridsManager.cc -o CMakeFiles/meteoio.dir/GridsManager.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/GridsManager.cc.o.requires:
 
@@ -515,16 +515,16 @@ meteoio/CMakeFiles/meteoio.dir/GridsManager.cc.o.provides.build: meteoio/CMakeFi
 
 meteoio/CMakeFiles/meteoio.dir/TimeSeriesManager.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/TimeSeriesManager.cc.o: meteoio/TimeSeriesManager.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object meteoio/CMakeFiles/meteoio.dir/TimeSeriesManager.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/TimeSeriesManager.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/TimeSeriesManager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object meteoio/CMakeFiles/meteoio.dir/TimeSeriesManager.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/TimeSeriesManager.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/TimeSeriesManager.cc
 
 meteoio/CMakeFiles/meteoio.dir/TimeSeriesManager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/TimeSeriesManager.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/TimeSeriesManager.cc > CMakeFiles/meteoio.dir/TimeSeriesManager.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/TimeSeriesManager.cc > CMakeFiles/meteoio.dir/TimeSeriesManager.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/TimeSeriesManager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/TimeSeriesManager.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/TimeSeriesManager.cc -o CMakeFiles/meteoio.dir/TimeSeriesManager.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/TimeSeriesManager.cc -o CMakeFiles/meteoio.dir/TimeSeriesManager.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/TimeSeriesManager.cc.o.requires:
 
@@ -539,16 +539,16 @@ meteoio/CMakeFiles/meteoio.dir/TimeSeriesManager.cc.o.provides.build: meteoio/CM
 
 meteoio/CMakeFiles/meteoio.dir/IOManager.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/IOManager.cc.o: meteoio/IOManager.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object meteoio/CMakeFiles/meteoio.dir/IOManager.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/IOManager.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOManager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object meteoio/CMakeFiles/meteoio.dir/IOManager.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/IOManager.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOManager.cc
 
 meteoio/CMakeFiles/meteoio.dir/IOManager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/IOManager.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOManager.cc > CMakeFiles/meteoio.dir/IOManager.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOManager.cc > CMakeFiles/meteoio.dir/IOManager.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/IOManager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/IOManager.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOManager.cc -o CMakeFiles/meteoio.dir/IOManager.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOManager.cc -o CMakeFiles/meteoio.dir/IOManager.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/IOManager.cc.o.requires:
 
@@ -563,16 +563,16 @@ meteoio/CMakeFiles/meteoio.dir/IOManager.cc.o.provides.build: meteoio/CMakeFiles
 
 meteoio/CMakeFiles/meteoio.dir/IOHandler.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/IOHandler.cc.o: meteoio/IOHandler.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object meteoio/CMakeFiles/meteoio.dir/IOHandler.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/IOHandler.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOHandler.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object meteoio/CMakeFiles/meteoio.dir/IOHandler.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/IOHandler.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOHandler.cc
 
 meteoio/CMakeFiles/meteoio.dir/IOHandler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/IOHandler.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOHandler.cc > CMakeFiles/meteoio.dir/IOHandler.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOHandler.cc > CMakeFiles/meteoio.dir/IOHandler.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/IOHandler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/IOHandler.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOHandler.cc -o CMakeFiles/meteoio.dir/IOHandler.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOHandler.cc -o CMakeFiles/meteoio.dir/IOHandler.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/IOHandler.cc.o.requires:
 
@@ -587,16 +587,16 @@ meteoio/CMakeFiles/meteoio.dir/IOHandler.cc.o.provides.build: meteoio/CMakeFiles
 
 meteoio/CMakeFiles/meteoio.dir/MeteoProcessor.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/MeteoProcessor.cc.o: meteoio/MeteoProcessor.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object meteoio/CMakeFiles/meteoio.dir/MeteoProcessor.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/MeteoProcessor.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/MeteoProcessor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object meteoio/CMakeFiles/meteoio.dir/MeteoProcessor.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/MeteoProcessor.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/MeteoProcessor.cc
 
 meteoio/CMakeFiles/meteoio.dir/MeteoProcessor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/MeteoProcessor.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/MeteoProcessor.cc > CMakeFiles/meteoio.dir/MeteoProcessor.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/MeteoProcessor.cc > CMakeFiles/meteoio.dir/MeteoProcessor.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/MeteoProcessor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/MeteoProcessor.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/MeteoProcessor.cc -o CMakeFiles/meteoio.dir/MeteoProcessor.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/MeteoProcessor.cc -o CMakeFiles/meteoio.dir/MeteoProcessor.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/MeteoProcessor.cc.o.requires:
 
@@ -611,16 +611,16 @@ meteoio/CMakeFiles/meteoio.dir/MeteoProcessor.cc.o.provides.build: meteoio/CMake
 
 meteoio/CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.o: meteoio/Meteo1DInterpolator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object meteoio/CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Meteo1DInterpolator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object meteoio/CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Meteo1DInterpolator.cc
 
 meteoio/CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Meteo1DInterpolator.cc > CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Meteo1DInterpolator.cc > CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Meteo1DInterpolator.cc -o CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Meteo1DInterpolator.cc -o CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.o.requires:
 
@@ -635,16 +635,16 @@ meteoio/CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.o.provides.build: meteoio/
 
 meteoio/CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.o: meteoio/Meteo2DInterpolator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object meteoio/CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Meteo2DInterpolator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object meteoio/CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Meteo2DInterpolator.cc
 
 meteoio/CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Meteo2DInterpolator.cc > CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Meteo2DInterpolator.cc > CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Meteo2DInterpolator.cc -o CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Meteo2DInterpolator.cc -o CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.o.requires:
 
@@ -659,16 +659,16 @@ meteoio/CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.o.provides.build: meteoio/
 
 meteoio/CMakeFiles/meteoio.dir/DataCreator.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/DataCreator.cc.o: meteoio/DataCreator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object meteoio/CMakeFiles/meteoio.dir/DataCreator.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/DataCreator.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/DataCreator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object meteoio/CMakeFiles/meteoio.dir/DataCreator.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/DataCreator.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/DataCreator.cc
 
 meteoio/CMakeFiles/meteoio.dir/DataCreator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/DataCreator.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/DataCreator.cc > CMakeFiles/meteoio.dir/DataCreator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/DataCreator.cc > CMakeFiles/meteoio.dir/DataCreator.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/DataCreator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/DataCreator.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/DataCreator.cc -o CMakeFiles/meteoio.dir/DataCreator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/DataCreator.cc -o CMakeFiles/meteoio.dir/DataCreator.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/DataCreator.cc.o.requires:
 
@@ -683,16 +683,16 @@ meteoio/CMakeFiles/meteoio.dir/DataCreator.cc.o.provides.build: meteoio/CMakeFil
 
 meteoio/CMakeFiles/meteoio.dir/DataGenerator.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/DataGenerator.cc.o: meteoio/DataGenerator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object meteoio/CMakeFiles/meteoio.dir/DataGenerator.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/DataGenerator.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/DataGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object meteoio/CMakeFiles/meteoio.dir/DataGenerator.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/DataGenerator.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/DataGenerator.cc
 
 meteoio/CMakeFiles/meteoio.dir/DataGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/DataGenerator.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/DataGenerator.cc > CMakeFiles/meteoio.dir/DataGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/DataGenerator.cc > CMakeFiles/meteoio.dir/DataGenerator.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/DataGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/DataGenerator.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/DataGenerator.cc -o CMakeFiles/meteoio.dir/DataGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/DataGenerator.cc -o CMakeFiles/meteoio.dir/DataGenerator.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/DataGenerator.cc.o.requires:
 
@@ -707,16 +707,16 @@ meteoio/CMakeFiles/meteoio.dir/DataGenerator.cc.o.provides.build: meteoio/CMakeF
 
 meteoio/CMakeFiles/meteoio.dir/plugins/libsmet.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/plugins/libsmet.cc.o: meteoio/plugins/libsmet.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/libsmet.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/libsmet.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/libsmet.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/libsmet.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/libsmet.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/libsmet.cc
 
 meteoio/CMakeFiles/meteoio.dir/plugins/libsmet.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/plugins/libsmet.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/libsmet.cc > CMakeFiles/meteoio.dir/plugins/libsmet.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/libsmet.cc > CMakeFiles/meteoio.dir/plugins/libsmet.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/plugins/libsmet.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/plugins/libsmet.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/libsmet.cc -o CMakeFiles/meteoio.dir/plugins/libsmet.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/libsmet.cc -o CMakeFiles/meteoio.dir/plugins/libsmet.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/plugins/libsmet.cc.o.requires:
 
@@ -731,16 +731,16 @@ meteoio/CMakeFiles/meteoio.dir/plugins/libsmet.cc.o.provides.build: meteoio/CMak
 
 meteoio/CMakeFiles/meteoio.dir/IOInterface.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/IOInterface.cc.o: meteoio/IOInterface.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object meteoio/CMakeFiles/meteoio.dir/IOInterface.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/IOInterface.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOInterface.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object meteoio/CMakeFiles/meteoio.dir/IOInterface.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/IOInterface.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOInterface.cc
 
 meteoio/CMakeFiles/meteoio.dir/IOInterface.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/IOInterface.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOInterface.cc > CMakeFiles/meteoio.dir/IOInterface.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOInterface.cc > CMakeFiles/meteoio.dir/IOInterface.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/IOInterface.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/IOInterface.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOInterface.cc -o CMakeFiles/meteoio.dir/IOInterface.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOInterface.cc -o CMakeFiles/meteoio.dir/IOInterface.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/IOInterface.cc.o.requires:
 
@@ -755,16 +755,16 @@ meteoio/CMakeFiles/meteoio.dir/IOInterface.cc.o.provides.build: meteoio/CMakeFil
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.o: meteoio/meteoResampling/ResamplingAlgorithms.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/ResamplingAlgorithms.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/ResamplingAlgorithms.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/ResamplingAlgorithms.cc > CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/ResamplingAlgorithms.cc > CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/ResamplingAlgorithms.cc -o CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/ResamplingAlgorithms.cc -o CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.o.requires:
 
@@ -779,16 +779,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.o.provide
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.o: meteoio/meteoResampling/Accumulate.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/Accumulate.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/Accumulate.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/Accumulate.cc > CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/Accumulate.cc > CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/Accumulate.cc -o CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/Accumulate.cc -o CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.o.requires:
 
@@ -803,16 +803,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.o.provides.build: m
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.o: meteoio/meteoResampling/DailyAverageResampling.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/DailyAverageResampling.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/DailyAverageResampling.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/DailyAverageResampling.cc > CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/DailyAverageResampling.cc > CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/DailyAverageResampling.cc -o CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/DailyAverageResampling.cc -o CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.o.requires:
 
@@ -827,16 +827,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.o.provi
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.o: meteoio/meteoResampling/DailySolarResampling.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/DailySolarResampling.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/DailySolarResampling.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/DailySolarResampling.cc > CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/DailySolarResampling.cc > CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/DailySolarResampling.cc -o CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/DailySolarResampling.cc -o CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.o.requires:
 
@@ -851,16 +851,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.o.provide
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.o: meteoio/meteoResampling/LinearResampling.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/LinearResampling.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/LinearResampling.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/LinearResampling.cc > CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/LinearResampling.cc > CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/LinearResampling.cc -o CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/LinearResampling.cc -o CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.o.requires:
 
@@ -875,16 +875,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.o.provides.bu
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.o: meteoio/meteoResampling/NearestNeighbour.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/NearestNeighbour.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/NearestNeighbour.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/NearestNeighbour.cc > CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/NearestNeighbour.cc > CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/NearestNeighbour.cc -o CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/NearestNeighbour.cc -o CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.o.requires:
 
@@ -899,16 +899,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.o.provides.bu
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.o: meteoio/meteoResampling/NoResampling.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/NoResampling.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/NoResampling.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/NoResampling.cc > CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/NoResampling.cc > CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/NoResampling.cc -o CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/NoResampling.cc -o CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.o.requires:
 
@@ -923,16 +923,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.o.provides.build:
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.o: meteoio/meteoResampling/SolarResampling.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/SolarResampling.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/SolarResampling.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/SolarResampling.cc > CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/SolarResampling.cc > CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/SolarResampling.cc -o CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/SolarResampling.cc -o CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.o.requires:
 
@@ -947,16 +947,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.o.provides.bui
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.o: meteoio/spatialInterpolations/InterpolationAlgorithms.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/InterpolationAlgorithms.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/InterpolationAlgorithms.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/InterpolationAlgorithms.cc > CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/InterpolationAlgorithms.cc > CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/InterpolationAlgorithms.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/InterpolationAlgorithms.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.o.requires:
 
@@ -971,16 +971,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.o: meteoio/spatialInterpolations/ALSScaleAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ALSScaleAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ALSScaleAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ALSScaleAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ALSScaleAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ALSScaleAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ALSScaleAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.o.requires:
 
@@ -995,16 +995,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.o.prov
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.o: meteoio/spatialInterpolations/AvgAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/AvgAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/AvgAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/AvgAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/AvgAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/AvgAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/AvgAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.o.requires:
 
@@ -1019,16 +1019,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.o.provides.
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.o: meteoio/spatialInterpolations/AvgLapseAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/AvgLapseAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/AvgLapseAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/AvgLapseAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/AvgLapseAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/AvgLapseAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/AvgLapseAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.o.requires:
 
@@ -1043,16 +1043,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.o.prov
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.o: meteoio/spatialInterpolations/ConstAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ConstAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ConstAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ConstAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ConstAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ConstAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ConstAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.o.requires:
 
@@ -1067,16 +1067,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.o.provide
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.o: meteoio/spatialInterpolations/IDWAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.o.requires:
 
@@ -1091,16 +1091,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.o.provides.
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.o: meteoio/spatialInterpolations/IDWSlopesAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWSlopesAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWSlopesAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWSlopesAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWSlopesAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWSlopesAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWSlopesAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.o.requires:
 
@@ -1115,16 +1115,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.o.pro
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.o: meteoio/spatialInterpolations/IDWLapseAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWLapseAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWLapseAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWLapseAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWLapseAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWLapseAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWLapseAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.o.requires:
 
@@ -1139,16 +1139,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.o.prov
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.o: meteoio/spatialInterpolations/IDWLapseLocalAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWLapseLocalAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWLapseLocalAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWLapseLocalAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWLapseLocalAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWLapseLocalAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWLapseLocalAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.o.requires:
 
@@ -1163,16 +1163,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.o
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.o: meteoio/spatialInterpolations/ILWREpsAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ILWREpsAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ILWREpsAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ILWREpsAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ILWREpsAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ILWREpsAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ILWREpsAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.o.requires:
 
@@ -1187,16 +1187,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.o.provi
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.o: meteoio/spatialInterpolations/ListonWindAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ListonWindAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ListonWindAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ListonWindAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ListonWindAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ListonWindAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ListonWindAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.o.requires:
 
@@ -1211,16 +1211,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.o.pr
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.o: meteoio/spatialInterpolations/NearestNeighbourAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/NearestNeighbourAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/NearestNeighbourAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/NearestNeighbourAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/NearestNeighbourAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/NearestNeighbourAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/NearestNeighbourAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.o.requires:
 
@@ -1235,16 +1235,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.c
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.o: meteoio/spatialInterpolations/NoneAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/NoneAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/NoneAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/NoneAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/NoneAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/NoneAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/NoneAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.o.requires:
 
@@ -1259,16 +1259,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.o.provides
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.o: meteoio/spatialInterpolations/ODKrigAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ODKrigAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ODKrigAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ODKrigAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ODKrigAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ODKrigAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ODKrigAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.o.requires:
 
@@ -1283,16 +1283,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.o.provid
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.o: meteoio/spatialInterpolations/ODKrigLapseAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ODKrigLapseAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ODKrigLapseAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ODKrigLapseAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ODKrigLapseAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ODKrigLapseAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ODKrigLapseAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.o.requires:
 
@@ -1307,16 +1307,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.o.p
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.o: meteoio/spatialInterpolations/PPhaseAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/PPhaseAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/PPhaseAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/PPhaseAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/PPhaseAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/PPhaseAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/PPhaseAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.o.requires:
 
@@ -1331,16 +1331,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.o.provid
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.o: meteoio/spatialInterpolations/RHListonAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/RHListonAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/RHListonAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/RHListonAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/RHListonAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/RHListonAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/RHListonAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.o.requires:
 
@@ -1355,16 +1355,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.o.prov
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.o: meteoio/spatialInterpolations/RyanWindAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/RyanWindAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/RyanWindAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/RyanWindAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/RyanWindAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/RyanWindAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/RyanWindAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.o.requires:
 
@@ -1379,16 +1379,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.o.prov
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.o: meteoio/spatialInterpolations/SnowPsumAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/SnowPsumAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/SnowPsumAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/SnowPsumAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/SnowPsumAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/SnowPsumAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/SnowPsumAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.o.requires:
 
@@ -1403,16 +1403,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.o.prov
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.o: meteoio/spatialInterpolations/StdPressAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/StdPressAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/StdPressAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/StdPressAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/StdPressAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/StdPressAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/StdPressAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.o.requires:
 
@@ -1427,16 +1427,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.o.prov
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.o: meteoio/spatialInterpolations/SwRadAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/SwRadAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/SwRadAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/SwRadAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/SwRadAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/SwRadAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/SwRadAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.o.requires:
 
@@ -1451,16 +1451,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.o.provide
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.o: meteoio/spatialInterpolations/UserAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/UserAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/UserAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/UserAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/UserAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/UserAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/UserAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.o.requires:
 
@@ -1475,16 +1475,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.o.provides
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.o: meteoio/spatialInterpolations/WinstralAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.o.requires:
 
@@ -1499,16 +1499,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.o.prov
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.o: meteoio/spatialInterpolations/WinstralListonAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralListonAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralListonAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralListonAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralListonAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralListonAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralListonAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.o.requires:
 
@@ -1523,16 +1523,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.o: meteoio/spatialInterpolations/WinstralListonDriftAlgorithm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralListonDriftAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralListonDriftAlgorithm.cc
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralListonDriftAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralListonDriftAlgorithm.cc > CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralListonDriftAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralListonDriftAlgorithm.cc -o CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.o.requires:
 
@@ -1547,16 +1547,16 @@ meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorith
 
 meteoio/CMakeFiles/meteoio.dir/plugins/ALPUG.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/plugins/ALPUG.cc.o: meteoio/plugins/ALPUG.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/ALPUG.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/ALPUG.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/ALPUG.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/ALPUG.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/ALPUG.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/ALPUG.cc
 
 meteoio/CMakeFiles/meteoio.dir/plugins/ALPUG.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/plugins/ALPUG.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/ALPUG.cc > CMakeFiles/meteoio.dir/plugins/ALPUG.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/ALPUG.cc > CMakeFiles/meteoio.dir/plugins/ALPUG.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/plugins/ALPUG.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/plugins/ALPUG.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/ALPUG.cc -o CMakeFiles/meteoio.dir/plugins/ALPUG.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/ALPUG.cc -o CMakeFiles/meteoio.dir/plugins/ALPUG.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/plugins/ALPUG.cc.o.requires:
 
@@ -1571,16 +1571,16 @@ meteoio/CMakeFiles/meteoio.dir/plugins/ALPUG.cc.o.provides.build: meteoio/CMakeF
 
 meteoio/CMakeFiles/meteoio.dir/plugins/ARCIO.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/plugins/ARCIO.cc.o: meteoio/plugins/ARCIO.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/ARCIO.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/ARCIO.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/ARCIO.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/ARCIO.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/ARCIO.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/ARCIO.cc
 
 meteoio/CMakeFiles/meteoio.dir/plugins/ARCIO.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/plugins/ARCIO.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/ARCIO.cc > CMakeFiles/meteoio.dir/plugins/ARCIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/ARCIO.cc > CMakeFiles/meteoio.dir/plugins/ARCIO.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/plugins/ARCIO.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/plugins/ARCIO.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/ARCIO.cc -o CMakeFiles/meteoio.dir/plugins/ARCIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/ARCIO.cc -o CMakeFiles/meteoio.dir/plugins/ARCIO.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/plugins/ARCIO.cc.o.requires:
 
@@ -1595,16 +1595,16 @@ meteoio/CMakeFiles/meteoio.dir/plugins/ARCIO.cc.o.provides.build: meteoio/CMakeF
 
 meteoio/CMakeFiles/meteoio.dir/plugins/A3DIO.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/plugins/A3DIO.cc.o: meteoio/plugins/A3DIO.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/A3DIO.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/A3DIO.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/A3DIO.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/A3DIO.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/A3DIO.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/A3DIO.cc
 
 meteoio/CMakeFiles/meteoio.dir/plugins/A3DIO.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/plugins/A3DIO.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/A3DIO.cc > CMakeFiles/meteoio.dir/plugins/A3DIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/A3DIO.cc > CMakeFiles/meteoio.dir/plugins/A3DIO.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/plugins/A3DIO.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/plugins/A3DIO.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/A3DIO.cc -o CMakeFiles/meteoio.dir/plugins/A3DIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/A3DIO.cc -o CMakeFiles/meteoio.dir/plugins/A3DIO.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/plugins/A3DIO.cc.o.requires:
 
@@ -1619,16 +1619,16 @@ meteoio/CMakeFiles/meteoio.dir/plugins/A3DIO.cc.o.provides.build: meteoio/CMakeF
 
 meteoio/CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.o: meteoio/plugins/ARPSIO.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/ARPSIO.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/ARPSIO.cc
 
 meteoio/CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/ARPSIO.cc > CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/ARPSIO.cc > CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/ARPSIO.cc -o CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/ARPSIO.cc -o CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.o.requires:
 
@@ -1643,16 +1643,16 @@ meteoio/CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.o.provides.build: meteoio/CMake
 
 meteoio/CMakeFiles/meteoio.dir/plugins/CsvIO.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/plugins/CsvIO.cc.o: meteoio/plugins/CsvIO.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/CsvIO.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/CsvIO.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/CsvIO.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/CsvIO.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/CsvIO.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/CsvIO.cc
 
 meteoio/CMakeFiles/meteoio.dir/plugins/CsvIO.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/plugins/CsvIO.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/CsvIO.cc > CMakeFiles/meteoio.dir/plugins/CsvIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/CsvIO.cc > CMakeFiles/meteoio.dir/plugins/CsvIO.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/plugins/CsvIO.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/plugins/CsvIO.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/CsvIO.cc -o CMakeFiles/meteoio.dir/plugins/CsvIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/CsvIO.cc -o CMakeFiles/meteoio.dir/plugins/CsvIO.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/plugins/CsvIO.cc.o.requires:
 
@@ -1667,16 +1667,16 @@ meteoio/CMakeFiles/meteoio.dir/plugins/CsvIO.cc.o.provides.build: meteoio/CMakeF
 
 meteoio/CMakeFiles/meteoio.dir/plugins/Goes.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/plugins/Goes.cc.o: meteoio/plugins/Goes.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/Goes.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/Goes.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/Goes.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/Goes.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/Goes.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/Goes.cc
 
 meteoio/CMakeFiles/meteoio.dir/plugins/Goes.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/plugins/Goes.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/Goes.cc > CMakeFiles/meteoio.dir/plugins/Goes.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/Goes.cc > CMakeFiles/meteoio.dir/plugins/Goes.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/plugins/Goes.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/plugins/Goes.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/Goes.cc -o CMakeFiles/meteoio.dir/plugins/Goes.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/Goes.cc -o CMakeFiles/meteoio.dir/plugins/Goes.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/plugins/Goes.cc.o.requires:
 
@@ -1691,16 +1691,16 @@ meteoio/CMakeFiles/meteoio.dir/plugins/Goes.cc.o.provides.build: meteoio/CMakeFi
 
 meteoio/CMakeFiles/meteoio.dir/plugins/GrassIO.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/plugins/GrassIO.cc.o: meteoio/plugins/GrassIO.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/GrassIO.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/GrassIO.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/GrassIO.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/GrassIO.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/GrassIO.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/GrassIO.cc
 
 meteoio/CMakeFiles/meteoio.dir/plugins/GrassIO.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/plugins/GrassIO.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/GrassIO.cc > CMakeFiles/meteoio.dir/plugins/GrassIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/GrassIO.cc > CMakeFiles/meteoio.dir/plugins/GrassIO.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/plugins/GrassIO.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/plugins/GrassIO.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/GrassIO.cc -o CMakeFiles/meteoio.dir/plugins/GrassIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/GrassIO.cc -o CMakeFiles/meteoio.dir/plugins/GrassIO.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/plugins/GrassIO.cc.o.requires:
 
@@ -1715,16 +1715,16 @@ meteoio/CMakeFiles/meteoio.dir/plugins/GrassIO.cc.o.provides.build: meteoio/CMak
 
 meteoio/CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.o: meteoio/plugins/GeotopIO.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/GeotopIO.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/GeotopIO.cc
 
 meteoio/CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/GeotopIO.cc > CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/GeotopIO.cc > CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/GeotopIO.cc -o CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/GeotopIO.cc -o CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.o.requires:
 
@@ -1739,16 +1739,16 @@ meteoio/CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.o.provides.build: meteoio/CMa
 
 meteoio/CMakeFiles/meteoio.dir/plugins/PGMIO.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/plugins/PGMIO.cc.o: meteoio/plugins/PGMIO.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/PGMIO.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/PGMIO.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/PGMIO.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/PGMIO.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/PGMIO.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/PGMIO.cc
 
 meteoio/CMakeFiles/meteoio.dir/plugins/PGMIO.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/plugins/PGMIO.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/PGMIO.cc > CMakeFiles/meteoio.dir/plugins/PGMIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/PGMIO.cc > CMakeFiles/meteoio.dir/plugins/PGMIO.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/plugins/PGMIO.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/plugins/PGMIO.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/PGMIO.cc -o CMakeFiles/meteoio.dir/plugins/PGMIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/PGMIO.cc -o CMakeFiles/meteoio.dir/plugins/PGMIO.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/plugins/PGMIO.cc.o.requires:
 
@@ -1763,16 +1763,16 @@ meteoio/CMakeFiles/meteoio.dir/plugins/PGMIO.cc.o.provides.build: meteoio/CMakeF
 
 meteoio/CMakeFiles/meteoio.dir/plugins/SMETIO.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/plugins/SMETIO.cc.o: meteoio/plugins/SMETIO.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/SMETIO.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/SMETIO.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/SMETIO.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/SMETIO.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/SMETIO.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/SMETIO.cc
 
 meteoio/CMakeFiles/meteoio.dir/plugins/SMETIO.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/plugins/SMETIO.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/SMETIO.cc > CMakeFiles/meteoio.dir/plugins/SMETIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/SMETIO.cc > CMakeFiles/meteoio.dir/plugins/SMETIO.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/plugins/SMETIO.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/plugins/SMETIO.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/SMETIO.cc -o CMakeFiles/meteoio.dir/plugins/SMETIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/SMETIO.cc -o CMakeFiles/meteoio.dir/plugins/SMETIO.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/plugins/SMETIO.cc.o.requires:
 
@@ -1787,16 +1787,16 @@ meteoio/CMakeFiles/meteoio.dir/plugins/SMETIO.cc.o.provides.build: meteoio/CMake
 
 meteoio/CMakeFiles/meteoio.dir/plugins/SNIO.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/plugins/SNIO.cc.o: meteoio/plugins/SNIO.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/SNIO.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/SNIO.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/SNIO.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object meteoio/CMakeFiles/meteoio.dir/plugins/SNIO.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/plugins/SNIO.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/SNIO.cc
 
 meteoio/CMakeFiles/meteoio.dir/plugins/SNIO.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/plugins/SNIO.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/SNIO.cc > CMakeFiles/meteoio.dir/plugins/SNIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/SNIO.cc > CMakeFiles/meteoio.dir/plugins/SNIO.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/plugins/SNIO.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/plugins/SNIO.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/SNIO.cc -o CMakeFiles/meteoio.dir/plugins/SNIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/SNIO.cc -o CMakeFiles/meteoio.dir/plugins/SNIO.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/plugins/SNIO.cc.o.requires:
 
@@ -1811,16 +1811,16 @@ meteoio/CMakeFiles/meteoio.dir/plugins/SNIO.cc.o.provides.build: meteoio/CMakeFi
 
 meteoio/CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.o: meteoio/meteoLaws/Atmosphere.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoLaws/Atmosphere.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoLaws/Atmosphere.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoLaws/Atmosphere.cc > CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoLaws/Atmosphere.cc > CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoLaws/Atmosphere.cc -o CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoLaws/Atmosphere.cc -o CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.o.requires:
 
@@ -1835,16 +1835,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.o.provides.build: meteoio
 
 meteoio/CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.o: meteoio/meteoLaws/Suntrajectory.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoLaws/Suntrajectory.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoLaws/Suntrajectory.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoLaws/Suntrajectory.cc > CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoLaws/Suntrajectory.cc > CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoLaws/Suntrajectory.cc -o CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoLaws/Suntrajectory.cc -o CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.o.requires:
 
@@ -1859,16 +1859,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.o.provides.build: mete
 
 meteoio/CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.o: meteoio/meteoLaws/Sun.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoLaws/Sun.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoLaws/Sun.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoLaws/Sun.cc > CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoLaws/Sun.cc > CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoLaws/Sun.cc -o CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoLaws/Sun.cc -o CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.o.requires:
 
@@ -1883,16 +1883,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.o.provides.build: meteoio/CMakeF
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.o: meteoio/meteoStats/libfit1D.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libfit1D.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libfit1D.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libfit1D.cc > CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libfit1D.cc > CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libfit1D.cc -o CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libfit1D.cc -o CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.o.requires:
 
@@ -1907,16 +1907,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.o.provides.build: meteoio/
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.o: meteoio/meteoStats/libfit1DCore.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libfit1DCore.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libfit1DCore.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libfit1DCore.cc > CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libfit1DCore.cc > CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libfit1DCore.cc -o CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libfit1DCore.cc -o CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.o.requires:
 
@@ -1931,16 +1931,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.o.provides.build: mete
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.o: meteoio/meteoStats/libinterpol1D.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libinterpol1D.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libinterpol1D.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libinterpol1D.cc > CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libinterpol1D.cc > CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libinterpol1D.cc -o CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libinterpol1D.cc -o CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.o.requires:
 
@@ -1955,16 +1955,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.o.provides.build: met
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.o: meteoio/meteoStats/libinterpol2D.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libinterpol2D.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libinterpol2D.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libinterpol2D.cc > CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libinterpol2D.cc > CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libinterpol2D.cc -o CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libinterpol2D.cc -o CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.o.requires:
 
@@ -1979,16 +1979,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.o.provides.build: met
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.o: meteoio/meteoStats/libresampling2D.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libresampling2D.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libresampling2D.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libresampling2D.cc > CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libresampling2D.cc > CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libresampling2D.cc -o CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libresampling2D.cc -o CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.o.requires:
 
@@ -2003,16 +2003,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.o.provides.build: m
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.o: meteoio/meteoStats/RandomNumberGenerator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/RandomNumberGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/RandomNumberGenerator.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/RandomNumberGenerator.cc > CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/RandomNumberGenerator.cc > CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/RandomNumberGenerator.cc -o CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/RandomNumberGenerator.cc -o CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.o.requires:
 
@@ -2027,16 +2027,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.o.provides.bu
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.o: meteoio/meteoFilters/FilterSuppr.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterSuppr.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterSuppr.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterSuppr.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterSuppr.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterSuppr.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterSuppr.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.o.requires:
 
@@ -2051,16 +2051,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.o.provides.build: met
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.o: meteoio/meteoFilters/FilterMin.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMin.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMin.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMin.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMin.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMin.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMin.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.o.requires:
 
@@ -2075,16 +2075,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.o.provides.build: meteo
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.o: meteoio/meteoFilters/FilterMax.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMax.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMax.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMax.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMax.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMax.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMax.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.o.requires:
 
@@ -2099,16 +2099,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.o.provides.build: meteo
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.o: meteoio/meteoFilters/FilterMinMax.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMinMax.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMinMax.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMinMax.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMinMax.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMinMax.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMinMax.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.o.requires:
 
@@ -2123,16 +2123,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.o.provides.build: me
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.o: meteoio/meteoFilters/FilterMinMaxConditional.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMinMaxConditional.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMinMaxConditional.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMinMaxConditional.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMinMaxConditional.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMinMaxConditional.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMinMaxConditional.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.o.requires:
 
@@ -2147,16 +2147,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.o.provide
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.o: meteoio/meteoFilters/FilterMAD.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMAD.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMAD.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMAD.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMAD.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMAD.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMAD.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.o.requires:
 
@@ -2171,16 +2171,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.o.provides.build: meteo
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.o: meteoio/meteoFilters/FilterStdDev.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterStdDev.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterStdDev.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterStdDev.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterStdDev.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterStdDev.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterStdDev.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.o.requires:
 
@@ -2195,16 +2195,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.o.provides.build: me
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.o: meteoio/meteoFilters/FilterTukey.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterTukey.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterTukey.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterTukey.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterTukey.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterTukey.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterTukey.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.o.requires:
 
@@ -2219,16 +2219,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.o.provides.build: met
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.o: meteoio/meteoFilters/FilterPotentialSW.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterPotentialSW.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterPotentialSW.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterPotentialSW.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterPotentialSW.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterPotentialSW.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterPotentialSW.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.o.requires:
 
@@ -2243,16 +2243,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.o.provides.buil
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.o: meteoio/meteoFilters/FilterRate.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterRate.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterRate.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterRate.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterRate.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterRate.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterRate.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.o.requires:
 
@@ -2267,16 +2267,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.o.provides.build: mete
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.o: meteoio/meteoFilters/FilterUnheatedPSUM.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterUnheatedPSUM.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterUnheatedPSUM.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterUnheatedPSUM.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterUnheatedPSUM.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterUnheatedPSUM.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterUnheatedPSUM.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.o.requires:
 
@@ -2291,16 +2291,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.o.provides.bui
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.o: meteoio/meteoFilters/FilterParticle.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterParticle.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterParticle.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterParticle.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterParticle.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterParticle.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterParticle.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.o.requires:
 
@@ -2315,16 +2315,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.o.provides.build: 
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.o: meteoio/meteoFilters/FilterKalman.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterKalman.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterKalman.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterKalman.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterKalman.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterKalman.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterKalman.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.o.requires:
 
@@ -2339,16 +2339,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.o.provides.build: me
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.o: meteoio/meteoFilters/FilterMaths.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMaths.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMaths.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMaths.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMaths.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMaths.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMaths.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.o.requires:
 
@@ -2363,16 +2363,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.o.provides.build: met
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.o: meteoio/meteoFilters/ProcAggregate.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcAggregate.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcAggregate.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcAggregate.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcAggregate.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcAggregate.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcAggregate.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.o.requires:
 
@@ -2387,16 +2387,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.o.provides.build: m
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.o: meteoio/meteoFilters/ProcIIR.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcIIR.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcIIR.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcIIR.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcIIR.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcIIR.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcIIR.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.o.requires:
 
@@ -2411,16 +2411,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.o.provides.build: meteoio
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.o: meteoio/meteoFilters/ProcUnventilatedT.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUnventilatedT.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUnventilatedT.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUnventilatedT.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUnventilatedT.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUnventilatedT.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUnventilatedT.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.o.requires:
 
@@ -2435,16 +2435,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.o.provides.buil
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.o: meteoio/meteoFilters/ProcQuantileMapping.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcQuantileMapping.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcQuantileMapping.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcQuantileMapping.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcQuantileMapping.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcQuantileMapping.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcQuantileMapping.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.o.requires:
 
@@ -2459,16 +2459,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.o.provides.bu
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.o: meteoio/meteoFilters/ProcShade.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcShade.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcShade.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcShade.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcShade.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcShade.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcShade.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.o.requires:
 
@@ -2483,16 +2483,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.o.provides.build: meteo
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.o: meteoio/meteoFilters/ProcPSUMDistribute.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcPSUMDistribute.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcPSUMDistribute.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcPSUMDistribute.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcPSUMDistribute.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcPSUMDistribute.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcPSUMDistribute.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.o.requires:
 
@@ -2507,16 +2507,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.o.provides.bui
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.o: meteoio/meteoFilters/ProcDeAccumulate.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcDeAccumulate.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcDeAccumulate.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcDeAccumulate.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcDeAccumulate.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcDeAccumulate.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcDeAccumulate.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.o.requires:
 
@@ -2531,16 +2531,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.o.provides.build
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.o: meteoio/meteoFilters/ProcUndercatch_WMO.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_WMO.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_WMO.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_WMO.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_WMO.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_WMO.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_WMO.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.o.requires:
 
@@ -2555,16 +2555,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.o.provides.bui
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.o: meteoio/meteoFilters/ProcUndercatch_Hamon.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_Hamon.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_Hamon.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_Hamon.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_Hamon.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_Hamon.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_Hamon.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.o.requires:
 
@@ -2579,16 +2579,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.o.provides.b
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.o: meteoio/meteoFilters/ProcUndercatch_Forland.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_Forland.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_Forland.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_Forland.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_Forland.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_Forland.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_Forland.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.o.requires:
 
@@ -2603,16 +2603,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.o.provides
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.o: meteoio/meteoFilters/ProcAdd.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcAdd.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcAdd.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcAdd.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcAdd.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcAdd.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcAdd.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.o.requires:
 
@@ -2627,16 +2627,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.o.provides.build: meteoio
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.o: meteoio/meteoFilters/ProcMult.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcMult.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcMult.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcMult.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcMult.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcMult.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcMult.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.o.requires:
 
@@ -2651,16 +2651,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.o.provides.build: meteoi
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.o: meteoio/meteoFilters/ProcExpSmoothing.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcExpSmoothing.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcExpSmoothing.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcExpSmoothing.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcExpSmoothing.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcExpSmoothing.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcExpSmoothing.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.o.requires:
 
@@ -2675,16 +2675,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.o.provides.build
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.o: meteoio/meteoFilters/ProcWMASmoothing.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcWMASmoothing.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcWMASmoothing.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcWMASmoothing.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcWMASmoothing.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcWMASmoothing.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcWMASmoothing.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.o.requires:
 
@@ -2699,16 +2699,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.o.provides.build
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.o: meteoio/meteoFilters/ProcRHWaterToIce.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcRHWaterToIce.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcRHWaterToIce.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcRHWaterToIce.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcRHWaterToIce.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcRHWaterToIce.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcRHWaterToIce.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.o.requires:
 
@@ -2723,16 +2723,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.o.provides.build
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.o: meteoio/meteoFilters/FilterNoChange.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterNoChange.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterNoChange.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterNoChange.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterNoChange.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterNoChange.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterNoChange.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.o.requires:
 
@@ -2747,16 +2747,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.o.provides.build: 
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.o: meteoio/meteoFilters/FilterTimeconsistency.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterTimeconsistency.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterTimeconsistency.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterTimeconsistency.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterTimeconsistency.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterTimeconsistency.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterTimeconsistency.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.o.requires:
 
@@ -2771,16 +2771,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.o.provides.
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.o: meteoio/meteoFilters/FilterDeGrass.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterDeGrass.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterDeGrass.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterDeGrass.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterDeGrass.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterDeGrass.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterDeGrass.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.o.requires:
 
@@ -2795,16 +2795,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.o.provides.build: m
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.o: meteoio/meteoFilters/TimeFilters.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/TimeFilters.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/TimeFilters.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/TimeFilters.cc > CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/TimeFilters.cc > CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/TimeFilters.cc -o CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/TimeFilters.cc -o CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.o.requires:
 
@@ -2819,16 +2819,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.o.provides.build: met
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.o: meteoio/meteoFilters/FilterDespikingPS.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterDespikingPS.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterDespikingPS.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterDespikingPS.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterDespikingPS.cc > CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterDespikingPS.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterDespikingPS.cc -o CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.o.requires:
 
@@ -2843,16 +2843,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.o.provides.buil
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.o: meteoio/meteoFilters/ProcessingBlock.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcessingBlock.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcessingBlock.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcessingBlock.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcessingBlock.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcessingBlock.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcessingBlock.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.o.requires:
 
@@ -2867,16 +2867,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.o.provides.build:
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.o: meteoio/meteoFilters/ProcessingStack.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcessingStack.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcessingStack.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcessingStack.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcessingStack.cc > CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcessingStack.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcessingStack.cc -o CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.o.requires:
 
@@ -2891,16 +2891,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.o.provides.build:
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.o: meteoio/meteoFilters/WindowedFilter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/WindowedFilter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object meteoio/CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/WindowedFilter.cc
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/WindowedFilter.cc > CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/WindowedFilter.cc > CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/WindowedFilter.cc -o CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/WindowedFilter.cc -o CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.o.requires:
 
@@ -2915,16 +2915,16 @@ meteoio/CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.o.provides.build: 
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.o: meteoio/dataGenerators/GeneratorAlgorithms.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/GeneratorAlgorithms.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/GeneratorAlgorithms.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/GeneratorAlgorithms.cc > CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/GeneratorAlgorithms.cc > CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/GeneratorAlgorithms.cc -o CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/GeneratorAlgorithms.cc -o CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.o.requires:
 
@@ -2939,16 +2939,16 @@ meteoio/CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.o.provides.
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.o: meteoio/dataGenerators/AllSkyLWGenerator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/AllSkyLWGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/AllSkyLWGenerator.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/AllSkyLWGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/AllSkyLWGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/AllSkyLWGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/AllSkyLWGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.o.requires:
 
@@ -2963,16 +2963,16 @@ meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.o.provides.bu
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.o: meteoio/dataGenerators/AllSkySWGenerator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/AllSkySWGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/AllSkySWGenerator.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/AllSkySWGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/AllSkySWGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/AllSkySWGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/AllSkySWGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.o.requires:
 
@@ -2987,16 +2987,16 @@ meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.o.provides.bu
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.o: meteoio/dataGenerators/ClearSkyLWGenerator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/ClearSkyLWGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/ClearSkyLWGenerator.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/ClearSkyLWGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/ClearSkyLWGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/ClearSkyLWGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/ClearSkyLWGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.o.requires:
 
@@ -3011,16 +3011,16 @@ meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.o.provides.
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.o: meteoio/dataGenerators/ClearSkySWGenerator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/ClearSkySWGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/ClearSkySWGenerator.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/ClearSkySWGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/ClearSkySWGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/ClearSkySWGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/ClearSkySWGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.o.requires:
 
@@ -3035,16 +3035,16 @@ meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.o.provides.
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.o: meteoio/dataGenerators/ConstGenerator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/ConstGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/ConstGenerator.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/ConstGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/ConstGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/ConstGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/ConstGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.o.requires:
 
@@ -3059,16 +3059,16 @@ meteoio/CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.o.provides.build
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.o: meteoio/dataGenerators/ESOLIPGenerator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/ESOLIPGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/ESOLIPGenerator.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/ESOLIPGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/ESOLIPGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/ESOLIPGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/ESOLIPGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.o.requires:
 
@@ -3083,16 +3083,16 @@ meteoio/CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.o.provides.buil
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.o: meteoio/dataGenerators/IswrAlbedoGenerator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/IswrAlbedoGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/IswrAlbedoGenerator.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/IswrAlbedoGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/IswrAlbedoGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/IswrAlbedoGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/IswrAlbedoGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.o.requires:
 
@@ -3107,16 +3107,16 @@ meteoio/CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.o.provides.
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.o: meteoio/dataGenerators/PrecSplitting.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/PrecSplitting.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/PrecSplitting.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/PrecSplitting.cc > CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/PrecSplitting.cc > CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/PrecSplitting.cc -o CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/PrecSplitting.cc -o CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.o.requires:
 
@@ -3131,16 +3131,16 @@ meteoio/CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.o.provides.build:
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.o: meteoio/dataGenerators/HumidityGenerator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/HumidityGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/HumidityGenerator.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/HumidityGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/HumidityGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/HumidityGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/HumidityGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.o.requires:
 
@@ -3155,16 +3155,16 @@ meteoio/CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.o.provides.bu
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.o: meteoio/dataGenerators/SinGenerator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/SinGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/SinGenerator.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/SinGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/SinGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/SinGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/SinGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.o.requires:
 
@@ -3179,16 +3179,16 @@ meteoio/CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.o.provides.build: 
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.o: meteoio/dataGenerators/StdPressGenerator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/StdPressGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/StdPressGenerator.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/StdPressGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/StdPressGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/StdPressGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/StdPressGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.o.requires:
 
@@ -3203,16 +3203,16 @@ meteoio/CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.o.provides.bu
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.o: meteoio/dataGenerators/TauCLDGenerator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/TauCLDGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/TauCLDGenerator.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/TauCLDGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/TauCLDGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/TauCLDGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/TauCLDGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.o.requires:
 
@@ -3227,16 +3227,16 @@ meteoio/CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.o.provides.buil
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.o: meteoio/dataGenerators/TsGenerator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/TsGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/TsGenerator.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/TsGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/TsGenerator.cc > CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/TsGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/TsGenerator.cc -o CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.o.requires:
 
@@ -3251,16 +3251,16 @@ meteoio/CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.o.provides.build: m
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.o: meteoio/dataGenerators/WindComponents.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/WindComponents.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/WindComponents.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/WindComponents.cc > CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/WindComponents.cc > CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/WindComponents.cc -o CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/WindComponents.cc -o CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.o.requires:
 
@@ -3275,16 +3275,16 @@ meteoio/CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.o.provides.build
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.o: meteoio/CMakeFiles/meteoio.dir/flags.make
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.o: meteoio/dataGenerators/RadiationComponents.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/RadiationComponents.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object meteoio/CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/RadiationComponents.cc
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/RadiationComponents.cc > CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/RadiationComponents.cc > CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.i
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/RadiationComponents.cc -o CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/RadiationComponents.cc -o CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.s
 
 meteoio/CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.o.requires:
 
@@ -3576,9 +3576,9 @@ lib/libmeteoio.so.2.8.1: meteoio/CMakeFiles/meteoio.dir/dataGenerators/Radiation
 lib/libmeteoio.so.2.8.1: meteoio/CMakeFiles/meteoio.dir/build.make
 lib/libmeteoio.so.2.8.1: /usr/lib/x86_64-linux-gnu/libproj.so
 lib/libmeteoio.so.2.8.1: meteoio/CMakeFiles/meteoio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Linking CXX shared library ../lib/libmeteoio.so"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/meteoio.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libmeteoio.so.2.8.1 ../lib/libmeteoio.so.2 ../lib/libmeteoio.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Linking CXX shared library ../lib/libmeteoio.so"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/meteoio.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libmeteoio.so.2.8.1 ../lib/libmeteoio.so.2 ../lib/libmeteoio.so
 
 lib/libmeteoio.so.2: lib/libmeteoio.so.2.8.1
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libmeteoio.so.2
@@ -3730,10 +3730,10 @@ meteoio/CMakeFiles/meteoio.dir/requires: meteoio/CMakeFiles/meteoio.dir/dataGene
 .PHONY : meteoio/CMakeFiles/meteoio.dir/requires
 
 meteoio/CMakeFiles/meteoio.dir/clean:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio && $(CMAKE_COMMAND) -P CMakeFiles/meteoio.dir/cmake_clean.cmake
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio && $(CMAKE_COMMAND) -P CMakeFiles/meteoio.dir/cmake_clean.cmake
 .PHONY : meteoio/CMakeFiles/meteoio.dir/clean
 
 meteoio/CMakeFiles/meteoio.dir/depend:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/CMakeFiles/meteoio.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/CMakeFiles/meteoio.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : meteoio/CMakeFiles/meteoio.dir/depend
 

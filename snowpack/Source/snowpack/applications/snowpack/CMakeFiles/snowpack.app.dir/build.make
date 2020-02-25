@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack
+CMAKE_SOURCE_DIR = /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack
+CMAKE_BINARY_DIR = /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack
 
 # Include any dependencies generated for this target.
 include applications/snowpack/CMakeFiles/snowpack.app.dir/depend.make
@@ -59,16 +59,16 @@ include applications/snowpack/CMakeFiles/snowpack.app.dir/flags.make
 
 applications/snowpack/CMakeFiles/snowpack.app.dir/Main.cc.o: applications/snowpack/CMakeFiles/snowpack.app.dir/flags.make
 applications/snowpack/CMakeFiles/snowpack.app.dir/Main.cc.o: applications/snowpack/Main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object applications/snowpack/CMakeFiles/snowpack.app.dir/Main.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/applications/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.app.dir/Main.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/applications/snowpack/Main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object applications/snowpack/CMakeFiles/snowpack.app.dir/Main.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/applications/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.app.dir/Main.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/applications/snowpack/Main.cc
 
 applications/snowpack/CMakeFiles/snowpack.app.dir/Main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.app.dir/Main.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/applications/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/applications/snowpack/Main.cc > CMakeFiles/snowpack.app.dir/Main.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/applications/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/applications/snowpack/Main.cc > CMakeFiles/snowpack.app.dir/Main.cc.i
 
 applications/snowpack/CMakeFiles/snowpack.app.dir/Main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.app.dir/Main.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/applications/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/applications/snowpack/Main.cc -o CMakeFiles/snowpack.app.dir/Main.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/applications/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/applications/snowpack/Main.cc -o CMakeFiles/snowpack.app.dir/Main.cc.s
 
 applications/snowpack/CMakeFiles/snowpack.app.dir/Main.cc.o.requires:
 
@@ -91,10 +91,10 @@ snowpack_app_EXTERNAL_OBJECTS =
 bin/snowpack: applications/snowpack/CMakeFiles/snowpack.app.dir/Main.cc.o
 bin/snowpack: applications/snowpack/CMakeFiles/snowpack.app.dir/build.make
 bin/snowpack: lib/libsnowpack.so.3.4.5
-bin/snowpack: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/lib/libmeteoio.so
+bin/snowpack: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/lib/libmeteoio.so
 bin/snowpack: applications/snowpack/CMakeFiles/snowpack.app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/snowpack"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/applications/snowpack && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/snowpack.app.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/snowpack"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/applications/snowpack && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/snowpack.app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 applications/snowpack/CMakeFiles/snowpack.app.dir/build: bin/snowpack
@@ -106,10 +106,10 @@ applications/snowpack/CMakeFiles/snowpack.app.dir/requires: applications/snowpac
 .PHONY : applications/snowpack/CMakeFiles/snowpack.app.dir/requires
 
 applications/snowpack/CMakeFiles/snowpack.app.dir/clean:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/applications/snowpack && $(CMAKE_COMMAND) -P CMakeFiles/snowpack.app.dir/cmake_clean.cmake
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/applications/snowpack && $(CMAKE_COMMAND) -P CMakeFiles/snowpack.app.dir/cmake_clean.cmake
 .PHONY : applications/snowpack/CMakeFiles/snowpack.app.dir/clean
 
 applications/snowpack/CMakeFiles/snowpack.app.dir/depend:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/applications/snowpack /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/applications/snowpack /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/applications/snowpack/CMakeFiles/snowpack.app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/applications/snowpack /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/applications/snowpack /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/applications/snowpack/CMakeFiles/snowpack.app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : applications/snowpack/CMakeFiles/snowpack.app.dir/depend
 

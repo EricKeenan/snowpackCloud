@@ -1,4 +1,4 @@
-# Install script for directory: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack
+# Install script for directory: /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,55 +39,55 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xheadersx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/snowpack" TYPE FILE FILES
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Constants.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/DataClasses.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Hazard.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Laws_sn.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/MainPage.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Meteo.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Saltation.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/SnowDrift.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/SnowpackConfig.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Stability.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/StabilityAlgorithms.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/TechnicalSnow.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Utils.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/libsnowpack.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/vanGenuchten.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Constants.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/DataClasses.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Hazard.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Laws_sn.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/MainPage.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Meteo.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Saltation.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/SnowDrift.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/SnowpackConfig.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Stability.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/StabilityAlgorithms.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/TechnicalSnow.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Utils.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/libsnowpack.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/vanGenuchten.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xheadersx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/snowpack/plugins" TYPE FILE FILES
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/plugins/AsciiIO.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/plugins/CaaMLIO.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/plugins/ImisDBIO.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/plugins/SmetIO.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/plugins/SnowpackIO.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/plugins/SnowpackIOInterface.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/plugins/AsciiIO.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/plugins/CaaMLIO.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/plugins/ImisDBIO.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/plugins/SmetIO.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/plugins/SnowpackIO.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/plugins/SnowpackIOInterface.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xheadersx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/snowpack/snowpackCore" TYPE FILE FILES
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Aggregate.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Canopy.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Metamorphism.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/PhaseChange.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/ReSolver1d.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/SalinityTransport.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/SeaIce.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Snowpack.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Solver.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/VapourTransport.h"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/WaterTransport.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Aggregate.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Canopy.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Metamorphism.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/PhaseChange.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/ReSolver1d.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/SalinityTransport.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/SeaIce.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Snowpack.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Solver.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/VapourTransport.h"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/WaterTransport.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/cmake_install.cmake")
-  include("/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/applications/snowpack/cmake_install.cmake")
+  include("/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/cmake_install.cmake")
+  include("/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/applications/snowpack/cmake_install.cmake")
 
 endif()
 
@@ -99,5 +99,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

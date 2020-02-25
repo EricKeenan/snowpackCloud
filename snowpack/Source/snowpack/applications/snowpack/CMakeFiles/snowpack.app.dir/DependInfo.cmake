@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/applications/snowpack/Main.cc" "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/applications/snowpack/CMakeFiles/snowpack.app.dir/Main.cc.o"
+  "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/applications/snowpack/Main.cc" "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/applications/snowpack/CMakeFiles/snowpack.app.dir/Main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -12,12 +12,12 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "applications/snowpack/../.."
-  "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio"
+  "/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/CMakeFiles/snowpack.dir/DependInfo.cmake"
+  "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/CMakeFiles/snowpack.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

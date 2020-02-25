@@ -1,4 +1,4 @@
-# Install script for directory: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators
+# Install script for directory: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling
+# Install script for directory: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

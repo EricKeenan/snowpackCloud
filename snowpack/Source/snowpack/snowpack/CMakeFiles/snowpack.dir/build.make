@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack
+CMAKE_SOURCE_DIR = /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack
+CMAKE_BINARY_DIR = /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack
 
 # Include any dependencies generated for this target.
 include snowpack/CMakeFiles/snowpack.dir/depend.make
@@ -59,16 +59,16 @@ include snowpack/CMakeFiles/snowpack.dir/flags.make
 
 snowpack/CMakeFiles/snowpack.dir/DataClasses.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/DataClasses.cc.o: snowpack/DataClasses.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object snowpack/CMakeFiles/snowpack.dir/DataClasses.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/DataClasses.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/DataClasses.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object snowpack/CMakeFiles/snowpack.dir/DataClasses.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/DataClasses.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/DataClasses.cc
 
 snowpack/CMakeFiles/snowpack.dir/DataClasses.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/DataClasses.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/DataClasses.cc > CMakeFiles/snowpack.dir/DataClasses.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/DataClasses.cc > CMakeFiles/snowpack.dir/DataClasses.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/DataClasses.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/DataClasses.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/DataClasses.cc -o CMakeFiles/snowpack.dir/DataClasses.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/DataClasses.cc -o CMakeFiles/snowpack.dir/DataClasses.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/DataClasses.cc.o.requires:
 
@@ -83,16 +83,16 @@ snowpack/CMakeFiles/snowpack.dir/DataClasses.cc.o.provides.build: snowpack/CMake
 
 snowpack/CMakeFiles/snowpack.dir/vanGenuchten.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/vanGenuchten.cc.o: snowpack/vanGenuchten.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object snowpack/CMakeFiles/snowpack.dir/vanGenuchten.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/vanGenuchten.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/vanGenuchten.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object snowpack/CMakeFiles/snowpack.dir/vanGenuchten.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/vanGenuchten.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/vanGenuchten.cc
 
 snowpack/CMakeFiles/snowpack.dir/vanGenuchten.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/vanGenuchten.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/vanGenuchten.cc > CMakeFiles/snowpack.dir/vanGenuchten.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/vanGenuchten.cc > CMakeFiles/snowpack.dir/vanGenuchten.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/vanGenuchten.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/vanGenuchten.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/vanGenuchten.cc -o CMakeFiles/snowpack.dir/vanGenuchten.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/vanGenuchten.cc -o CMakeFiles/snowpack.dir/vanGenuchten.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/vanGenuchten.cc.o.requires:
 
@@ -107,16 +107,16 @@ snowpack/CMakeFiles/snowpack.dir/vanGenuchten.cc.o.provides.build: snowpack/CMak
 
 snowpack/CMakeFiles/snowpack.dir/SnowpackConfig.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/SnowpackConfig.cc.o: snowpack/SnowpackConfig.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object snowpack/CMakeFiles/snowpack.dir/SnowpackConfig.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/SnowpackConfig.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/SnowpackConfig.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object snowpack/CMakeFiles/snowpack.dir/SnowpackConfig.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/SnowpackConfig.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/SnowpackConfig.cc
 
 snowpack/CMakeFiles/snowpack.dir/SnowpackConfig.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/SnowpackConfig.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/SnowpackConfig.cc > CMakeFiles/snowpack.dir/SnowpackConfig.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/SnowpackConfig.cc > CMakeFiles/snowpack.dir/SnowpackConfig.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/SnowpackConfig.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/SnowpackConfig.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/SnowpackConfig.cc -o CMakeFiles/snowpack.dir/SnowpackConfig.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/SnowpackConfig.cc -o CMakeFiles/snowpack.dir/SnowpackConfig.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/SnowpackConfig.cc.o.requires:
 
@@ -131,16 +131,16 @@ snowpack/CMakeFiles/snowpack.dir/SnowpackConfig.cc.o.provides.build: snowpack/CM
 
 snowpack/CMakeFiles/snowpack.dir/Meteo.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/Meteo.cc.o: snowpack/Meteo.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object snowpack/CMakeFiles/snowpack.dir/Meteo.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/Meteo.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Meteo.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object snowpack/CMakeFiles/snowpack.dir/Meteo.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/Meteo.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Meteo.cc
 
 snowpack/CMakeFiles/snowpack.dir/Meteo.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/Meteo.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Meteo.cc > CMakeFiles/snowpack.dir/Meteo.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Meteo.cc > CMakeFiles/snowpack.dir/Meteo.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/Meteo.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/Meteo.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Meteo.cc -o CMakeFiles/snowpack.dir/Meteo.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Meteo.cc -o CMakeFiles/snowpack.dir/Meteo.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/Meteo.cc.o.requires:
 
@@ -155,16 +155,16 @@ snowpack/CMakeFiles/snowpack.dir/Meteo.cc.o.provides.build: snowpack/CMakeFiles/
 
 snowpack/CMakeFiles/snowpack.dir/Saltation.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/Saltation.cc.o: snowpack/Saltation.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object snowpack/CMakeFiles/snowpack.dir/Saltation.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/Saltation.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Saltation.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object snowpack/CMakeFiles/snowpack.dir/Saltation.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/Saltation.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Saltation.cc
 
 snowpack/CMakeFiles/snowpack.dir/Saltation.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/Saltation.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Saltation.cc > CMakeFiles/snowpack.dir/Saltation.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Saltation.cc > CMakeFiles/snowpack.dir/Saltation.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/Saltation.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/Saltation.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Saltation.cc -o CMakeFiles/snowpack.dir/Saltation.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Saltation.cc -o CMakeFiles/snowpack.dir/Saltation.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/Saltation.cc.o.requires:
 
@@ -179,16 +179,16 @@ snowpack/CMakeFiles/snowpack.dir/Saltation.cc.o.provides.build: snowpack/CMakeFi
 
 snowpack/CMakeFiles/snowpack.dir/Laws_sn.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/Laws_sn.cc.o: snowpack/Laws_sn.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object snowpack/CMakeFiles/snowpack.dir/Laws_sn.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/Laws_sn.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Laws_sn.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object snowpack/CMakeFiles/snowpack.dir/Laws_sn.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/Laws_sn.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Laws_sn.cc
 
 snowpack/CMakeFiles/snowpack.dir/Laws_sn.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/Laws_sn.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Laws_sn.cc > CMakeFiles/snowpack.dir/Laws_sn.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Laws_sn.cc > CMakeFiles/snowpack.dir/Laws_sn.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/Laws_sn.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/Laws_sn.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Laws_sn.cc -o CMakeFiles/snowpack.dir/Laws_sn.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Laws_sn.cc -o CMakeFiles/snowpack.dir/Laws_sn.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/Laws_sn.cc.o.requires:
 
@@ -203,16 +203,16 @@ snowpack/CMakeFiles/snowpack.dir/Laws_sn.cc.o.provides.build: snowpack/CMakeFile
 
 snowpack/CMakeFiles/snowpack.dir/Utils.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/Utils.cc.o: snowpack/Utils.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object snowpack/CMakeFiles/snowpack.dir/Utils.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/Utils.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Utils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object snowpack/CMakeFiles/snowpack.dir/Utils.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/Utils.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Utils.cc
 
 snowpack/CMakeFiles/snowpack.dir/Utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/Utils.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Utils.cc > CMakeFiles/snowpack.dir/Utils.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Utils.cc > CMakeFiles/snowpack.dir/Utils.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/Utils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/Utils.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Utils.cc -o CMakeFiles/snowpack.dir/Utils.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Utils.cc -o CMakeFiles/snowpack.dir/Utils.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/Utils.cc.o.requires:
 
@@ -227,16 +227,16 @@ snowpack/CMakeFiles/snowpack.dir/Utils.cc.o.provides.build: snowpack/CMakeFiles/
 
 snowpack/CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.o: snowpack/StabilityAlgorithms.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object snowpack/CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/StabilityAlgorithms.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object snowpack/CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/StabilityAlgorithms.cc
 
 snowpack/CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/StabilityAlgorithms.cc > CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/StabilityAlgorithms.cc > CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/StabilityAlgorithms.cc -o CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/StabilityAlgorithms.cc -o CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.o.requires:
 
@@ -251,16 +251,16 @@ snowpack/CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.o.provides.build: snowpa
 
 snowpack/CMakeFiles/snowpack.dir/Stability.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/Stability.cc.o: snowpack/Stability.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object snowpack/CMakeFiles/snowpack.dir/Stability.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/Stability.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Stability.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object snowpack/CMakeFiles/snowpack.dir/Stability.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/Stability.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Stability.cc
 
 snowpack/CMakeFiles/snowpack.dir/Stability.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/Stability.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Stability.cc > CMakeFiles/snowpack.dir/Stability.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Stability.cc > CMakeFiles/snowpack.dir/Stability.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/Stability.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/Stability.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Stability.cc -o CMakeFiles/snowpack.dir/Stability.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Stability.cc -o CMakeFiles/snowpack.dir/Stability.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/Stability.cc.o.requires:
 
@@ -275,16 +275,16 @@ snowpack/CMakeFiles/snowpack.dir/Stability.cc.o.provides.build: snowpack/CMakeFi
 
 snowpack/CMakeFiles/snowpack.dir/Hazard.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/Hazard.cc.o: snowpack/Hazard.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object snowpack/CMakeFiles/snowpack.dir/Hazard.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/Hazard.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Hazard.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object snowpack/CMakeFiles/snowpack.dir/Hazard.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/Hazard.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Hazard.cc
 
 snowpack/CMakeFiles/snowpack.dir/Hazard.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/Hazard.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Hazard.cc > CMakeFiles/snowpack.dir/Hazard.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Hazard.cc > CMakeFiles/snowpack.dir/Hazard.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/Hazard.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/Hazard.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/Hazard.cc -o CMakeFiles/snowpack.dir/Hazard.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/Hazard.cc -o CMakeFiles/snowpack.dir/Hazard.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/Hazard.cc.o.requires:
 
@@ -299,16 +299,16 @@ snowpack/CMakeFiles/snowpack.dir/Hazard.cc.o.provides.build: snowpack/CMakeFiles
 
 snowpack/CMakeFiles/snowpack.dir/SnowDrift.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/SnowDrift.cc.o: snowpack/SnowDrift.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object snowpack/CMakeFiles/snowpack.dir/SnowDrift.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/SnowDrift.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/SnowDrift.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object snowpack/CMakeFiles/snowpack.dir/SnowDrift.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/SnowDrift.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/SnowDrift.cc
 
 snowpack/CMakeFiles/snowpack.dir/SnowDrift.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/SnowDrift.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/SnowDrift.cc > CMakeFiles/snowpack.dir/SnowDrift.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/SnowDrift.cc > CMakeFiles/snowpack.dir/SnowDrift.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/SnowDrift.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/SnowDrift.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/SnowDrift.cc -o CMakeFiles/snowpack.dir/SnowDrift.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/SnowDrift.cc -o CMakeFiles/snowpack.dir/SnowDrift.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/SnowDrift.cc.o.requires:
 
@@ -323,16 +323,16 @@ snowpack/CMakeFiles/snowpack.dir/SnowDrift.cc.o.provides.build: snowpack/CMakeFi
 
 snowpack/CMakeFiles/snowpack.dir/TechnicalSnow.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/TechnicalSnow.cc.o: snowpack/TechnicalSnow.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object snowpack/CMakeFiles/snowpack.dir/TechnicalSnow.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/TechnicalSnow.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/TechnicalSnow.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object snowpack/CMakeFiles/snowpack.dir/TechnicalSnow.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/TechnicalSnow.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/TechnicalSnow.cc
 
 snowpack/CMakeFiles/snowpack.dir/TechnicalSnow.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/TechnicalSnow.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/TechnicalSnow.cc > CMakeFiles/snowpack.dir/TechnicalSnow.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/TechnicalSnow.cc > CMakeFiles/snowpack.dir/TechnicalSnow.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/TechnicalSnow.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/TechnicalSnow.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/TechnicalSnow.cc -o CMakeFiles/snowpack.dir/TechnicalSnow.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/TechnicalSnow.cc -o CMakeFiles/snowpack.dir/TechnicalSnow.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/TechnicalSnow.cc.o.requires:
 
@@ -347,16 +347,16 @@ snowpack/CMakeFiles/snowpack.dir/TechnicalSnow.cc.o.provides.build: snowpack/CMa
 
 snowpack/CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.o: snowpack/plugins/SnowpackIO.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object snowpack/CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/plugins/SnowpackIO.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object snowpack/CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/plugins/SnowpackIO.cc
 
 snowpack/CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/plugins/SnowpackIO.cc > CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/plugins/SnowpackIO.cc > CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/plugins/SnowpackIO.cc -o CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/plugins/SnowpackIO.cc -o CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.o.requires:
 
@@ -371,16 +371,16 @@ snowpack/CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.o.provides.build: snowpac
 
 snowpack/CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.o: snowpack/plugins/AsciiIO.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object snowpack/CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/plugins/AsciiIO.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object snowpack/CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/plugins/AsciiIO.cc
 
 snowpack/CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/plugins/AsciiIO.cc > CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/plugins/AsciiIO.cc > CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/plugins/AsciiIO.cc -o CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/plugins/AsciiIO.cc -o CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.o.requires:
 
@@ -395,16 +395,16 @@ snowpack/CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.o.provides.build: snowpack/C
 
 snowpack/CMakeFiles/snowpack.dir/plugins/SmetIO.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/plugins/SmetIO.cc.o: snowpack/plugins/SmetIO.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object snowpack/CMakeFiles/snowpack.dir/plugins/SmetIO.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/plugins/SmetIO.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/plugins/SmetIO.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object snowpack/CMakeFiles/snowpack.dir/plugins/SmetIO.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/plugins/SmetIO.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/plugins/SmetIO.cc
 
 snowpack/CMakeFiles/snowpack.dir/plugins/SmetIO.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/plugins/SmetIO.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/plugins/SmetIO.cc > CMakeFiles/snowpack.dir/plugins/SmetIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/plugins/SmetIO.cc > CMakeFiles/snowpack.dir/plugins/SmetIO.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/plugins/SmetIO.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/plugins/SmetIO.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/plugins/SmetIO.cc -o CMakeFiles/snowpack.dir/plugins/SmetIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/plugins/SmetIO.cc -o CMakeFiles/snowpack.dir/plugins/SmetIO.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/plugins/SmetIO.cc.o.requires:
 
@@ -419,16 +419,16 @@ snowpack/CMakeFiles/snowpack.dir/plugins/SmetIO.cc.o.provides.build: snowpack/CM
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.o: snowpack/snowpackCore/Snowpack.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Snowpack.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Snowpack.cc
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Snowpack.cc > CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Snowpack.cc > CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Snowpack.cc -o CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Snowpack.cc -o CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.o.requires:
 
@@ -443,16 +443,16 @@ snowpack/CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.o.provides.build: snow
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.o: snowpack/snowpackCore/Aggregate.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Aggregate.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Aggregate.cc
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Aggregate.cc > CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Aggregate.cc > CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Aggregate.cc -o CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Aggregate.cc -o CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.o.requires:
 
@@ -467,16 +467,16 @@ snowpack/CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.o.provides.build: sno
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.o: snowpack/snowpackCore/WaterTransport.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/WaterTransport.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/WaterTransport.cc
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/WaterTransport.cc > CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/WaterTransport.cc > CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/WaterTransport.cc -o CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/WaterTransport.cc -o CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.o.requires:
 
@@ -491,16 +491,16 @@ snowpack/CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.o.provides.build
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.o: snowpack/snowpackCore/VapourTransport.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/VapourTransport.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/VapourTransport.cc
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/VapourTransport.cc > CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/VapourTransport.cc > CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/VapourTransport.cc -o CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/VapourTransport.cc -o CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.o.requires:
 
@@ -515,16 +515,16 @@ snowpack/CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.o.provides.buil
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.o: snowpack/snowpackCore/ReSolver1d.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/ReSolver1d.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/ReSolver1d.cc
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/ReSolver1d.cc > CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/ReSolver1d.cc > CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/ReSolver1d.cc -o CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/ReSolver1d.cc -o CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.o.requires:
 
@@ -539,16 +539,16 @@ snowpack/CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.o.provides.build: sn
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.o: snowpack/snowpackCore/Canopy.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Canopy.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Canopy.cc
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Canopy.cc > CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Canopy.cc > CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Canopy.cc -o CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Canopy.cc -o CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.o.requires:
 
@@ -563,16 +563,16 @@ snowpack/CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.o.provides.build: snowpa
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.o: snowpack/snowpackCore/Metamorphism.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Metamorphism.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Metamorphism.cc
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Metamorphism.cc > CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Metamorphism.cc > CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Metamorphism.cc -o CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Metamorphism.cc -o CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.o.requires:
 
@@ -587,16 +587,16 @@ snowpack/CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.o.provides.build: 
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.o: snowpack/snowpackCore/PhaseChange.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/PhaseChange.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/PhaseChange.cc
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/PhaseChange.cc > CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/PhaseChange.cc > CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/PhaseChange.cc -o CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/PhaseChange.cc -o CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.o.requires:
 
@@ -611,16 +611,16 @@ snowpack/CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.o.provides.build: s
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.o: snowpack/snowpackCore/SeaIce.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/SeaIce.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/SeaIce.cc
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/SeaIce.cc > CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/SeaIce.cc > CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/SeaIce.cc -o CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/SeaIce.cc -o CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.o.requires:
 
@@ -635,16 +635,16 @@ snowpack/CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.o.provides.build: snowpa
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.o: snowpack/snowpackCore/Solver.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Solver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Solver.cc
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Solver.cc > CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Solver.cc > CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/Solver.cc -o CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/Solver.cc -o CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.o.requires:
 
@@ -659,16 +659,16 @@ snowpack/CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.o.provides.build: snowpa
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.o: snowpack/CMakeFiles/snowpack.dir/flags.make
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.o: snowpack/snowpackCore/SalinityTransport.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.o"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/SalinityTransport.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object snowpack/CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.o"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/SalinityTransport.cc
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.i"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/SalinityTransport.cc > CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/SalinityTransport.cc > CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.i
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.s"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/snowpackCore/SalinityTransport.cc -o CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/snowpackCore/SalinityTransport.cc -o CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.s
 
 snowpack/CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.o.requires:
 
@@ -740,12 +740,12 @@ lib/libsnowpack.so.3.4.5: snowpack/CMakeFiles/snowpack.dir/snowpackCore/SeaIce.c
 lib/libsnowpack.so.3.4.5: snowpack/CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.o
 lib/libsnowpack.so.3.4.5: snowpack/CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.o
 lib/libsnowpack.so.3.4.5: snowpack/CMakeFiles/snowpack.dir/build.make
-lib/libsnowpack.so.3.4.5: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/lib/libmeteoio.so
-lib/libsnowpack.so.3.4.5: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/lib/libmeteoio.so
+lib/libsnowpack.so.3.4.5: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/lib/libmeteoio.so
+lib/libsnowpack.so.3.4.5: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/lib/libmeteoio.so
 lib/libsnowpack.so.3.4.5: snowpack/CMakeFiles/snowpack.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX shared library ../lib/libsnowpack.so"
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/snowpack.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libsnowpack.so.3.4.5 ../lib/libsnowpack.so.3 ../lib/libsnowpack.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX shared library ../lib/libsnowpack.so"
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/snowpack.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libsnowpack.so.3.4.5 ../lib/libsnowpack.so.3 ../lib/libsnowpack.so
 
 lib/libsnowpack.so.3: lib/libsnowpack.so.3.4.5
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libsnowpack.so.3
@@ -788,10 +788,10 @@ snowpack/CMakeFiles/snowpack.dir/requires: snowpack/CMakeFiles/snowpack.dir/snow
 .PHONY : snowpack/CMakeFiles/snowpack.dir/requires
 
 snowpack/CMakeFiles/snowpack.dir/clean:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack && $(CMAKE_COMMAND) -P CMakeFiles/snowpack.dir/cmake_clean.cmake
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack && $(CMAKE_COMMAND) -P CMakeFiles/snowpack.dir/cmake_clean.cmake
 .PHONY : snowpack/CMakeFiles/snowpack.dir/clean
 
 snowpack/CMakeFiles/snowpack.dir/depend:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/CMakeFiles/snowpack.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/CMakeFiles/snowpack.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : snowpack/CMakeFiles/snowpack.dir/depend
 

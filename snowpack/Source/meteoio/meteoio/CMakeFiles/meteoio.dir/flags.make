@@ -7,11 +7,11 @@ C_FLAGS = -O3 -DNDEBUG -fPIC
 
 C_DEFINES = -DPROJ4 -Dmeteoio_EXPORTS
 
-C_INCLUDES = -I/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio 
+C_INCLUDES = -I/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio 
 
 CXX_FLAGS = -D_VERSION=2.81 -march=nocona -mtune=nocona   -g -O3 -DNDEBUG -DNOSAFECHECKS -flto -fPIC  
 
 CXX_DEFINES = -DPROJ4 -Dmeteoio_EXPORTS
 
-CXX_INCLUDES = -I/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio 
+CXX_INCLUDES = -I/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio 
 

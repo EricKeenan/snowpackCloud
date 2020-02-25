@@ -44,7 +44,7 @@ CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-7
 // for the GCC compiler
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-7
 
-CMAKE_CXX_FLAGS:STRING=-D_VERSION=3.45 -march=nocona -mtune=nocona  -DDEBUG_ARITHM
+CMAKE_CXX_FLAGS:STRING='-D_VERSION=3.45 -march=nocona -mtune=nocona '
 
 CMAKE_CXX_FLAGS_CXXFLAGS:STRING=
 
@@ -202,7 +202,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 CPACK_BUNDLE_ALL:BOOL=OFF
 
 //Force-crash the application if doing an arithmetic exception
-DEBUG_ARITHM:BOOL=ON
+DEBUG_ARITHM:BOOL=OFF
 
 //Choose safe or optimized
 DEST:STRING=safe
@@ -227,10 +227,10 @@ INSTALL_DOC:BOOL=OFF
 LEAKS_CHECK:BOOL=OFF
 
 //Location of the meteoio headers, like /usr/include
-METEOIO_INCLUDE_DIR:PATH=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio
+METEOIO_INCLUDE_DIR:PATH=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio
 
 //Location of the libmeteoio, like /usr/lib/libmeteoio.so
-METEOIO_LIBRARY:FILEPATH=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/lib/libmeteoio.so
+METEOIO_LIBRARY:FILEPATH=/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/lib/libmeteoio.so
 
 //Compilation CAAMLIO ON or OFF to read CAAML profiles
 PLUGIN_CAAMLIO:BOOL=OFF
@@ -248,13 +248,13 @@ SNOWPACK_STANDALONE:BOOL=ON
 Subversion_SVN_EXECUTABLE:FILEPATH=Subversion_SVN_EXECUTABLE-NOTFOUND
 
 //Value Computed by CMake
-snowpack_BINARY_DIR:STATIC=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack
+snowpack_BINARY_DIR:STATIC=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack
 
 //Dependencies for the target
-snowpack_LIB_DEPENDS:STATIC=general;/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/lib/libmeteoio.so;general;/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/lib/libmeteoio.so;
+snowpack_LIB_DEPENDS:STATIC=general;/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/lib/libmeteoio.so;general;/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/lib/libmeteoio.so;
 
 //Value Computed by CMake
-snowpack_SOURCE_DIR:STATIC=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack
+snowpack_SOURCE_DIR:STATIC=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack
 
 
 ########################
@@ -339,7 +339,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -402,6 +402,8 @@ CMAKE_UNAME:INTERNAL=/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //tarball basename
 CPACK_SOURCE_PACKAGE_FILE_NAME:INTERNAL=Snowpack-3.4.5
+//MODIFIED property for variable: DEBUG_ARITHM
+DEBUG_ARITHM-MODIFIED:INTERNAL=ON
 //ADVANCED property for variable: DOXYGEN_DOT_EXECUTABLE
 DOXYGEN_DOT_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DOXYGEN_EXECUTABLE

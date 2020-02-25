@@ -1,0 +1,30 @@
+SMET 1.1 ASCII
+[HEADER]
+station_id    = drylake
+station_name  = drylake
+latitude      = 40.53333333333333
+longitude     = 106.78333333333333
+altitude      = 2560.32
+nodata        = -9999
+tz            = -6
+ProfileDate   = 2018-10-02T01:00
+HS_Last       = 0
+SlopeAngle    = 0
+SlopeAzi      = 0
+nSoilLayerData= 5
+nSnowLayerData= 0
+SoilAlbedo    = 0.09
+BareSoil_z0   = 0.2
+CanopyHeight   = 0
+CanopyLeafAreaIndex = 0
+CanopyDirectThroughfall = 1
+WindScalingFactor = 1
+ErosionLevel      = 0
+TimeCountDeltaHS  = 0
+fields        = timestamp Layer_Thick  T  Vol_Frac_I  Vol_Frac_W  Vol_Frac_V  Vol_Frac_S Rho_S Conduc_S HeatCapac_S  rg  rb  dd  sp  mk mass_hoar ne CDot metamo
+[DATA]
+1980-10-01T01:00 1.60 283.15 0.00 0.25 0.125 0.625 2600.0 0.9 1000.00 3.5 0.0 0.0 0.0 0 0.0 4 0.0 0.0
+1980-10-01T01:00 0.80 283.15 0.00 0.25 0.125 0.625 2600.0 0.9 1000.00 3.5 0.0 0.0 0.0 0 0.0 2 0.0 0.0
+1980-10-01T01:00 0.20 283.15 0.00 0.25 0.125 0.625 2600.0 0.9 1000.00 3.5 0.0 0.0 0.0 0 0.0 2 0.0 0.0
+1980-10-01T01:00 0.20 283.15 0.00 0.25 0.125 0.625 2600.0 0.9 1000.00 3.5 0.0 0.0 0.0 0 0.0 4 0.0 0.0
+1980-10-01T01:00 0.20 283.15 0.00 0.25 0.125 0.625 2600.0 0.9 1000.00 3.5 0.0 0.0 0.0 0 0.0 20 0.0 0.0

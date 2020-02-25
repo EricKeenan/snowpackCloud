@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio
+CMAKE_SOURCE_DIR = /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio
+CMAKE_BINARY_DIR = /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -83,7 +83,7 @@ install/local/fast: preinstall/fast
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -94,7 +94,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CPackSourceConfig.cmake
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -148,14 +148,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(CMAKE_COMMAND) -E cmake_progress_start /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/CMakeFiles/progress.marks
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles 0
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(CMAKE_COMMAND) -E cmake_progress_start /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/CMakeFiles/progress.marks
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/clean
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/preinstall
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/preinstall
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 meteoio/CMakeFiles/meteoio.dir/rule:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/CMakeFiles/meteoio.dir/rule
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f CMakeFiles/Makefile2 meteoio/CMakeFiles/meteoio.dir/rule
 .PHONY : meteoio/CMakeFiles/meteoio.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ meteoio: meteoio/CMakeFiles/meteoio.dir/rule
 
 # fast build rule for target.
 meteoio/fast:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/build
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/build
 .PHONY : meteoio/fast
 
 Config.o: Config.cc.o
@@ -199,7 +199,7 @@ Config.o: Config.cc.o
 
 # target to build an object file
 Config.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Config.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Config.cc.o
 .PHONY : Config.cc.o
 
 Config.i: Config.cc.i
@@ -208,7 +208,7 @@ Config.i: Config.cc.i
 
 # target to preprocess a source file
 Config.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Config.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Config.cc.i
 .PHONY : Config.cc.i
 
 Config.s: Config.cc.s
@@ -217,7 +217,7 @@ Config.s: Config.cc.s
 
 # target to generate assembly for a file
 Config.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Config.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Config.cc.s
 .PHONY : Config.cc.s
 
 DataCreator.o: DataCreator.cc.o
@@ -226,7 +226,7 @@ DataCreator.o: DataCreator.cc.o
 
 # target to build an object file
 DataCreator.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/DataCreator.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/DataCreator.cc.o
 .PHONY : DataCreator.cc.o
 
 DataCreator.i: DataCreator.cc.i
@@ -235,7 +235,7 @@ DataCreator.i: DataCreator.cc.i
 
 # target to preprocess a source file
 DataCreator.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/DataCreator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/DataCreator.cc.i
 .PHONY : DataCreator.cc.i
 
 DataCreator.s: DataCreator.cc.s
@@ -244,7 +244,7 @@ DataCreator.s: DataCreator.cc.s
 
 # target to generate assembly for a file
 DataCreator.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/DataCreator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/DataCreator.cc.s
 .PHONY : DataCreator.cc.s
 
 DataGenerator.o: DataGenerator.cc.o
@@ -253,7 +253,7 @@ DataGenerator.o: DataGenerator.cc.o
 
 # target to build an object file
 DataGenerator.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/DataGenerator.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/DataGenerator.cc.o
 .PHONY : DataGenerator.cc.o
 
 DataGenerator.i: DataGenerator.cc.i
@@ -262,7 +262,7 @@ DataGenerator.i: DataGenerator.cc.i
 
 # target to preprocess a source file
 DataGenerator.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/DataGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/DataGenerator.cc.i
 .PHONY : DataGenerator.cc.i
 
 DataGenerator.s: DataGenerator.cc.s
@@ -271,7 +271,7 @@ DataGenerator.s: DataGenerator.cc.s
 
 # target to generate assembly for a file
 DataGenerator.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/DataGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/DataGenerator.cc.s
 .PHONY : DataGenerator.cc.s
 
 FileUtils.o: FileUtils.cc.o
@@ -280,7 +280,7 @@ FileUtils.o: FileUtils.cc.o
 
 # target to build an object file
 FileUtils.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/FileUtils.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/FileUtils.cc.o
 .PHONY : FileUtils.cc.o
 
 FileUtils.i: FileUtils.cc.i
@@ -289,7 +289,7 @@ FileUtils.i: FileUtils.cc.i
 
 # target to preprocess a source file
 FileUtils.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/FileUtils.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/FileUtils.cc.i
 .PHONY : FileUtils.cc.i
 
 FileUtils.s: FileUtils.cc.s
@@ -298,7 +298,7 @@ FileUtils.s: FileUtils.cc.s
 
 # target to generate assembly for a file
 FileUtils.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/FileUtils.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/FileUtils.cc.s
 .PHONY : FileUtils.cc.s
 
 Graphics.o: Graphics.cc.o
@@ -307,7 +307,7 @@ Graphics.o: Graphics.cc.o
 
 # target to build an object file
 Graphics.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Graphics.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Graphics.cc.o
 .PHONY : Graphics.cc.o
 
 Graphics.i: Graphics.cc.i
@@ -316,7 +316,7 @@ Graphics.i: Graphics.cc.i
 
 # target to preprocess a source file
 Graphics.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Graphics.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Graphics.cc.i
 .PHONY : Graphics.cc.i
 
 Graphics.s: Graphics.cc.s
@@ -325,7 +325,7 @@ Graphics.s: Graphics.cc.s
 
 # target to generate assembly for a file
 Graphics.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Graphics.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Graphics.cc.s
 .PHONY : Graphics.cc.s
 
 GridsManager.o: GridsManager.cc.o
@@ -334,7 +334,7 @@ GridsManager.o: GridsManager.cc.o
 
 # target to build an object file
 GridsManager.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/GridsManager.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/GridsManager.cc.o
 .PHONY : GridsManager.cc.o
 
 GridsManager.i: GridsManager.cc.i
@@ -343,7 +343,7 @@ GridsManager.i: GridsManager.cc.i
 
 # target to preprocess a source file
 GridsManager.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/GridsManager.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/GridsManager.cc.i
 .PHONY : GridsManager.cc.i
 
 GridsManager.s: GridsManager.cc.s
@@ -352,7 +352,7 @@ GridsManager.s: GridsManager.cc.s
 
 # target to generate assembly for a file
 GridsManager.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/GridsManager.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/GridsManager.cc.s
 .PHONY : GridsManager.cc.s
 
 IOExceptions.o: IOExceptions.cc.o
@@ -361,7 +361,7 @@ IOExceptions.o: IOExceptions.cc.o
 
 # target to build an object file
 IOExceptions.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOExceptions.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOExceptions.cc.o
 .PHONY : IOExceptions.cc.o
 
 IOExceptions.i: IOExceptions.cc.i
@@ -370,7 +370,7 @@ IOExceptions.i: IOExceptions.cc.i
 
 # target to preprocess a source file
 IOExceptions.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOExceptions.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOExceptions.cc.i
 .PHONY : IOExceptions.cc.i
 
 IOExceptions.s: IOExceptions.cc.s
@@ -379,7 +379,7 @@ IOExceptions.s: IOExceptions.cc.s
 
 # target to generate assembly for a file
 IOExceptions.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOExceptions.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOExceptions.cc.s
 .PHONY : IOExceptions.cc.s
 
 IOHandler.o: IOHandler.cc.o
@@ -388,7 +388,7 @@ IOHandler.o: IOHandler.cc.o
 
 # target to build an object file
 IOHandler.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOHandler.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOHandler.cc.o
 .PHONY : IOHandler.cc.o
 
 IOHandler.i: IOHandler.cc.i
@@ -397,7 +397,7 @@ IOHandler.i: IOHandler.cc.i
 
 # target to preprocess a source file
 IOHandler.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOHandler.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOHandler.cc.i
 .PHONY : IOHandler.cc.i
 
 IOHandler.s: IOHandler.cc.s
@@ -406,7 +406,7 @@ IOHandler.s: IOHandler.cc.s
 
 # target to generate assembly for a file
 IOHandler.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOHandler.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOHandler.cc.s
 .PHONY : IOHandler.cc.s
 
 IOInterface.o: IOInterface.cc.o
@@ -415,7 +415,7 @@ IOInterface.o: IOInterface.cc.o
 
 # target to build an object file
 IOInterface.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOInterface.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOInterface.cc.o
 .PHONY : IOInterface.cc.o
 
 IOInterface.i: IOInterface.cc.i
@@ -424,7 +424,7 @@ IOInterface.i: IOInterface.cc.i
 
 # target to preprocess a source file
 IOInterface.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOInterface.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOInterface.cc.i
 .PHONY : IOInterface.cc.i
 
 IOInterface.s: IOInterface.cc.s
@@ -433,7 +433,7 @@ IOInterface.s: IOInterface.cc.s
 
 # target to generate assembly for a file
 IOInterface.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOInterface.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOInterface.cc.s
 .PHONY : IOInterface.cc.s
 
 IOManager.o: IOManager.cc.o
@@ -442,7 +442,7 @@ IOManager.o: IOManager.cc.o
 
 # target to build an object file
 IOManager.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOManager.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOManager.cc.o
 .PHONY : IOManager.cc.o
 
 IOManager.i: IOManager.cc.i
@@ -451,7 +451,7 @@ IOManager.i: IOManager.cc.i
 
 # target to preprocess a source file
 IOManager.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOManager.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOManager.cc.i
 .PHONY : IOManager.cc.i
 
 IOManager.s: IOManager.cc.s
@@ -460,7 +460,7 @@ IOManager.s: IOManager.cc.s
 
 # target to generate assembly for a file
 IOManager.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOManager.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOManager.cc.s
 .PHONY : IOManager.cc.s
 
 IOUtils.o: IOUtils.cc.o
@@ -469,7 +469,7 @@ IOUtils.o: IOUtils.cc.o
 
 # target to build an object file
 IOUtils.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOUtils.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOUtils.cc.o
 .PHONY : IOUtils.cc.o
 
 IOUtils.i: IOUtils.cc.i
@@ -478,7 +478,7 @@ IOUtils.i: IOUtils.cc.i
 
 # target to preprocess a source file
 IOUtils.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOUtils.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOUtils.cc.i
 .PHONY : IOUtils.cc.i
 
 IOUtils.s: IOUtils.cc.s
@@ -487,7 +487,7 @@ IOUtils.s: IOUtils.cc.s
 
 # target to generate assembly for a file
 IOUtils.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOUtils.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/IOUtils.cc.s
 .PHONY : IOUtils.cc.s
 
 Meteo1DInterpolator.o: Meteo1DInterpolator.cc.o
@@ -496,7 +496,7 @@ Meteo1DInterpolator.o: Meteo1DInterpolator.cc.o
 
 # target to build an object file
 Meteo1DInterpolator.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.o
 .PHONY : Meteo1DInterpolator.cc.o
 
 Meteo1DInterpolator.i: Meteo1DInterpolator.cc.i
@@ -505,7 +505,7 @@ Meteo1DInterpolator.i: Meteo1DInterpolator.cc.i
 
 # target to preprocess a source file
 Meteo1DInterpolator.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.i
 .PHONY : Meteo1DInterpolator.cc.i
 
 Meteo1DInterpolator.s: Meteo1DInterpolator.cc.s
@@ -514,7 +514,7 @@ Meteo1DInterpolator.s: Meteo1DInterpolator.cc.s
 
 # target to generate assembly for a file
 Meteo1DInterpolator.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Meteo1DInterpolator.cc.s
 .PHONY : Meteo1DInterpolator.cc.s
 
 Meteo2DInterpolator.o: Meteo2DInterpolator.cc.o
@@ -523,7 +523,7 @@ Meteo2DInterpolator.o: Meteo2DInterpolator.cc.o
 
 # target to build an object file
 Meteo2DInterpolator.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.o
 .PHONY : Meteo2DInterpolator.cc.o
 
 Meteo2DInterpolator.i: Meteo2DInterpolator.cc.i
@@ -532,7 +532,7 @@ Meteo2DInterpolator.i: Meteo2DInterpolator.cc.i
 
 # target to preprocess a source file
 Meteo2DInterpolator.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.i
 .PHONY : Meteo2DInterpolator.cc.i
 
 Meteo2DInterpolator.s: Meteo2DInterpolator.cc.s
@@ -541,7 +541,7 @@ Meteo2DInterpolator.s: Meteo2DInterpolator.cc.s
 
 # target to generate assembly for a file
 Meteo2DInterpolator.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Meteo2DInterpolator.cc.s
 .PHONY : Meteo2DInterpolator.cc.s
 
 MeteoProcessor.o: MeteoProcessor.cc.o
@@ -550,7 +550,7 @@ MeteoProcessor.o: MeteoProcessor.cc.o
 
 # target to build an object file
 MeteoProcessor.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/MeteoProcessor.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/MeteoProcessor.cc.o
 .PHONY : MeteoProcessor.cc.o
 
 MeteoProcessor.i: MeteoProcessor.cc.i
@@ -559,7 +559,7 @@ MeteoProcessor.i: MeteoProcessor.cc.i
 
 # target to preprocess a source file
 MeteoProcessor.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/MeteoProcessor.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/MeteoProcessor.cc.i
 .PHONY : MeteoProcessor.cc.i
 
 MeteoProcessor.s: MeteoProcessor.cc.s
@@ -568,7 +568,7 @@ MeteoProcessor.s: MeteoProcessor.cc.s
 
 # target to generate assembly for a file
 MeteoProcessor.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/MeteoProcessor.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/MeteoProcessor.cc.s
 .PHONY : MeteoProcessor.cc.s
 
 TimeSeriesManager.o: TimeSeriesManager.cc.o
@@ -577,7 +577,7 @@ TimeSeriesManager.o: TimeSeriesManager.cc.o
 
 # target to build an object file
 TimeSeriesManager.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/TimeSeriesManager.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/TimeSeriesManager.cc.o
 .PHONY : TimeSeriesManager.cc.o
 
 TimeSeriesManager.i: TimeSeriesManager.cc.i
@@ -586,7 +586,7 @@ TimeSeriesManager.i: TimeSeriesManager.cc.i
 
 # target to preprocess a source file
 TimeSeriesManager.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/TimeSeriesManager.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/TimeSeriesManager.cc.i
 .PHONY : TimeSeriesManager.cc.i
 
 TimeSeriesManager.s: TimeSeriesManager.cc.s
@@ -595,7 +595,7 @@ TimeSeriesManager.s: TimeSeriesManager.cc.s
 
 # target to generate assembly for a file
 TimeSeriesManager.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/TimeSeriesManager.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/TimeSeriesManager.cc.s
 .PHONY : TimeSeriesManager.cc.s
 
 Timer.o: Timer.cc.o
@@ -604,7 +604,7 @@ Timer.o: Timer.cc.o
 
 # target to build an object file
 Timer.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Timer.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Timer.cc.o
 .PHONY : Timer.cc.o
 
 Timer.i: Timer.cc.i
@@ -613,7 +613,7 @@ Timer.i: Timer.cc.i
 
 # target to preprocess a source file
 Timer.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Timer.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Timer.cc.i
 .PHONY : Timer.cc.i
 
 Timer.s: Timer.cc.s
@@ -622,7 +622,7 @@ Timer.s: Timer.cc.s
 
 # target to generate assembly for a file
 Timer.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Timer.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/Timer.cc.s
 .PHONY : Timer.cc.s
 
 dataClasses/Buffer.o: dataClasses/Buffer.cc.o
@@ -631,7 +631,7 @@ dataClasses/Buffer.o: dataClasses/Buffer.cc.o
 
 # target to build an object file
 dataClasses/Buffer.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.o
 .PHONY : dataClasses/Buffer.cc.o
 
 dataClasses/Buffer.i: dataClasses/Buffer.cc.i
@@ -640,7 +640,7 @@ dataClasses/Buffer.i: dataClasses/Buffer.cc.i
 
 # target to preprocess a source file
 dataClasses/Buffer.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.i
 .PHONY : dataClasses/Buffer.cc.i
 
 dataClasses/Buffer.s: dataClasses/Buffer.cc.s
@@ -649,7 +649,7 @@ dataClasses/Buffer.s: dataClasses/Buffer.cc.s
 
 # target to generate assembly for a file
 dataClasses/Buffer.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Buffer.cc.s
 .PHONY : dataClasses/Buffer.cc.s
 
 dataClasses/Coords.o: dataClasses/Coords.cc.o
@@ -658,7 +658,7 @@ dataClasses/Coords.o: dataClasses/Coords.cc.o
 
 # target to build an object file
 dataClasses/Coords.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Coords.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Coords.cc.o
 .PHONY : dataClasses/Coords.cc.o
 
 dataClasses/Coords.i: dataClasses/Coords.cc.i
@@ -667,7 +667,7 @@ dataClasses/Coords.i: dataClasses/Coords.cc.i
 
 # target to preprocess a source file
 dataClasses/Coords.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Coords.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Coords.cc.i
 .PHONY : dataClasses/Coords.cc.i
 
 dataClasses/Coords.s: dataClasses/Coords.cc.s
@@ -676,7 +676,7 @@ dataClasses/Coords.s: dataClasses/Coords.cc.s
 
 # target to generate assembly for a file
 dataClasses/Coords.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Coords.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Coords.cc.s
 .PHONY : dataClasses/Coords.cc.s
 
 dataClasses/CoordsAlgorithms.o: dataClasses/CoordsAlgorithms.cc.o
@@ -685,7 +685,7 @@ dataClasses/CoordsAlgorithms.o: dataClasses/CoordsAlgorithms.cc.o
 
 # target to build an object file
 dataClasses/CoordsAlgorithms.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.o
 .PHONY : dataClasses/CoordsAlgorithms.cc.o
 
 dataClasses/CoordsAlgorithms.i: dataClasses/CoordsAlgorithms.cc.i
@@ -694,7 +694,7 @@ dataClasses/CoordsAlgorithms.i: dataClasses/CoordsAlgorithms.cc.i
 
 # target to preprocess a source file
 dataClasses/CoordsAlgorithms.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.i
 .PHONY : dataClasses/CoordsAlgorithms.cc.i
 
 dataClasses/CoordsAlgorithms.s: dataClasses/CoordsAlgorithms.cc.s
@@ -703,7 +703,7 @@ dataClasses/CoordsAlgorithms.s: dataClasses/CoordsAlgorithms.cc.s
 
 # target to generate assembly for a file
 dataClasses/CoordsAlgorithms.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/CoordsAlgorithms.cc.s
 .PHONY : dataClasses/CoordsAlgorithms.cc.s
 
 dataClasses/DEMAlgorithms.o: dataClasses/DEMAlgorithms.cc.o
@@ -712,7 +712,7 @@ dataClasses/DEMAlgorithms.o: dataClasses/DEMAlgorithms.cc.o
 
 # target to build an object file
 dataClasses/DEMAlgorithms.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.o
 .PHONY : dataClasses/DEMAlgorithms.cc.o
 
 dataClasses/DEMAlgorithms.i: dataClasses/DEMAlgorithms.cc.i
@@ -721,7 +721,7 @@ dataClasses/DEMAlgorithms.i: dataClasses/DEMAlgorithms.cc.i
 
 # target to preprocess a source file
 dataClasses/DEMAlgorithms.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.i
 .PHONY : dataClasses/DEMAlgorithms.cc.i
 
 dataClasses/DEMAlgorithms.s: dataClasses/DEMAlgorithms.cc.s
@@ -730,7 +730,7 @@ dataClasses/DEMAlgorithms.s: dataClasses/DEMAlgorithms.cc.s
 
 # target to generate assembly for a file
 dataClasses/DEMAlgorithms.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMAlgorithms.cc.s
 .PHONY : dataClasses/DEMAlgorithms.cc.s
 
 dataClasses/DEMObject.o: dataClasses/DEMObject.cc.o
@@ -739,7 +739,7 @@ dataClasses/DEMObject.o: dataClasses/DEMObject.cc.o
 
 # target to build an object file
 dataClasses/DEMObject.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.o
 .PHONY : dataClasses/DEMObject.cc.o
 
 dataClasses/DEMObject.i: dataClasses/DEMObject.cc.i
@@ -748,7 +748,7 @@ dataClasses/DEMObject.i: dataClasses/DEMObject.cc.i
 
 # target to preprocess a source file
 dataClasses/DEMObject.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.i
 .PHONY : dataClasses/DEMObject.cc.i
 
 dataClasses/DEMObject.s: dataClasses/DEMObject.cc.s
@@ -757,7 +757,7 @@ dataClasses/DEMObject.s: dataClasses/DEMObject.cc.s
 
 # target to generate assembly for a file
 dataClasses/DEMObject.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/DEMObject.cc.s
 .PHONY : dataClasses/DEMObject.cc.s
 
 dataClasses/Date.o: dataClasses/Date.cc.o
@@ -766,7 +766,7 @@ dataClasses/Date.o: dataClasses/Date.cc.o
 
 # target to build an object file
 dataClasses/Date.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Date.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Date.cc.o
 .PHONY : dataClasses/Date.cc.o
 
 dataClasses/Date.i: dataClasses/Date.cc.i
@@ -775,7 +775,7 @@ dataClasses/Date.i: dataClasses/Date.cc.i
 
 # target to preprocess a source file
 dataClasses/Date.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Date.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Date.cc.i
 .PHONY : dataClasses/Date.cc.i
 
 dataClasses/Date.s: dataClasses/Date.cc.s
@@ -784,7 +784,7 @@ dataClasses/Date.s: dataClasses/Date.cc.s
 
 # target to generate assembly for a file
 dataClasses/Date.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Date.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Date.cc.s
 .PHONY : dataClasses/Date.cc.s
 
 dataClasses/Grid2DObject.o: dataClasses/Grid2DObject.cc.o
@@ -793,7 +793,7 @@ dataClasses/Grid2DObject.o: dataClasses/Grid2DObject.cc.o
 
 # target to build an object file
 dataClasses/Grid2DObject.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.o
 .PHONY : dataClasses/Grid2DObject.cc.o
 
 dataClasses/Grid2DObject.i: dataClasses/Grid2DObject.cc.i
@@ -802,7 +802,7 @@ dataClasses/Grid2DObject.i: dataClasses/Grid2DObject.cc.i
 
 # target to preprocess a source file
 dataClasses/Grid2DObject.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.i
 .PHONY : dataClasses/Grid2DObject.cc.i
 
 dataClasses/Grid2DObject.s: dataClasses/Grid2DObject.cc.s
@@ -811,7 +811,7 @@ dataClasses/Grid2DObject.s: dataClasses/Grid2DObject.cc.s
 
 # target to generate assembly for a file
 dataClasses/Grid2DObject.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid2DObject.cc.s
 .PHONY : dataClasses/Grid2DObject.cc.s
 
 dataClasses/Grid3DObject.o: dataClasses/Grid3DObject.cc.o
@@ -820,7 +820,7 @@ dataClasses/Grid3DObject.o: dataClasses/Grid3DObject.cc.o
 
 # target to build an object file
 dataClasses/Grid3DObject.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.o
 .PHONY : dataClasses/Grid3DObject.cc.o
 
 dataClasses/Grid3DObject.i: dataClasses/Grid3DObject.cc.i
@@ -829,7 +829,7 @@ dataClasses/Grid3DObject.i: dataClasses/Grid3DObject.cc.i
 
 # target to preprocess a source file
 dataClasses/Grid3DObject.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.i
 .PHONY : dataClasses/Grid3DObject.cc.i
 
 dataClasses/Grid3DObject.s: dataClasses/Grid3DObject.cc.s
@@ -838,7 +838,7 @@ dataClasses/Grid3DObject.s: dataClasses/Grid3DObject.cc.s
 
 # target to generate assembly for a file
 dataClasses/Grid3DObject.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Grid3DObject.cc.s
 .PHONY : dataClasses/Grid3DObject.cc.s
 
 dataClasses/Matrix.o: dataClasses/Matrix.cc.o
@@ -847,7 +847,7 @@ dataClasses/Matrix.o: dataClasses/Matrix.cc.o
 
 # target to build an object file
 dataClasses/Matrix.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.o
 .PHONY : dataClasses/Matrix.cc.o
 
 dataClasses/Matrix.i: dataClasses/Matrix.cc.i
@@ -856,7 +856,7 @@ dataClasses/Matrix.i: dataClasses/Matrix.cc.i
 
 # target to preprocess a source file
 dataClasses/Matrix.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.i
 .PHONY : dataClasses/Matrix.cc.i
 
 dataClasses/Matrix.s: dataClasses/Matrix.cc.s
@@ -865,7 +865,7 @@ dataClasses/Matrix.s: dataClasses/Matrix.cc.s
 
 # target to generate assembly for a file
 dataClasses/Matrix.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/Matrix.cc.s
 .PHONY : dataClasses/Matrix.cc.s
 
 dataClasses/MeteoData.o: dataClasses/MeteoData.cc.o
@@ -874,7 +874,7 @@ dataClasses/MeteoData.o: dataClasses/MeteoData.cc.o
 
 # target to build an object file
 dataClasses/MeteoData.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.o
 .PHONY : dataClasses/MeteoData.cc.o
 
 dataClasses/MeteoData.i: dataClasses/MeteoData.cc.i
@@ -883,7 +883,7 @@ dataClasses/MeteoData.i: dataClasses/MeteoData.cc.i
 
 # target to preprocess a source file
 dataClasses/MeteoData.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.i
 .PHONY : dataClasses/MeteoData.cc.i
 
 dataClasses/MeteoData.s: dataClasses/MeteoData.cc.s
@@ -892,7 +892,7 @@ dataClasses/MeteoData.s: dataClasses/MeteoData.cc.s
 
 # target to generate assembly for a file
 dataClasses/MeteoData.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/MeteoData.cc.s
 .PHONY : dataClasses/MeteoData.cc.s
 
 dataClasses/StationData.o: dataClasses/StationData.cc.o
@@ -901,7 +901,7 @@ dataClasses/StationData.o: dataClasses/StationData.cc.o
 
 # target to build an object file
 dataClasses/StationData.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/StationData.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/StationData.cc.o
 .PHONY : dataClasses/StationData.cc.o
 
 dataClasses/StationData.i: dataClasses/StationData.cc.i
@@ -910,7 +910,7 @@ dataClasses/StationData.i: dataClasses/StationData.cc.i
 
 # target to preprocess a source file
 dataClasses/StationData.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/StationData.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/StationData.cc.i
 .PHONY : dataClasses/StationData.cc.i
 
 dataClasses/StationData.s: dataClasses/StationData.cc.s
@@ -919,7 +919,7 @@ dataClasses/StationData.s: dataClasses/StationData.cc.s
 
 # target to generate assembly for a file
 dataClasses/StationData.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/StationData.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataClasses/StationData.cc.s
 .PHONY : dataClasses/StationData.cc.s
 
 dataGenerators/AllSkyLWGenerator.o: dataGenerators/AllSkyLWGenerator.cc.o
@@ -928,7 +928,7 @@ dataGenerators/AllSkyLWGenerator.o: dataGenerators/AllSkyLWGenerator.cc.o
 
 # target to build an object file
 dataGenerators/AllSkyLWGenerator.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.o
 .PHONY : dataGenerators/AllSkyLWGenerator.cc.o
 
 dataGenerators/AllSkyLWGenerator.i: dataGenerators/AllSkyLWGenerator.cc.i
@@ -937,7 +937,7 @@ dataGenerators/AllSkyLWGenerator.i: dataGenerators/AllSkyLWGenerator.cc.i
 
 # target to preprocess a source file
 dataGenerators/AllSkyLWGenerator.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.i
 .PHONY : dataGenerators/AllSkyLWGenerator.cc.i
 
 dataGenerators/AllSkyLWGenerator.s: dataGenerators/AllSkyLWGenerator.cc.s
@@ -946,7 +946,7 @@ dataGenerators/AllSkyLWGenerator.s: dataGenerators/AllSkyLWGenerator.cc.s
 
 # target to generate assembly for a file
 dataGenerators/AllSkyLWGenerator.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkyLWGenerator.cc.s
 .PHONY : dataGenerators/AllSkyLWGenerator.cc.s
 
 dataGenerators/AllSkySWGenerator.o: dataGenerators/AllSkySWGenerator.cc.o
@@ -955,7 +955,7 @@ dataGenerators/AllSkySWGenerator.o: dataGenerators/AllSkySWGenerator.cc.o
 
 # target to build an object file
 dataGenerators/AllSkySWGenerator.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.o
 .PHONY : dataGenerators/AllSkySWGenerator.cc.o
 
 dataGenerators/AllSkySWGenerator.i: dataGenerators/AllSkySWGenerator.cc.i
@@ -964,7 +964,7 @@ dataGenerators/AllSkySWGenerator.i: dataGenerators/AllSkySWGenerator.cc.i
 
 # target to preprocess a source file
 dataGenerators/AllSkySWGenerator.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.i
 .PHONY : dataGenerators/AllSkySWGenerator.cc.i
 
 dataGenerators/AllSkySWGenerator.s: dataGenerators/AllSkySWGenerator.cc.s
@@ -973,7 +973,7 @@ dataGenerators/AllSkySWGenerator.s: dataGenerators/AllSkySWGenerator.cc.s
 
 # target to generate assembly for a file
 dataGenerators/AllSkySWGenerator.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/AllSkySWGenerator.cc.s
 .PHONY : dataGenerators/AllSkySWGenerator.cc.s
 
 dataGenerators/ClearSkyLWGenerator.o: dataGenerators/ClearSkyLWGenerator.cc.o
@@ -982,7 +982,7 @@ dataGenerators/ClearSkyLWGenerator.o: dataGenerators/ClearSkyLWGenerator.cc.o
 
 # target to build an object file
 dataGenerators/ClearSkyLWGenerator.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.o
 .PHONY : dataGenerators/ClearSkyLWGenerator.cc.o
 
 dataGenerators/ClearSkyLWGenerator.i: dataGenerators/ClearSkyLWGenerator.cc.i
@@ -991,7 +991,7 @@ dataGenerators/ClearSkyLWGenerator.i: dataGenerators/ClearSkyLWGenerator.cc.i
 
 # target to preprocess a source file
 dataGenerators/ClearSkyLWGenerator.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.i
 .PHONY : dataGenerators/ClearSkyLWGenerator.cc.i
 
 dataGenerators/ClearSkyLWGenerator.s: dataGenerators/ClearSkyLWGenerator.cc.s
@@ -1000,7 +1000,7 @@ dataGenerators/ClearSkyLWGenerator.s: dataGenerators/ClearSkyLWGenerator.cc.s
 
 # target to generate assembly for a file
 dataGenerators/ClearSkyLWGenerator.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkyLWGenerator.cc.s
 .PHONY : dataGenerators/ClearSkyLWGenerator.cc.s
 
 dataGenerators/ClearSkySWGenerator.o: dataGenerators/ClearSkySWGenerator.cc.o
@@ -1009,7 +1009,7 @@ dataGenerators/ClearSkySWGenerator.o: dataGenerators/ClearSkySWGenerator.cc.o
 
 # target to build an object file
 dataGenerators/ClearSkySWGenerator.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.o
 .PHONY : dataGenerators/ClearSkySWGenerator.cc.o
 
 dataGenerators/ClearSkySWGenerator.i: dataGenerators/ClearSkySWGenerator.cc.i
@@ -1018,7 +1018,7 @@ dataGenerators/ClearSkySWGenerator.i: dataGenerators/ClearSkySWGenerator.cc.i
 
 # target to preprocess a source file
 dataGenerators/ClearSkySWGenerator.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.i
 .PHONY : dataGenerators/ClearSkySWGenerator.cc.i
 
 dataGenerators/ClearSkySWGenerator.s: dataGenerators/ClearSkySWGenerator.cc.s
@@ -1027,7 +1027,7 @@ dataGenerators/ClearSkySWGenerator.s: dataGenerators/ClearSkySWGenerator.cc.s
 
 # target to generate assembly for a file
 dataGenerators/ClearSkySWGenerator.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ClearSkySWGenerator.cc.s
 .PHONY : dataGenerators/ClearSkySWGenerator.cc.s
 
 dataGenerators/ConstGenerator.o: dataGenerators/ConstGenerator.cc.o
@@ -1036,7 +1036,7 @@ dataGenerators/ConstGenerator.o: dataGenerators/ConstGenerator.cc.o
 
 # target to build an object file
 dataGenerators/ConstGenerator.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.o
 .PHONY : dataGenerators/ConstGenerator.cc.o
 
 dataGenerators/ConstGenerator.i: dataGenerators/ConstGenerator.cc.i
@@ -1045,7 +1045,7 @@ dataGenerators/ConstGenerator.i: dataGenerators/ConstGenerator.cc.i
 
 # target to preprocess a source file
 dataGenerators/ConstGenerator.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.i
 .PHONY : dataGenerators/ConstGenerator.cc.i
 
 dataGenerators/ConstGenerator.s: dataGenerators/ConstGenerator.cc.s
@@ -1054,7 +1054,7 @@ dataGenerators/ConstGenerator.s: dataGenerators/ConstGenerator.cc.s
 
 # target to generate assembly for a file
 dataGenerators/ConstGenerator.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ConstGenerator.cc.s
 .PHONY : dataGenerators/ConstGenerator.cc.s
 
 dataGenerators/ESOLIPGenerator.o: dataGenerators/ESOLIPGenerator.cc.o
@@ -1063,7 +1063,7 @@ dataGenerators/ESOLIPGenerator.o: dataGenerators/ESOLIPGenerator.cc.o
 
 # target to build an object file
 dataGenerators/ESOLIPGenerator.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.o
 .PHONY : dataGenerators/ESOLIPGenerator.cc.o
 
 dataGenerators/ESOLIPGenerator.i: dataGenerators/ESOLIPGenerator.cc.i
@@ -1072,7 +1072,7 @@ dataGenerators/ESOLIPGenerator.i: dataGenerators/ESOLIPGenerator.cc.i
 
 # target to preprocess a source file
 dataGenerators/ESOLIPGenerator.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.i
 .PHONY : dataGenerators/ESOLIPGenerator.cc.i
 
 dataGenerators/ESOLIPGenerator.s: dataGenerators/ESOLIPGenerator.cc.s
@@ -1081,7 +1081,7 @@ dataGenerators/ESOLIPGenerator.s: dataGenerators/ESOLIPGenerator.cc.s
 
 # target to generate assembly for a file
 dataGenerators/ESOLIPGenerator.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/ESOLIPGenerator.cc.s
 .PHONY : dataGenerators/ESOLIPGenerator.cc.s
 
 dataGenerators/GeneratorAlgorithms.o: dataGenerators/GeneratorAlgorithms.cc.o
@@ -1090,7 +1090,7 @@ dataGenerators/GeneratorAlgorithms.o: dataGenerators/GeneratorAlgorithms.cc.o
 
 # target to build an object file
 dataGenerators/GeneratorAlgorithms.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.o
 .PHONY : dataGenerators/GeneratorAlgorithms.cc.o
 
 dataGenerators/GeneratorAlgorithms.i: dataGenerators/GeneratorAlgorithms.cc.i
@@ -1099,7 +1099,7 @@ dataGenerators/GeneratorAlgorithms.i: dataGenerators/GeneratorAlgorithms.cc.i
 
 # target to preprocess a source file
 dataGenerators/GeneratorAlgorithms.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.i
 .PHONY : dataGenerators/GeneratorAlgorithms.cc.i
 
 dataGenerators/GeneratorAlgorithms.s: dataGenerators/GeneratorAlgorithms.cc.s
@@ -1108,7 +1108,7 @@ dataGenerators/GeneratorAlgorithms.s: dataGenerators/GeneratorAlgorithms.cc.s
 
 # target to generate assembly for a file
 dataGenerators/GeneratorAlgorithms.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/GeneratorAlgorithms.cc.s
 .PHONY : dataGenerators/GeneratorAlgorithms.cc.s
 
 dataGenerators/HumidityGenerator.o: dataGenerators/HumidityGenerator.cc.o
@@ -1117,7 +1117,7 @@ dataGenerators/HumidityGenerator.o: dataGenerators/HumidityGenerator.cc.o
 
 # target to build an object file
 dataGenerators/HumidityGenerator.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.o
 .PHONY : dataGenerators/HumidityGenerator.cc.o
 
 dataGenerators/HumidityGenerator.i: dataGenerators/HumidityGenerator.cc.i
@@ -1126,7 +1126,7 @@ dataGenerators/HumidityGenerator.i: dataGenerators/HumidityGenerator.cc.i
 
 # target to preprocess a source file
 dataGenerators/HumidityGenerator.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.i
 .PHONY : dataGenerators/HumidityGenerator.cc.i
 
 dataGenerators/HumidityGenerator.s: dataGenerators/HumidityGenerator.cc.s
@@ -1135,7 +1135,7 @@ dataGenerators/HumidityGenerator.s: dataGenerators/HumidityGenerator.cc.s
 
 # target to generate assembly for a file
 dataGenerators/HumidityGenerator.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/HumidityGenerator.cc.s
 .PHONY : dataGenerators/HumidityGenerator.cc.s
 
 dataGenerators/IswrAlbedoGenerator.o: dataGenerators/IswrAlbedoGenerator.cc.o
@@ -1144,7 +1144,7 @@ dataGenerators/IswrAlbedoGenerator.o: dataGenerators/IswrAlbedoGenerator.cc.o
 
 # target to build an object file
 dataGenerators/IswrAlbedoGenerator.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.o
 .PHONY : dataGenerators/IswrAlbedoGenerator.cc.o
 
 dataGenerators/IswrAlbedoGenerator.i: dataGenerators/IswrAlbedoGenerator.cc.i
@@ -1153,7 +1153,7 @@ dataGenerators/IswrAlbedoGenerator.i: dataGenerators/IswrAlbedoGenerator.cc.i
 
 # target to preprocess a source file
 dataGenerators/IswrAlbedoGenerator.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.i
 .PHONY : dataGenerators/IswrAlbedoGenerator.cc.i
 
 dataGenerators/IswrAlbedoGenerator.s: dataGenerators/IswrAlbedoGenerator.cc.s
@@ -1162,7 +1162,7 @@ dataGenerators/IswrAlbedoGenerator.s: dataGenerators/IswrAlbedoGenerator.cc.s
 
 # target to generate assembly for a file
 dataGenerators/IswrAlbedoGenerator.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/IswrAlbedoGenerator.cc.s
 .PHONY : dataGenerators/IswrAlbedoGenerator.cc.s
 
 dataGenerators/PrecSplitting.o: dataGenerators/PrecSplitting.cc.o
@@ -1171,7 +1171,7 @@ dataGenerators/PrecSplitting.o: dataGenerators/PrecSplitting.cc.o
 
 # target to build an object file
 dataGenerators/PrecSplitting.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.o
 .PHONY : dataGenerators/PrecSplitting.cc.o
 
 dataGenerators/PrecSplitting.i: dataGenerators/PrecSplitting.cc.i
@@ -1180,7 +1180,7 @@ dataGenerators/PrecSplitting.i: dataGenerators/PrecSplitting.cc.i
 
 # target to preprocess a source file
 dataGenerators/PrecSplitting.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.i
 .PHONY : dataGenerators/PrecSplitting.cc.i
 
 dataGenerators/PrecSplitting.s: dataGenerators/PrecSplitting.cc.s
@@ -1189,7 +1189,7 @@ dataGenerators/PrecSplitting.s: dataGenerators/PrecSplitting.cc.s
 
 # target to generate assembly for a file
 dataGenerators/PrecSplitting.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/PrecSplitting.cc.s
 .PHONY : dataGenerators/PrecSplitting.cc.s
 
 dataGenerators/RadiationComponents.o: dataGenerators/RadiationComponents.cc.o
@@ -1198,7 +1198,7 @@ dataGenerators/RadiationComponents.o: dataGenerators/RadiationComponents.cc.o
 
 # target to build an object file
 dataGenerators/RadiationComponents.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.o
 .PHONY : dataGenerators/RadiationComponents.cc.o
 
 dataGenerators/RadiationComponents.i: dataGenerators/RadiationComponents.cc.i
@@ -1207,7 +1207,7 @@ dataGenerators/RadiationComponents.i: dataGenerators/RadiationComponents.cc.i
 
 # target to preprocess a source file
 dataGenerators/RadiationComponents.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.i
 .PHONY : dataGenerators/RadiationComponents.cc.i
 
 dataGenerators/RadiationComponents.s: dataGenerators/RadiationComponents.cc.s
@@ -1216,7 +1216,7 @@ dataGenerators/RadiationComponents.s: dataGenerators/RadiationComponents.cc.s
 
 # target to generate assembly for a file
 dataGenerators/RadiationComponents.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/RadiationComponents.cc.s
 .PHONY : dataGenerators/RadiationComponents.cc.s
 
 dataGenerators/SinGenerator.o: dataGenerators/SinGenerator.cc.o
@@ -1225,7 +1225,7 @@ dataGenerators/SinGenerator.o: dataGenerators/SinGenerator.cc.o
 
 # target to build an object file
 dataGenerators/SinGenerator.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.o
 .PHONY : dataGenerators/SinGenerator.cc.o
 
 dataGenerators/SinGenerator.i: dataGenerators/SinGenerator.cc.i
@@ -1234,7 +1234,7 @@ dataGenerators/SinGenerator.i: dataGenerators/SinGenerator.cc.i
 
 # target to preprocess a source file
 dataGenerators/SinGenerator.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.i
 .PHONY : dataGenerators/SinGenerator.cc.i
 
 dataGenerators/SinGenerator.s: dataGenerators/SinGenerator.cc.s
@@ -1243,7 +1243,7 @@ dataGenerators/SinGenerator.s: dataGenerators/SinGenerator.cc.s
 
 # target to generate assembly for a file
 dataGenerators/SinGenerator.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/SinGenerator.cc.s
 .PHONY : dataGenerators/SinGenerator.cc.s
 
 dataGenerators/StdPressGenerator.o: dataGenerators/StdPressGenerator.cc.o
@@ -1252,7 +1252,7 @@ dataGenerators/StdPressGenerator.o: dataGenerators/StdPressGenerator.cc.o
 
 # target to build an object file
 dataGenerators/StdPressGenerator.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.o
 .PHONY : dataGenerators/StdPressGenerator.cc.o
 
 dataGenerators/StdPressGenerator.i: dataGenerators/StdPressGenerator.cc.i
@@ -1261,7 +1261,7 @@ dataGenerators/StdPressGenerator.i: dataGenerators/StdPressGenerator.cc.i
 
 # target to preprocess a source file
 dataGenerators/StdPressGenerator.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.i
 .PHONY : dataGenerators/StdPressGenerator.cc.i
 
 dataGenerators/StdPressGenerator.s: dataGenerators/StdPressGenerator.cc.s
@@ -1270,7 +1270,7 @@ dataGenerators/StdPressGenerator.s: dataGenerators/StdPressGenerator.cc.s
 
 # target to generate assembly for a file
 dataGenerators/StdPressGenerator.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/StdPressGenerator.cc.s
 .PHONY : dataGenerators/StdPressGenerator.cc.s
 
 dataGenerators/TauCLDGenerator.o: dataGenerators/TauCLDGenerator.cc.o
@@ -1279,7 +1279,7 @@ dataGenerators/TauCLDGenerator.o: dataGenerators/TauCLDGenerator.cc.o
 
 # target to build an object file
 dataGenerators/TauCLDGenerator.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.o
 .PHONY : dataGenerators/TauCLDGenerator.cc.o
 
 dataGenerators/TauCLDGenerator.i: dataGenerators/TauCLDGenerator.cc.i
@@ -1288,7 +1288,7 @@ dataGenerators/TauCLDGenerator.i: dataGenerators/TauCLDGenerator.cc.i
 
 # target to preprocess a source file
 dataGenerators/TauCLDGenerator.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.i
 .PHONY : dataGenerators/TauCLDGenerator.cc.i
 
 dataGenerators/TauCLDGenerator.s: dataGenerators/TauCLDGenerator.cc.s
@@ -1297,7 +1297,7 @@ dataGenerators/TauCLDGenerator.s: dataGenerators/TauCLDGenerator.cc.s
 
 # target to generate assembly for a file
 dataGenerators/TauCLDGenerator.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/TauCLDGenerator.cc.s
 .PHONY : dataGenerators/TauCLDGenerator.cc.s
 
 dataGenerators/TsGenerator.o: dataGenerators/TsGenerator.cc.o
@@ -1306,7 +1306,7 @@ dataGenerators/TsGenerator.o: dataGenerators/TsGenerator.cc.o
 
 # target to build an object file
 dataGenerators/TsGenerator.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.o
 .PHONY : dataGenerators/TsGenerator.cc.o
 
 dataGenerators/TsGenerator.i: dataGenerators/TsGenerator.cc.i
@@ -1315,7 +1315,7 @@ dataGenerators/TsGenerator.i: dataGenerators/TsGenerator.cc.i
 
 # target to preprocess a source file
 dataGenerators/TsGenerator.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.i
 .PHONY : dataGenerators/TsGenerator.cc.i
 
 dataGenerators/TsGenerator.s: dataGenerators/TsGenerator.cc.s
@@ -1324,7 +1324,7 @@ dataGenerators/TsGenerator.s: dataGenerators/TsGenerator.cc.s
 
 # target to generate assembly for a file
 dataGenerators/TsGenerator.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/TsGenerator.cc.s
 .PHONY : dataGenerators/TsGenerator.cc.s
 
 dataGenerators/WindComponents.o: dataGenerators/WindComponents.cc.o
@@ -1333,7 +1333,7 @@ dataGenerators/WindComponents.o: dataGenerators/WindComponents.cc.o
 
 # target to build an object file
 dataGenerators/WindComponents.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.o
 .PHONY : dataGenerators/WindComponents.cc.o
 
 dataGenerators/WindComponents.i: dataGenerators/WindComponents.cc.i
@@ -1342,7 +1342,7 @@ dataGenerators/WindComponents.i: dataGenerators/WindComponents.cc.i
 
 # target to preprocess a source file
 dataGenerators/WindComponents.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.i
 .PHONY : dataGenerators/WindComponents.cc.i
 
 dataGenerators/WindComponents.s: dataGenerators/WindComponents.cc.s
@@ -1351,7 +1351,7 @@ dataGenerators/WindComponents.s: dataGenerators/WindComponents.cc.s
 
 # target to generate assembly for a file
 dataGenerators/WindComponents.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/dataGenerators/WindComponents.cc.s
 .PHONY : dataGenerators/WindComponents.cc.s
 
 meteoFilters/FilterDeGrass.o: meteoFilters/FilterDeGrass.cc.o
@@ -1360,7 +1360,7 @@ meteoFilters/FilterDeGrass.o: meteoFilters/FilterDeGrass.cc.o
 
 # target to build an object file
 meteoFilters/FilterDeGrass.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.o
 .PHONY : meteoFilters/FilterDeGrass.cc.o
 
 meteoFilters/FilterDeGrass.i: meteoFilters/FilterDeGrass.cc.i
@@ -1369,7 +1369,7 @@ meteoFilters/FilterDeGrass.i: meteoFilters/FilterDeGrass.cc.i
 
 # target to preprocess a source file
 meteoFilters/FilterDeGrass.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.i
 .PHONY : meteoFilters/FilterDeGrass.cc.i
 
 meteoFilters/FilterDeGrass.s: meteoFilters/FilterDeGrass.cc.s
@@ -1378,7 +1378,7 @@ meteoFilters/FilterDeGrass.s: meteoFilters/FilterDeGrass.cc.s
 
 # target to generate assembly for a file
 meteoFilters/FilterDeGrass.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDeGrass.cc.s
 .PHONY : meteoFilters/FilterDeGrass.cc.s
 
 meteoFilters/FilterDespikingPS.o: meteoFilters/FilterDespikingPS.cc.o
@@ -1387,7 +1387,7 @@ meteoFilters/FilterDespikingPS.o: meteoFilters/FilterDespikingPS.cc.o
 
 # target to build an object file
 meteoFilters/FilterDespikingPS.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.o
 .PHONY : meteoFilters/FilterDespikingPS.cc.o
 
 meteoFilters/FilterDespikingPS.i: meteoFilters/FilterDespikingPS.cc.i
@@ -1396,7 +1396,7 @@ meteoFilters/FilterDespikingPS.i: meteoFilters/FilterDespikingPS.cc.i
 
 # target to preprocess a source file
 meteoFilters/FilterDespikingPS.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.i
 .PHONY : meteoFilters/FilterDespikingPS.cc.i
 
 meteoFilters/FilterDespikingPS.s: meteoFilters/FilterDespikingPS.cc.s
@@ -1405,7 +1405,7 @@ meteoFilters/FilterDespikingPS.s: meteoFilters/FilterDespikingPS.cc.s
 
 # target to generate assembly for a file
 meteoFilters/FilterDespikingPS.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterDespikingPS.cc.s
 .PHONY : meteoFilters/FilterDespikingPS.cc.s
 
 meteoFilters/FilterKalman.o: meteoFilters/FilterKalman.cc.o
@@ -1414,7 +1414,7 @@ meteoFilters/FilterKalman.o: meteoFilters/FilterKalman.cc.o
 
 # target to build an object file
 meteoFilters/FilterKalman.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.o
 .PHONY : meteoFilters/FilterKalman.cc.o
 
 meteoFilters/FilterKalman.i: meteoFilters/FilterKalman.cc.i
@@ -1423,7 +1423,7 @@ meteoFilters/FilterKalman.i: meteoFilters/FilterKalman.cc.i
 
 # target to preprocess a source file
 meteoFilters/FilterKalman.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.i
 .PHONY : meteoFilters/FilterKalman.cc.i
 
 meteoFilters/FilterKalman.s: meteoFilters/FilterKalman.cc.s
@@ -1432,7 +1432,7 @@ meteoFilters/FilterKalman.s: meteoFilters/FilterKalman.cc.s
 
 # target to generate assembly for a file
 meteoFilters/FilterKalman.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterKalman.cc.s
 .PHONY : meteoFilters/FilterKalman.cc.s
 
 meteoFilters/FilterMAD.o: meteoFilters/FilterMAD.cc.o
@@ -1441,7 +1441,7 @@ meteoFilters/FilterMAD.o: meteoFilters/FilterMAD.cc.o
 
 # target to build an object file
 meteoFilters/FilterMAD.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.o
 .PHONY : meteoFilters/FilterMAD.cc.o
 
 meteoFilters/FilterMAD.i: meteoFilters/FilterMAD.cc.i
@@ -1450,7 +1450,7 @@ meteoFilters/FilterMAD.i: meteoFilters/FilterMAD.cc.i
 
 # target to preprocess a source file
 meteoFilters/FilterMAD.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.i
 .PHONY : meteoFilters/FilterMAD.cc.i
 
 meteoFilters/FilterMAD.s: meteoFilters/FilterMAD.cc.s
@@ -1459,7 +1459,7 @@ meteoFilters/FilterMAD.s: meteoFilters/FilterMAD.cc.s
 
 # target to generate assembly for a file
 meteoFilters/FilterMAD.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMAD.cc.s
 .PHONY : meteoFilters/FilterMAD.cc.s
 
 meteoFilters/FilterMaths.o: meteoFilters/FilterMaths.cc.o
@@ -1468,7 +1468,7 @@ meteoFilters/FilterMaths.o: meteoFilters/FilterMaths.cc.o
 
 # target to build an object file
 meteoFilters/FilterMaths.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.o
 .PHONY : meteoFilters/FilterMaths.cc.o
 
 meteoFilters/FilterMaths.i: meteoFilters/FilterMaths.cc.i
@@ -1477,7 +1477,7 @@ meteoFilters/FilterMaths.i: meteoFilters/FilterMaths.cc.i
 
 # target to preprocess a source file
 meteoFilters/FilterMaths.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.i
 .PHONY : meteoFilters/FilterMaths.cc.i
 
 meteoFilters/FilterMaths.s: meteoFilters/FilterMaths.cc.s
@@ -1486,7 +1486,7 @@ meteoFilters/FilterMaths.s: meteoFilters/FilterMaths.cc.s
 
 # target to generate assembly for a file
 meteoFilters/FilterMaths.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMaths.cc.s
 .PHONY : meteoFilters/FilterMaths.cc.s
 
 meteoFilters/FilterMax.o: meteoFilters/FilterMax.cc.o
@@ -1495,7 +1495,7 @@ meteoFilters/FilterMax.o: meteoFilters/FilterMax.cc.o
 
 # target to build an object file
 meteoFilters/FilterMax.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.o
 .PHONY : meteoFilters/FilterMax.cc.o
 
 meteoFilters/FilterMax.i: meteoFilters/FilterMax.cc.i
@@ -1504,7 +1504,7 @@ meteoFilters/FilterMax.i: meteoFilters/FilterMax.cc.i
 
 # target to preprocess a source file
 meteoFilters/FilterMax.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.i
 .PHONY : meteoFilters/FilterMax.cc.i
 
 meteoFilters/FilterMax.s: meteoFilters/FilterMax.cc.s
@@ -1513,7 +1513,7 @@ meteoFilters/FilterMax.s: meteoFilters/FilterMax.cc.s
 
 # target to generate assembly for a file
 meteoFilters/FilterMax.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMax.cc.s
 .PHONY : meteoFilters/FilterMax.cc.s
 
 meteoFilters/FilterMin.o: meteoFilters/FilterMin.cc.o
@@ -1522,7 +1522,7 @@ meteoFilters/FilterMin.o: meteoFilters/FilterMin.cc.o
 
 # target to build an object file
 meteoFilters/FilterMin.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.o
 .PHONY : meteoFilters/FilterMin.cc.o
 
 meteoFilters/FilterMin.i: meteoFilters/FilterMin.cc.i
@@ -1531,7 +1531,7 @@ meteoFilters/FilterMin.i: meteoFilters/FilterMin.cc.i
 
 # target to preprocess a source file
 meteoFilters/FilterMin.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.i
 .PHONY : meteoFilters/FilterMin.cc.i
 
 meteoFilters/FilterMin.s: meteoFilters/FilterMin.cc.s
@@ -1540,7 +1540,7 @@ meteoFilters/FilterMin.s: meteoFilters/FilterMin.cc.s
 
 # target to generate assembly for a file
 meteoFilters/FilterMin.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMin.cc.s
 .PHONY : meteoFilters/FilterMin.cc.s
 
 meteoFilters/FilterMinMax.o: meteoFilters/FilterMinMax.cc.o
@@ -1549,7 +1549,7 @@ meteoFilters/FilterMinMax.o: meteoFilters/FilterMinMax.cc.o
 
 # target to build an object file
 meteoFilters/FilterMinMax.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.o
 .PHONY : meteoFilters/FilterMinMax.cc.o
 
 meteoFilters/FilterMinMax.i: meteoFilters/FilterMinMax.cc.i
@@ -1558,7 +1558,7 @@ meteoFilters/FilterMinMax.i: meteoFilters/FilterMinMax.cc.i
 
 # target to preprocess a source file
 meteoFilters/FilterMinMax.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.i
 .PHONY : meteoFilters/FilterMinMax.cc.i
 
 meteoFilters/FilterMinMax.s: meteoFilters/FilterMinMax.cc.s
@@ -1567,7 +1567,7 @@ meteoFilters/FilterMinMax.s: meteoFilters/FilterMinMax.cc.s
 
 # target to generate assembly for a file
 meteoFilters/FilterMinMax.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMax.cc.s
 .PHONY : meteoFilters/FilterMinMax.cc.s
 
 meteoFilters/FilterMinMaxConditional.o: meteoFilters/FilterMinMaxConditional.cc.o
@@ -1576,7 +1576,7 @@ meteoFilters/FilterMinMaxConditional.o: meteoFilters/FilterMinMaxConditional.cc.
 
 # target to build an object file
 meteoFilters/FilterMinMaxConditional.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.o
 .PHONY : meteoFilters/FilterMinMaxConditional.cc.o
 
 meteoFilters/FilterMinMaxConditional.i: meteoFilters/FilterMinMaxConditional.cc.i
@@ -1585,7 +1585,7 @@ meteoFilters/FilterMinMaxConditional.i: meteoFilters/FilterMinMaxConditional.cc.
 
 # target to preprocess a source file
 meteoFilters/FilterMinMaxConditional.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.i
 .PHONY : meteoFilters/FilterMinMaxConditional.cc.i
 
 meteoFilters/FilterMinMaxConditional.s: meteoFilters/FilterMinMaxConditional.cc.s
@@ -1594,7 +1594,7 @@ meteoFilters/FilterMinMaxConditional.s: meteoFilters/FilterMinMaxConditional.cc.
 
 # target to generate assembly for a file
 meteoFilters/FilterMinMaxConditional.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterMinMaxConditional.cc.s
 .PHONY : meteoFilters/FilterMinMaxConditional.cc.s
 
 meteoFilters/FilterNoChange.o: meteoFilters/FilterNoChange.cc.o
@@ -1603,7 +1603,7 @@ meteoFilters/FilterNoChange.o: meteoFilters/FilterNoChange.cc.o
 
 # target to build an object file
 meteoFilters/FilterNoChange.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.o
 .PHONY : meteoFilters/FilterNoChange.cc.o
 
 meteoFilters/FilterNoChange.i: meteoFilters/FilterNoChange.cc.i
@@ -1612,7 +1612,7 @@ meteoFilters/FilterNoChange.i: meteoFilters/FilterNoChange.cc.i
 
 # target to preprocess a source file
 meteoFilters/FilterNoChange.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.i
 .PHONY : meteoFilters/FilterNoChange.cc.i
 
 meteoFilters/FilterNoChange.s: meteoFilters/FilterNoChange.cc.s
@@ -1621,7 +1621,7 @@ meteoFilters/FilterNoChange.s: meteoFilters/FilterNoChange.cc.s
 
 # target to generate assembly for a file
 meteoFilters/FilterNoChange.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterNoChange.cc.s
 .PHONY : meteoFilters/FilterNoChange.cc.s
 
 meteoFilters/FilterParticle.o: meteoFilters/FilterParticle.cc.o
@@ -1630,7 +1630,7 @@ meteoFilters/FilterParticle.o: meteoFilters/FilterParticle.cc.o
 
 # target to build an object file
 meteoFilters/FilterParticle.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.o
 .PHONY : meteoFilters/FilterParticle.cc.o
 
 meteoFilters/FilterParticle.i: meteoFilters/FilterParticle.cc.i
@@ -1639,7 +1639,7 @@ meteoFilters/FilterParticle.i: meteoFilters/FilterParticle.cc.i
 
 # target to preprocess a source file
 meteoFilters/FilterParticle.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.i
 .PHONY : meteoFilters/FilterParticle.cc.i
 
 meteoFilters/FilterParticle.s: meteoFilters/FilterParticle.cc.s
@@ -1648,7 +1648,7 @@ meteoFilters/FilterParticle.s: meteoFilters/FilterParticle.cc.s
 
 # target to generate assembly for a file
 meteoFilters/FilterParticle.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterParticle.cc.s
 .PHONY : meteoFilters/FilterParticle.cc.s
 
 meteoFilters/FilterPotentialSW.o: meteoFilters/FilterPotentialSW.cc.o
@@ -1657,7 +1657,7 @@ meteoFilters/FilterPotentialSW.o: meteoFilters/FilterPotentialSW.cc.o
 
 # target to build an object file
 meteoFilters/FilterPotentialSW.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.o
 .PHONY : meteoFilters/FilterPotentialSW.cc.o
 
 meteoFilters/FilterPotentialSW.i: meteoFilters/FilterPotentialSW.cc.i
@@ -1666,7 +1666,7 @@ meteoFilters/FilterPotentialSW.i: meteoFilters/FilterPotentialSW.cc.i
 
 # target to preprocess a source file
 meteoFilters/FilterPotentialSW.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.i
 .PHONY : meteoFilters/FilterPotentialSW.cc.i
 
 meteoFilters/FilterPotentialSW.s: meteoFilters/FilterPotentialSW.cc.s
@@ -1675,7 +1675,7 @@ meteoFilters/FilterPotentialSW.s: meteoFilters/FilterPotentialSW.cc.s
 
 # target to generate assembly for a file
 meteoFilters/FilterPotentialSW.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterPotentialSW.cc.s
 .PHONY : meteoFilters/FilterPotentialSW.cc.s
 
 meteoFilters/FilterRate.o: meteoFilters/FilterRate.cc.o
@@ -1684,7 +1684,7 @@ meteoFilters/FilterRate.o: meteoFilters/FilterRate.cc.o
 
 # target to build an object file
 meteoFilters/FilterRate.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.o
 .PHONY : meteoFilters/FilterRate.cc.o
 
 meteoFilters/FilterRate.i: meteoFilters/FilterRate.cc.i
@@ -1693,7 +1693,7 @@ meteoFilters/FilterRate.i: meteoFilters/FilterRate.cc.i
 
 # target to preprocess a source file
 meteoFilters/FilterRate.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.i
 .PHONY : meteoFilters/FilterRate.cc.i
 
 meteoFilters/FilterRate.s: meteoFilters/FilterRate.cc.s
@@ -1702,7 +1702,7 @@ meteoFilters/FilterRate.s: meteoFilters/FilterRate.cc.s
 
 # target to generate assembly for a file
 meteoFilters/FilterRate.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterRate.cc.s
 .PHONY : meteoFilters/FilterRate.cc.s
 
 meteoFilters/FilterStdDev.o: meteoFilters/FilterStdDev.cc.o
@@ -1711,7 +1711,7 @@ meteoFilters/FilterStdDev.o: meteoFilters/FilterStdDev.cc.o
 
 # target to build an object file
 meteoFilters/FilterStdDev.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.o
 .PHONY : meteoFilters/FilterStdDev.cc.o
 
 meteoFilters/FilterStdDev.i: meteoFilters/FilterStdDev.cc.i
@@ -1720,7 +1720,7 @@ meteoFilters/FilterStdDev.i: meteoFilters/FilterStdDev.cc.i
 
 # target to preprocess a source file
 meteoFilters/FilterStdDev.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.i
 .PHONY : meteoFilters/FilterStdDev.cc.i
 
 meteoFilters/FilterStdDev.s: meteoFilters/FilterStdDev.cc.s
@@ -1729,7 +1729,7 @@ meteoFilters/FilterStdDev.s: meteoFilters/FilterStdDev.cc.s
 
 # target to generate assembly for a file
 meteoFilters/FilterStdDev.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterStdDev.cc.s
 .PHONY : meteoFilters/FilterStdDev.cc.s
 
 meteoFilters/FilterSuppr.o: meteoFilters/FilterSuppr.cc.o
@@ -1738,7 +1738,7 @@ meteoFilters/FilterSuppr.o: meteoFilters/FilterSuppr.cc.o
 
 # target to build an object file
 meteoFilters/FilterSuppr.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.o
 .PHONY : meteoFilters/FilterSuppr.cc.o
 
 meteoFilters/FilterSuppr.i: meteoFilters/FilterSuppr.cc.i
@@ -1747,7 +1747,7 @@ meteoFilters/FilterSuppr.i: meteoFilters/FilterSuppr.cc.i
 
 # target to preprocess a source file
 meteoFilters/FilterSuppr.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.i
 .PHONY : meteoFilters/FilterSuppr.cc.i
 
 meteoFilters/FilterSuppr.s: meteoFilters/FilterSuppr.cc.s
@@ -1756,7 +1756,7 @@ meteoFilters/FilterSuppr.s: meteoFilters/FilterSuppr.cc.s
 
 # target to generate assembly for a file
 meteoFilters/FilterSuppr.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterSuppr.cc.s
 .PHONY : meteoFilters/FilterSuppr.cc.s
 
 meteoFilters/FilterTimeconsistency.o: meteoFilters/FilterTimeconsistency.cc.o
@@ -1765,7 +1765,7 @@ meteoFilters/FilterTimeconsistency.o: meteoFilters/FilterTimeconsistency.cc.o
 
 # target to build an object file
 meteoFilters/FilterTimeconsistency.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.o
 .PHONY : meteoFilters/FilterTimeconsistency.cc.o
 
 meteoFilters/FilterTimeconsistency.i: meteoFilters/FilterTimeconsistency.cc.i
@@ -1774,7 +1774,7 @@ meteoFilters/FilterTimeconsistency.i: meteoFilters/FilterTimeconsistency.cc.i
 
 # target to preprocess a source file
 meteoFilters/FilterTimeconsistency.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.i
 .PHONY : meteoFilters/FilterTimeconsistency.cc.i
 
 meteoFilters/FilterTimeconsistency.s: meteoFilters/FilterTimeconsistency.cc.s
@@ -1783,7 +1783,7 @@ meteoFilters/FilterTimeconsistency.s: meteoFilters/FilterTimeconsistency.cc.s
 
 # target to generate assembly for a file
 meteoFilters/FilterTimeconsistency.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTimeconsistency.cc.s
 .PHONY : meteoFilters/FilterTimeconsistency.cc.s
 
 meteoFilters/FilterTukey.o: meteoFilters/FilterTukey.cc.o
@@ -1792,7 +1792,7 @@ meteoFilters/FilterTukey.o: meteoFilters/FilterTukey.cc.o
 
 # target to build an object file
 meteoFilters/FilterTukey.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.o
 .PHONY : meteoFilters/FilterTukey.cc.o
 
 meteoFilters/FilterTukey.i: meteoFilters/FilterTukey.cc.i
@@ -1801,7 +1801,7 @@ meteoFilters/FilterTukey.i: meteoFilters/FilterTukey.cc.i
 
 # target to preprocess a source file
 meteoFilters/FilterTukey.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.i
 .PHONY : meteoFilters/FilterTukey.cc.i
 
 meteoFilters/FilterTukey.s: meteoFilters/FilterTukey.cc.s
@@ -1810,7 +1810,7 @@ meteoFilters/FilterTukey.s: meteoFilters/FilterTukey.cc.s
 
 # target to generate assembly for a file
 meteoFilters/FilterTukey.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterTukey.cc.s
 .PHONY : meteoFilters/FilterTukey.cc.s
 
 meteoFilters/FilterUnheatedPSUM.o: meteoFilters/FilterUnheatedPSUM.cc.o
@@ -1819,7 +1819,7 @@ meteoFilters/FilterUnheatedPSUM.o: meteoFilters/FilterUnheatedPSUM.cc.o
 
 # target to build an object file
 meteoFilters/FilterUnheatedPSUM.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.o
 .PHONY : meteoFilters/FilterUnheatedPSUM.cc.o
 
 meteoFilters/FilterUnheatedPSUM.i: meteoFilters/FilterUnheatedPSUM.cc.i
@@ -1828,7 +1828,7 @@ meteoFilters/FilterUnheatedPSUM.i: meteoFilters/FilterUnheatedPSUM.cc.i
 
 # target to preprocess a source file
 meteoFilters/FilterUnheatedPSUM.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.i
 .PHONY : meteoFilters/FilterUnheatedPSUM.cc.i
 
 meteoFilters/FilterUnheatedPSUM.s: meteoFilters/FilterUnheatedPSUM.cc.s
@@ -1837,7 +1837,7 @@ meteoFilters/FilterUnheatedPSUM.s: meteoFilters/FilterUnheatedPSUM.cc.s
 
 # target to generate assembly for a file
 meteoFilters/FilterUnheatedPSUM.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/FilterUnheatedPSUM.cc.s
 .PHONY : meteoFilters/FilterUnheatedPSUM.cc.s
 
 meteoFilters/ProcAdd.o: meteoFilters/ProcAdd.cc.o
@@ -1846,7 +1846,7 @@ meteoFilters/ProcAdd.o: meteoFilters/ProcAdd.cc.o
 
 # target to build an object file
 meteoFilters/ProcAdd.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.o
 .PHONY : meteoFilters/ProcAdd.cc.o
 
 meteoFilters/ProcAdd.i: meteoFilters/ProcAdd.cc.i
@@ -1855,7 +1855,7 @@ meteoFilters/ProcAdd.i: meteoFilters/ProcAdd.cc.i
 
 # target to preprocess a source file
 meteoFilters/ProcAdd.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.i
 .PHONY : meteoFilters/ProcAdd.cc.i
 
 meteoFilters/ProcAdd.s: meteoFilters/ProcAdd.cc.s
@@ -1864,7 +1864,7 @@ meteoFilters/ProcAdd.s: meteoFilters/ProcAdd.cc.s
 
 # target to generate assembly for a file
 meteoFilters/ProcAdd.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAdd.cc.s
 .PHONY : meteoFilters/ProcAdd.cc.s
 
 meteoFilters/ProcAggregate.o: meteoFilters/ProcAggregate.cc.o
@@ -1873,7 +1873,7 @@ meteoFilters/ProcAggregate.o: meteoFilters/ProcAggregate.cc.o
 
 # target to build an object file
 meteoFilters/ProcAggregate.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.o
 .PHONY : meteoFilters/ProcAggregate.cc.o
 
 meteoFilters/ProcAggregate.i: meteoFilters/ProcAggregate.cc.i
@@ -1882,7 +1882,7 @@ meteoFilters/ProcAggregate.i: meteoFilters/ProcAggregate.cc.i
 
 # target to preprocess a source file
 meteoFilters/ProcAggregate.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.i
 .PHONY : meteoFilters/ProcAggregate.cc.i
 
 meteoFilters/ProcAggregate.s: meteoFilters/ProcAggregate.cc.s
@@ -1891,7 +1891,7 @@ meteoFilters/ProcAggregate.s: meteoFilters/ProcAggregate.cc.s
 
 # target to generate assembly for a file
 meteoFilters/ProcAggregate.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcAggregate.cc.s
 .PHONY : meteoFilters/ProcAggregate.cc.s
 
 meteoFilters/ProcDeAccumulate.o: meteoFilters/ProcDeAccumulate.cc.o
@@ -1900,7 +1900,7 @@ meteoFilters/ProcDeAccumulate.o: meteoFilters/ProcDeAccumulate.cc.o
 
 # target to build an object file
 meteoFilters/ProcDeAccumulate.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.o
 .PHONY : meteoFilters/ProcDeAccumulate.cc.o
 
 meteoFilters/ProcDeAccumulate.i: meteoFilters/ProcDeAccumulate.cc.i
@@ -1909,7 +1909,7 @@ meteoFilters/ProcDeAccumulate.i: meteoFilters/ProcDeAccumulate.cc.i
 
 # target to preprocess a source file
 meteoFilters/ProcDeAccumulate.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.i
 .PHONY : meteoFilters/ProcDeAccumulate.cc.i
 
 meteoFilters/ProcDeAccumulate.s: meteoFilters/ProcDeAccumulate.cc.s
@@ -1918,7 +1918,7 @@ meteoFilters/ProcDeAccumulate.s: meteoFilters/ProcDeAccumulate.cc.s
 
 # target to generate assembly for a file
 meteoFilters/ProcDeAccumulate.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcDeAccumulate.cc.s
 .PHONY : meteoFilters/ProcDeAccumulate.cc.s
 
 meteoFilters/ProcExpSmoothing.o: meteoFilters/ProcExpSmoothing.cc.o
@@ -1927,7 +1927,7 @@ meteoFilters/ProcExpSmoothing.o: meteoFilters/ProcExpSmoothing.cc.o
 
 # target to build an object file
 meteoFilters/ProcExpSmoothing.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.o
 .PHONY : meteoFilters/ProcExpSmoothing.cc.o
 
 meteoFilters/ProcExpSmoothing.i: meteoFilters/ProcExpSmoothing.cc.i
@@ -1936,7 +1936,7 @@ meteoFilters/ProcExpSmoothing.i: meteoFilters/ProcExpSmoothing.cc.i
 
 # target to preprocess a source file
 meteoFilters/ProcExpSmoothing.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.i
 .PHONY : meteoFilters/ProcExpSmoothing.cc.i
 
 meteoFilters/ProcExpSmoothing.s: meteoFilters/ProcExpSmoothing.cc.s
@@ -1945,7 +1945,7 @@ meteoFilters/ProcExpSmoothing.s: meteoFilters/ProcExpSmoothing.cc.s
 
 # target to generate assembly for a file
 meteoFilters/ProcExpSmoothing.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcExpSmoothing.cc.s
 .PHONY : meteoFilters/ProcExpSmoothing.cc.s
 
 meteoFilters/ProcIIR.o: meteoFilters/ProcIIR.cc.o
@@ -1954,7 +1954,7 @@ meteoFilters/ProcIIR.o: meteoFilters/ProcIIR.cc.o
 
 # target to build an object file
 meteoFilters/ProcIIR.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.o
 .PHONY : meteoFilters/ProcIIR.cc.o
 
 meteoFilters/ProcIIR.i: meteoFilters/ProcIIR.cc.i
@@ -1963,7 +1963,7 @@ meteoFilters/ProcIIR.i: meteoFilters/ProcIIR.cc.i
 
 # target to preprocess a source file
 meteoFilters/ProcIIR.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.i
 .PHONY : meteoFilters/ProcIIR.cc.i
 
 meteoFilters/ProcIIR.s: meteoFilters/ProcIIR.cc.s
@@ -1972,7 +1972,7 @@ meteoFilters/ProcIIR.s: meteoFilters/ProcIIR.cc.s
 
 # target to generate assembly for a file
 meteoFilters/ProcIIR.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcIIR.cc.s
 .PHONY : meteoFilters/ProcIIR.cc.s
 
 meteoFilters/ProcMult.o: meteoFilters/ProcMult.cc.o
@@ -1981,7 +1981,7 @@ meteoFilters/ProcMult.o: meteoFilters/ProcMult.cc.o
 
 # target to build an object file
 meteoFilters/ProcMult.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.o
 .PHONY : meteoFilters/ProcMult.cc.o
 
 meteoFilters/ProcMult.i: meteoFilters/ProcMult.cc.i
@@ -1990,7 +1990,7 @@ meteoFilters/ProcMult.i: meteoFilters/ProcMult.cc.i
 
 # target to preprocess a source file
 meteoFilters/ProcMult.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.i
 .PHONY : meteoFilters/ProcMult.cc.i
 
 meteoFilters/ProcMult.s: meteoFilters/ProcMult.cc.s
@@ -1999,7 +1999,7 @@ meteoFilters/ProcMult.s: meteoFilters/ProcMult.cc.s
 
 # target to generate assembly for a file
 meteoFilters/ProcMult.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcMult.cc.s
 .PHONY : meteoFilters/ProcMult.cc.s
 
 meteoFilters/ProcPSUMDistribute.o: meteoFilters/ProcPSUMDistribute.cc.o
@@ -2008,7 +2008,7 @@ meteoFilters/ProcPSUMDistribute.o: meteoFilters/ProcPSUMDistribute.cc.o
 
 # target to build an object file
 meteoFilters/ProcPSUMDistribute.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.o
 .PHONY : meteoFilters/ProcPSUMDistribute.cc.o
 
 meteoFilters/ProcPSUMDistribute.i: meteoFilters/ProcPSUMDistribute.cc.i
@@ -2017,7 +2017,7 @@ meteoFilters/ProcPSUMDistribute.i: meteoFilters/ProcPSUMDistribute.cc.i
 
 # target to preprocess a source file
 meteoFilters/ProcPSUMDistribute.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.i
 .PHONY : meteoFilters/ProcPSUMDistribute.cc.i
 
 meteoFilters/ProcPSUMDistribute.s: meteoFilters/ProcPSUMDistribute.cc.s
@@ -2026,7 +2026,7 @@ meteoFilters/ProcPSUMDistribute.s: meteoFilters/ProcPSUMDistribute.cc.s
 
 # target to generate assembly for a file
 meteoFilters/ProcPSUMDistribute.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcPSUMDistribute.cc.s
 .PHONY : meteoFilters/ProcPSUMDistribute.cc.s
 
 meteoFilters/ProcQuantileMapping.o: meteoFilters/ProcQuantileMapping.cc.o
@@ -2035,7 +2035,7 @@ meteoFilters/ProcQuantileMapping.o: meteoFilters/ProcQuantileMapping.cc.o
 
 # target to build an object file
 meteoFilters/ProcQuantileMapping.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.o
 .PHONY : meteoFilters/ProcQuantileMapping.cc.o
 
 meteoFilters/ProcQuantileMapping.i: meteoFilters/ProcQuantileMapping.cc.i
@@ -2044,7 +2044,7 @@ meteoFilters/ProcQuantileMapping.i: meteoFilters/ProcQuantileMapping.cc.i
 
 # target to preprocess a source file
 meteoFilters/ProcQuantileMapping.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.i
 .PHONY : meteoFilters/ProcQuantileMapping.cc.i
 
 meteoFilters/ProcQuantileMapping.s: meteoFilters/ProcQuantileMapping.cc.s
@@ -2053,7 +2053,7 @@ meteoFilters/ProcQuantileMapping.s: meteoFilters/ProcQuantileMapping.cc.s
 
 # target to generate assembly for a file
 meteoFilters/ProcQuantileMapping.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcQuantileMapping.cc.s
 .PHONY : meteoFilters/ProcQuantileMapping.cc.s
 
 meteoFilters/ProcRHWaterToIce.o: meteoFilters/ProcRHWaterToIce.cc.o
@@ -2062,7 +2062,7 @@ meteoFilters/ProcRHWaterToIce.o: meteoFilters/ProcRHWaterToIce.cc.o
 
 # target to build an object file
 meteoFilters/ProcRHWaterToIce.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.o
 .PHONY : meteoFilters/ProcRHWaterToIce.cc.o
 
 meteoFilters/ProcRHWaterToIce.i: meteoFilters/ProcRHWaterToIce.cc.i
@@ -2071,7 +2071,7 @@ meteoFilters/ProcRHWaterToIce.i: meteoFilters/ProcRHWaterToIce.cc.i
 
 # target to preprocess a source file
 meteoFilters/ProcRHWaterToIce.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.i
 .PHONY : meteoFilters/ProcRHWaterToIce.cc.i
 
 meteoFilters/ProcRHWaterToIce.s: meteoFilters/ProcRHWaterToIce.cc.s
@@ -2080,7 +2080,7 @@ meteoFilters/ProcRHWaterToIce.s: meteoFilters/ProcRHWaterToIce.cc.s
 
 # target to generate assembly for a file
 meteoFilters/ProcRHWaterToIce.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcRHWaterToIce.cc.s
 .PHONY : meteoFilters/ProcRHWaterToIce.cc.s
 
 meteoFilters/ProcShade.o: meteoFilters/ProcShade.cc.o
@@ -2089,7 +2089,7 @@ meteoFilters/ProcShade.o: meteoFilters/ProcShade.cc.o
 
 # target to build an object file
 meteoFilters/ProcShade.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.o
 .PHONY : meteoFilters/ProcShade.cc.o
 
 meteoFilters/ProcShade.i: meteoFilters/ProcShade.cc.i
@@ -2098,7 +2098,7 @@ meteoFilters/ProcShade.i: meteoFilters/ProcShade.cc.i
 
 # target to preprocess a source file
 meteoFilters/ProcShade.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.i
 .PHONY : meteoFilters/ProcShade.cc.i
 
 meteoFilters/ProcShade.s: meteoFilters/ProcShade.cc.s
@@ -2107,7 +2107,7 @@ meteoFilters/ProcShade.s: meteoFilters/ProcShade.cc.s
 
 # target to generate assembly for a file
 meteoFilters/ProcShade.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcShade.cc.s
 .PHONY : meteoFilters/ProcShade.cc.s
 
 meteoFilters/ProcUndercatch_Forland.o: meteoFilters/ProcUndercatch_Forland.cc.o
@@ -2116,7 +2116,7 @@ meteoFilters/ProcUndercatch_Forland.o: meteoFilters/ProcUndercatch_Forland.cc.o
 
 # target to build an object file
 meteoFilters/ProcUndercatch_Forland.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.o
 .PHONY : meteoFilters/ProcUndercatch_Forland.cc.o
 
 meteoFilters/ProcUndercatch_Forland.i: meteoFilters/ProcUndercatch_Forland.cc.i
@@ -2125,7 +2125,7 @@ meteoFilters/ProcUndercatch_Forland.i: meteoFilters/ProcUndercatch_Forland.cc.i
 
 # target to preprocess a source file
 meteoFilters/ProcUndercatch_Forland.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.i
 .PHONY : meteoFilters/ProcUndercatch_Forland.cc.i
 
 meteoFilters/ProcUndercatch_Forland.s: meteoFilters/ProcUndercatch_Forland.cc.s
@@ -2134,7 +2134,7 @@ meteoFilters/ProcUndercatch_Forland.s: meteoFilters/ProcUndercatch_Forland.cc.s
 
 # target to generate assembly for a file
 meteoFilters/ProcUndercatch_Forland.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Forland.cc.s
 .PHONY : meteoFilters/ProcUndercatch_Forland.cc.s
 
 meteoFilters/ProcUndercatch_Hamon.o: meteoFilters/ProcUndercatch_Hamon.cc.o
@@ -2143,7 +2143,7 @@ meteoFilters/ProcUndercatch_Hamon.o: meteoFilters/ProcUndercatch_Hamon.cc.o
 
 # target to build an object file
 meteoFilters/ProcUndercatch_Hamon.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.o
 .PHONY : meteoFilters/ProcUndercatch_Hamon.cc.o
 
 meteoFilters/ProcUndercatch_Hamon.i: meteoFilters/ProcUndercatch_Hamon.cc.i
@@ -2152,7 +2152,7 @@ meteoFilters/ProcUndercatch_Hamon.i: meteoFilters/ProcUndercatch_Hamon.cc.i
 
 # target to preprocess a source file
 meteoFilters/ProcUndercatch_Hamon.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.i
 .PHONY : meteoFilters/ProcUndercatch_Hamon.cc.i
 
 meteoFilters/ProcUndercatch_Hamon.s: meteoFilters/ProcUndercatch_Hamon.cc.s
@@ -2161,7 +2161,7 @@ meteoFilters/ProcUndercatch_Hamon.s: meteoFilters/ProcUndercatch_Hamon.cc.s
 
 # target to generate assembly for a file
 meteoFilters/ProcUndercatch_Hamon.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_Hamon.cc.s
 .PHONY : meteoFilters/ProcUndercatch_Hamon.cc.s
 
 meteoFilters/ProcUndercatch_WMO.o: meteoFilters/ProcUndercatch_WMO.cc.o
@@ -2170,7 +2170,7 @@ meteoFilters/ProcUndercatch_WMO.o: meteoFilters/ProcUndercatch_WMO.cc.o
 
 # target to build an object file
 meteoFilters/ProcUndercatch_WMO.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.o
 .PHONY : meteoFilters/ProcUndercatch_WMO.cc.o
 
 meteoFilters/ProcUndercatch_WMO.i: meteoFilters/ProcUndercatch_WMO.cc.i
@@ -2179,7 +2179,7 @@ meteoFilters/ProcUndercatch_WMO.i: meteoFilters/ProcUndercatch_WMO.cc.i
 
 # target to preprocess a source file
 meteoFilters/ProcUndercatch_WMO.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.i
 .PHONY : meteoFilters/ProcUndercatch_WMO.cc.i
 
 meteoFilters/ProcUndercatch_WMO.s: meteoFilters/ProcUndercatch_WMO.cc.s
@@ -2188,7 +2188,7 @@ meteoFilters/ProcUndercatch_WMO.s: meteoFilters/ProcUndercatch_WMO.cc.s
 
 # target to generate assembly for a file
 meteoFilters/ProcUndercatch_WMO.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUndercatch_WMO.cc.s
 .PHONY : meteoFilters/ProcUndercatch_WMO.cc.s
 
 meteoFilters/ProcUnventilatedT.o: meteoFilters/ProcUnventilatedT.cc.o
@@ -2197,7 +2197,7 @@ meteoFilters/ProcUnventilatedT.o: meteoFilters/ProcUnventilatedT.cc.o
 
 # target to build an object file
 meteoFilters/ProcUnventilatedT.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.o
 .PHONY : meteoFilters/ProcUnventilatedT.cc.o
 
 meteoFilters/ProcUnventilatedT.i: meteoFilters/ProcUnventilatedT.cc.i
@@ -2206,7 +2206,7 @@ meteoFilters/ProcUnventilatedT.i: meteoFilters/ProcUnventilatedT.cc.i
 
 # target to preprocess a source file
 meteoFilters/ProcUnventilatedT.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.i
 .PHONY : meteoFilters/ProcUnventilatedT.cc.i
 
 meteoFilters/ProcUnventilatedT.s: meteoFilters/ProcUnventilatedT.cc.s
@@ -2215,7 +2215,7 @@ meteoFilters/ProcUnventilatedT.s: meteoFilters/ProcUnventilatedT.cc.s
 
 # target to generate assembly for a file
 meteoFilters/ProcUnventilatedT.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcUnventilatedT.cc.s
 .PHONY : meteoFilters/ProcUnventilatedT.cc.s
 
 meteoFilters/ProcWMASmoothing.o: meteoFilters/ProcWMASmoothing.cc.o
@@ -2224,7 +2224,7 @@ meteoFilters/ProcWMASmoothing.o: meteoFilters/ProcWMASmoothing.cc.o
 
 # target to build an object file
 meteoFilters/ProcWMASmoothing.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.o
 .PHONY : meteoFilters/ProcWMASmoothing.cc.o
 
 meteoFilters/ProcWMASmoothing.i: meteoFilters/ProcWMASmoothing.cc.i
@@ -2233,7 +2233,7 @@ meteoFilters/ProcWMASmoothing.i: meteoFilters/ProcWMASmoothing.cc.i
 
 # target to preprocess a source file
 meteoFilters/ProcWMASmoothing.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.i
 .PHONY : meteoFilters/ProcWMASmoothing.cc.i
 
 meteoFilters/ProcWMASmoothing.s: meteoFilters/ProcWMASmoothing.cc.s
@@ -2242,7 +2242,7 @@ meteoFilters/ProcWMASmoothing.s: meteoFilters/ProcWMASmoothing.cc.s
 
 # target to generate assembly for a file
 meteoFilters/ProcWMASmoothing.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcWMASmoothing.cc.s
 .PHONY : meteoFilters/ProcWMASmoothing.cc.s
 
 meteoFilters/ProcessingBlock.o: meteoFilters/ProcessingBlock.cc.o
@@ -2251,7 +2251,7 @@ meteoFilters/ProcessingBlock.o: meteoFilters/ProcessingBlock.cc.o
 
 # target to build an object file
 meteoFilters/ProcessingBlock.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.o
 .PHONY : meteoFilters/ProcessingBlock.cc.o
 
 meteoFilters/ProcessingBlock.i: meteoFilters/ProcessingBlock.cc.i
@@ -2260,7 +2260,7 @@ meteoFilters/ProcessingBlock.i: meteoFilters/ProcessingBlock.cc.i
 
 # target to preprocess a source file
 meteoFilters/ProcessingBlock.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.i
 .PHONY : meteoFilters/ProcessingBlock.cc.i
 
 meteoFilters/ProcessingBlock.s: meteoFilters/ProcessingBlock.cc.s
@@ -2269,7 +2269,7 @@ meteoFilters/ProcessingBlock.s: meteoFilters/ProcessingBlock.cc.s
 
 # target to generate assembly for a file
 meteoFilters/ProcessingBlock.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingBlock.cc.s
 .PHONY : meteoFilters/ProcessingBlock.cc.s
 
 meteoFilters/ProcessingStack.o: meteoFilters/ProcessingStack.cc.o
@@ -2278,7 +2278,7 @@ meteoFilters/ProcessingStack.o: meteoFilters/ProcessingStack.cc.o
 
 # target to build an object file
 meteoFilters/ProcessingStack.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.o
 .PHONY : meteoFilters/ProcessingStack.cc.o
 
 meteoFilters/ProcessingStack.i: meteoFilters/ProcessingStack.cc.i
@@ -2287,7 +2287,7 @@ meteoFilters/ProcessingStack.i: meteoFilters/ProcessingStack.cc.i
 
 # target to preprocess a source file
 meteoFilters/ProcessingStack.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.i
 .PHONY : meteoFilters/ProcessingStack.cc.i
 
 meteoFilters/ProcessingStack.s: meteoFilters/ProcessingStack.cc.s
@@ -2296,7 +2296,7 @@ meteoFilters/ProcessingStack.s: meteoFilters/ProcessingStack.cc.s
 
 # target to generate assembly for a file
 meteoFilters/ProcessingStack.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/ProcessingStack.cc.s
 .PHONY : meteoFilters/ProcessingStack.cc.s
 
 meteoFilters/TimeFilters.o: meteoFilters/TimeFilters.cc.o
@@ -2305,7 +2305,7 @@ meteoFilters/TimeFilters.o: meteoFilters/TimeFilters.cc.o
 
 # target to build an object file
 meteoFilters/TimeFilters.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.o
 .PHONY : meteoFilters/TimeFilters.cc.o
 
 meteoFilters/TimeFilters.i: meteoFilters/TimeFilters.cc.i
@@ -2314,7 +2314,7 @@ meteoFilters/TimeFilters.i: meteoFilters/TimeFilters.cc.i
 
 # target to preprocess a source file
 meteoFilters/TimeFilters.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.i
 .PHONY : meteoFilters/TimeFilters.cc.i
 
 meteoFilters/TimeFilters.s: meteoFilters/TimeFilters.cc.s
@@ -2323,7 +2323,7 @@ meteoFilters/TimeFilters.s: meteoFilters/TimeFilters.cc.s
 
 # target to generate assembly for a file
 meteoFilters/TimeFilters.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/TimeFilters.cc.s
 .PHONY : meteoFilters/TimeFilters.cc.s
 
 meteoFilters/WindowedFilter.o: meteoFilters/WindowedFilter.cc.o
@@ -2332,7 +2332,7 @@ meteoFilters/WindowedFilter.o: meteoFilters/WindowedFilter.cc.o
 
 # target to build an object file
 meteoFilters/WindowedFilter.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.o
 .PHONY : meteoFilters/WindowedFilter.cc.o
 
 meteoFilters/WindowedFilter.i: meteoFilters/WindowedFilter.cc.i
@@ -2341,7 +2341,7 @@ meteoFilters/WindowedFilter.i: meteoFilters/WindowedFilter.cc.i
 
 # target to preprocess a source file
 meteoFilters/WindowedFilter.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.i
 .PHONY : meteoFilters/WindowedFilter.cc.i
 
 meteoFilters/WindowedFilter.s: meteoFilters/WindowedFilter.cc.s
@@ -2350,7 +2350,7 @@ meteoFilters/WindowedFilter.s: meteoFilters/WindowedFilter.cc.s
 
 # target to generate assembly for a file
 meteoFilters/WindowedFilter.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoFilters/WindowedFilter.cc.s
 .PHONY : meteoFilters/WindowedFilter.cc.s
 
 meteoLaws/Atmosphere.o: meteoLaws/Atmosphere.cc.o
@@ -2359,7 +2359,7 @@ meteoLaws/Atmosphere.o: meteoLaws/Atmosphere.cc.o
 
 # target to build an object file
 meteoLaws/Atmosphere.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.o
 .PHONY : meteoLaws/Atmosphere.cc.o
 
 meteoLaws/Atmosphere.i: meteoLaws/Atmosphere.cc.i
@@ -2368,7 +2368,7 @@ meteoLaws/Atmosphere.i: meteoLaws/Atmosphere.cc.i
 
 # target to preprocess a source file
 meteoLaws/Atmosphere.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.i
 .PHONY : meteoLaws/Atmosphere.cc.i
 
 meteoLaws/Atmosphere.s: meteoLaws/Atmosphere.cc.s
@@ -2377,7 +2377,7 @@ meteoLaws/Atmosphere.s: meteoLaws/Atmosphere.cc.s
 
 # target to generate assembly for a file
 meteoLaws/Atmosphere.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Atmosphere.cc.s
 .PHONY : meteoLaws/Atmosphere.cc.s
 
 meteoLaws/Sun.o: meteoLaws/Sun.cc.o
@@ -2386,7 +2386,7 @@ meteoLaws/Sun.o: meteoLaws/Sun.cc.o
 
 # target to build an object file
 meteoLaws/Sun.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.o
 .PHONY : meteoLaws/Sun.cc.o
 
 meteoLaws/Sun.i: meteoLaws/Sun.cc.i
@@ -2395,7 +2395,7 @@ meteoLaws/Sun.i: meteoLaws/Sun.cc.i
 
 # target to preprocess a source file
 meteoLaws/Sun.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.i
 .PHONY : meteoLaws/Sun.cc.i
 
 meteoLaws/Sun.s: meteoLaws/Sun.cc.s
@@ -2404,7 +2404,7 @@ meteoLaws/Sun.s: meteoLaws/Sun.cc.s
 
 # target to generate assembly for a file
 meteoLaws/Sun.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Sun.cc.s
 .PHONY : meteoLaws/Sun.cc.s
 
 meteoLaws/Suntrajectory.o: meteoLaws/Suntrajectory.cc.o
@@ -2413,7 +2413,7 @@ meteoLaws/Suntrajectory.o: meteoLaws/Suntrajectory.cc.o
 
 # target to build an object file
 meteoLaws/Suntrajectory.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.o
 .PHONY : meteoLaws/Suntrajectory.cc.o
 
 meteoLaws/Suntrajectory.i: meteoLaws/Suntrajectory.cc.i
@@ -2422,7 +2422,7 @@ meteoLaws/Suntrajectory.i: meteoLaws/Suntrajectory.cc.i
 
 # target to preprocess a source file
 meteoLaws/Suntrajectory.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.i
 .PHONY : meteoLaws/Suntrajectory.cc.i
 
 meteoLaws/Suntrajectory.s: meteoLaws/Suntrajectory.cc.s
@@ -2431,7 +2431,7 @@ meteoLaws/Suntrajectory.s: meteoLaws/Suntrajectory.cc.s
 
 # target to generate assembly for a file
 meteoLaws/Suntrajectory.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoLaws/Suntrajectory.cc.s
 .PHONY : meteoLaws/Suntrajectory.cc.s
 
 meteoResampling/Accumulate.o: meteoResampling/Accumulate.cc.o
@@ -2440,7 +2440,7 @@ meteoResampling/Accumulate.o: meteoResampling/Accumulate.cc.o
 
 # target to build an object file
 meteoResampling/Accumulate.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.o
 .PHONY : meteoResampling/Accumulate.cc.o
 
 meteoResampling/Accumulate.i: meteoResampling/Accumulate.cc.i
@@ -2449,7 +2449,7 @@ meteoResampling/Accumulate.i: meteoResampling/Accumulate.cc.i
 
 # target to preprocess a source file
 meteoResampling/Accumulate.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.i
 .PHONY : meteoResampling/Accumulate.cc.i
 
 meteoResampling/Accumulate.s: meteoResampling/Accumulate.cc.s
@@ -2458,7 +2458,7 @@ meteoResampling/Accumulate.s: meteoResampling/Accumulate.cc.s
 
 # target to generate assembly for a file
 meteoResampling/Accumulate.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/Accumulate.cc.s
 .PHONY : meteoResampling/Accumulate.cc.s
 
 meteoResampling/DailyAverageResampling.o: meteoResampling/DailyAverageResampling.cc.o
@@ -2467,7 +2467,7 @@ meteoResampling/DailyAverageResampling.o: meteoResampling/DailyAverageResampling
 
 # target to build an object file
 meteoResampling/DailyAverageResampling.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.o
 .PHONY : meteoResampling/DailyAverageResampling.cc.o
 
 meteoResampling/DailyAverageResampling.i: meteoResampling/DailyAverageResampling.cc.i
@@ -2476,7 +2476,7 @@ meteoResampling/DailyAverageResampling.i: meteoResampling/DailyAverageResampling
 
 # target to preprocess a source file
 meteoResampling/DailyAverageResampling.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.i
 .PHONY : meteoResampling/DailyAverageResampling.cc.i
 
 meteoResampling/DailyAverageResampling.s: meteoResampling/DailyAverageResampling.cc.s
@@ -2485,7 +2485,7 @@ meteoResampling/DailyAverageResampling.s: meteoResampling/DailyAverageResampling
 
 # target to generate assembly for a file
 meteoResampling/DailyAverageResampling.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailyAverageResampling.cc.s
 .PHONY : meteoResampling/DailyAverageResampling.cc.s
 
 meteoResampling/DailySolarResampling.o: meteoResampling/DailySolarResampling.cc.o
@@ -2494,7 +2494,7 @@ meteoResampling/DailySolarResampling.o: meteoResampling/DailySolarResampling.cc.
 
 # target to build an object file
 meteoResampling/DailySolarResampling.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.o
 .PHONY : meteoResampling/DailySolarResampling.cc.o
 
 meteoResampling/DailySolarResampling.i: meteoResampling/DailySolarResampling.cc.i
@@ -2503,7 +2503,7 @@ meteoResampling/DailySolarResampling.i: meteoResampling/DailySolarResampling.cc.
 
 # target to preprocess a source file
 meteoResampling/DailySolarResampling.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.i
 .PHONY : meteoResampling/DailySolarResampling.cc.i
 
 meteoResampling/DailySolarResampling.s: meteoResampling/DailySolarResampling.cc.s
@@ -2512,7 +2512,7 @@ meteoResampling/DailySolarResampling.s: meteoResampling/DailySolarResampling.cc.
 
 # target to generate assembly for a file
 meteoResampling/DailySolarResampling.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/DailySolarResampling.cc.s
 .PHONY : meteoResampling/DailySolarResampling.cc.s
 
 meteoResampling/LinearResampling.o: meteoResampling/LinearResampling.cc.o
@@ -2521,7 +2521,7 @@ meteoResampling/LinearResampling.o: meteoResampling/LinearResampling.cc.o
 
 # target to build an object file
 meteoResampling/LinearResampling.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.o
 .PHONY : meteoResampling/LinearResampling.cc.o
 
 meteoResampling/LinearResampling.i: meteoResampling/LinearResampling.cc.i
@@ -2530,7 +2530,7 @@ meteoResampling/LinearResampling.i: meteoResampling/LinearResampling.cc.i
 
 # target to preprocess a source file
 meteoResampling/LinearResampling.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.i
 .PHONY : meteoResampling/LinearResampling.cc.i
 
 meteoResampling/LinearResampling.s: meteoResampling/LinearResampling.cc.s
@@ -2539,7 +2539,7 @@ meteoResampling/LinearResampling.s: meteoResampling/LinearResampling.cc.s
 
 # target to generate assembly for a file
 meteoResampling/LinearResampling.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/LinearResampling.cc.s
 .PHONY : meteoResampling/LinearResampling.cc.s
 
 meteoResampling/NearestNeighbour.o: meteoResampling/NearestNeighbour.cc.o
@@ -2548,7 +2548,7 @@ meteoResampling/NearestNeighbour.o: meteoResampling/NearestNeighbour.cc.o
 
 # target to build an object file
 meteoResampling/NearestNeighbour.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.o
 .PHONY : meteoResampling/NearestNeighbour.cc.o
 
 meteoResampling/NearestNeighbour.i: meteoResampling/NearestNeighbour.cc.i
@@ -2557,7 +2557,7 @@ meteoResampling/NearestNeighbour.i: meteoResampling/NearestNeighbour.cc.i
 
 # target to preprocess a source file
 meteoResampling/NearestNeighbour.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.i
 .PHONY : meteoResampling/NearestNeighbour.cc.i
 
 meteoResampling/NearestNeighbour.s: meteoResampling/NearestNeighbour.cc.s
@@ -2566,7 +2566,7 @@ meteoResampling/NearestNeighbour.s: meteoResampling/NearestNeighbour.cc.s
 
 # target to generate assembly for a file
 meteoResampling/NearestNeighbour.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/NearestNeighbour.cc.s
 .PHONY : meteoResampling/NearestNeighbour.cc.s
 
 meteoResampling/NoResampling.o: meteoResampling/NoResampling.cc.o
@@ -2575,7 +2575,7 @@ meteoResampling/NoResampling.o: meteoResampling/NoResampling.cc.o
 
 # target to build an object file
 meteoResampling/NoResampling.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.o
 .PHONY : meteoResampling/NoResampling.cc.o
 
 meteoResampling/NoResampling.i: meteoResampling/NoResampling.cc.i
@@ -2584,7 +2584,7 @@ meteoResampling/NoResampling.i: meteoResampling/NoResampling.cc.i
 
 # target to preprocess a source file
 meteoResampling/NoResampling.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.i
 .PHONY : meteoResampling/NoResampling.cc.i
 
 meteoResampling/NoResampling.s: meteoResampling/NoResampling.cc.s
@@ -2593,7 +2593,7 @@ meteoResampling/NoResampling.s: meteoResampling/NoResampling.cc.s
 
 # target to generate assembly for a file
 meteoResampling/NoResampling.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/NoResampling.cc.s
 .PHONY : meteoResampling/NoResampling.cc.s
 
 meteoResampling/ResamplingAlgorithms.o: meteoResampling/ResamplingAlgorithms.cc.o
@@ -2602,7 +2602,7 @@ meteoResampling/ResamplingAlgorithms.o: meteoResampling/ResamplingAlgorithms.cc.
 
 # target to build an object file
 meteoResampling/ResamplingAlgorithms.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.o
 .PHONY : meteoResampling/ResamplingAlgorithms.cc.o
 
 meteoResampling/ResamplingAlgorithms.i: meteoResampling/ResamplingAlgorithms.cc.i
@@ -2611,7 +2611,7 @@ meteoResampling/ResamplingAlgorithms.i: meteoResampling/ResamplingAlgorithms.cc.
 
 # target to preprocess a source file
 meteoResampling/ResamplingAlgorithms.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.i
 .PHONY : meteoResampling/ResamplingAlgorithms.cc.i
 
 meteoResampling/ResamplingAlgorithms.s: meteoResampling/ResamplingAlgorithms.cc.s
@@ -2620,7 +2620,7 @@ meteoResampling/ResamplingAlgorithms.s: meteoResampling/ResamplingAlgorithms.cc.
 
 # target to generate assembly for a file
 meteoResampling/ResamplingAlgorithms.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/ResamplingAlgorithms.cc.s
 .PHONY : meteoResampling/ResamplingAlgorithms.cc.s
 
 meteoResampling/SolarResampling.o: meteoResampling/SolarResampling.cc.o
@@ -2629,7 +2629,7 @@ meteoResampling/SolarResampling.o: meteoResampling/SolarResampling.cc.o
 
 # target to build an object file
 meteoResampling/SolarResampling.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.o
 .PHONY : meteoResampling/SolarResampling.cc.o
 
 meteoResampling/SolarResampling.i: meteoResampling/SolarResampling.cc.i
@@ -2638,7 +2638,7 @@ meteoResampling/SolarResampling.i: meteoResampling/SolarResampling.cc.i
 
 # target to preprocess a source file
 meteoResampling/SolarResampling.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.i
 .PHONY : meteoResampling/SolarResampling.cc.i
 
 meteoResampling/SolarResampling.s: meteoResampling/SolarResampling.cc.s
@@ -2647,7 +2647,7 @@ meteoResampling/SolarResampling.s: meteoResampling/SolarResampling.cc.s
 
 # target to generate assembly for a file
 meteoResampling/SolarResampling.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoResampling/SolarResampling.cc.s
 .PHONY : meteoResampling/SolarResampling.cc.s
 
 meteoStats/RandomNumberGenerator.o: meteoStats/RandomNumberGenerator.cc.o
@@ -2656,7 +2656,7 @@ meteoStats/RandomNumberGenerator.o: meteoStats/RandomNumberGenerator.cc.o
 
 # target to build an object file
 meteoStats/RandomNumberGenerator.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.o
 .PHONY : meteoStats/RandomNumberGenerator.cc.o
 
 meteoStats/RandomNumberGenerator.i: meteoStats/RandomNumberGenerator.cc.i
@@ -2665,7 +2665,7 @@ meteoStats/RandomNumberGenerator.i: meteoStats/RandomNumberGenerator.cc.i
 
 # target to preprocess a source file
 meteoStats/RandomNumberGenerator.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.i
 .PHONY : meteoStats/RandomNumberGenerator.cc.i
 
 meteoStats/RandomNumberGenerator.s: meteoStats/RandomNumberGenerator.cc.s
@@ -2674,7 +2674,7 @@ meteoStats/RandomNumberGenerator.s: meteoStats/RandomNumberGenerator.cc.s
 
 # target to generate assembly for a file
 meteoStats/RandomNumberGenerator.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/RandomNumberGenerator.cc.s
 .PHONY : meteoStats/RandomNumberGenerator.cc.s
 
 meteoStats/libfit1D.o: meteoStats/libfit1D.cc.o
@@ -2683,7 +2683,7 @@ meteoStats/libfit1D.o: meteoStats/libfit1D.cc.o
 
 # target to build an object file
 meteoStats/libfit1D.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.o
 .PHONY : meteoStats/libfit1D.cc.o
 
 meteoStats/libfit1D.i: meteoStats/libfit1D.cc.i
@@ -2692,7 +2692,7 @@ meteoStats/libfit1D.i: meteoStats/libfit1D.cc.i
 
 # target to preprocess a source file
 meteoStats/libfit1D.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.i
 .PHONY : meteoStats/libfit1D.cc.i
 
 meteoStats/libfit1D.s: meteoStats/libfit1D.cc.s
@@ -2701,7 +2701,7 @@ meteoStats/libfit1D.s: meteoStats/libfit1D.cc.s
 
 # target to generate assembly for a file
 meteoStats/libfit1D.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1D.cc.s
 .PHONY : meteoStats/libfit1D.cc.s
 
 meteoStats/libfit1DCore.o: meteoStats/libfit1DCore.cc.o
@@ -2710,7 +2710,7 @@ meteoStats/libfit1DCore.o: meteoStats/libfit1DCore.cc.o
 
 # target to build an object file
 meteoStats/libfit1DCore.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.o
 .PHONY : meteoStats/libfit1DCore.cc.o
 
 meteoStats/libfit1DCore.i: meteoStats/libfit1DCore.cc.i
@@ -2719,7 +2719,7 @@ meteoStats/libfit1DCore.i: meteoStats/libfit1DCore.cc.i
 
 # target to preprocess a source file
 meteoStats/libfit1DCore.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.i
 .PHONY : meteoStats/libfit1DCore.cc.i
 
 meteoStats/libfit1DCore.s: meteoStats/libfit1DCore.cc.s
@@ -2728,7 +2728,7 @@ meteoStats/libfit1DCore.s: meteoStats/libfit1DCore.cc.s
 
 # target to generate assembly for a file
 meteoStats/libfit1DCore.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libfit1DCore.cc.s
 .PHONY : meteoStats/libfit1DCore.cc.s
 
 meteoStats/libinterpol1D.o: meteoStats/libinterpol1D.cc.o
@@ -2737,7 +2737,7 @@ meteoStats/libinterpol1D.o: meteoStats/libinterpol1D.cc.o
 
 # target to build an object file
 meteoStats/libinterpol1D.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.o
 .PHONY : meteoStats/libinterpol1D.cc.o
 
 meteoStats/libinterpol1D.i: meteoStats/libinterpol1D.cc.i
@@ -2746,7 +2746,7 @@ meteoStats/libinterpol1D.i: meteoStats/libinterpol1D.cc.i
 
 # target to preprocess a source file
 meteoStats/libinterpol1D.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.i
 .PHONY : meteoStats/libinterpol1D.cc.i
 
 meteoStats/libinterpol1D.s: meteoStats/libinterpol1D.cc.s
@@ -2755,7 +2755,7 @@ meteoStats/libinterpol1D.s: meteoStats/libinterpol1D.cc.s
 
 # target to generate assembly for a file
 meteoStats/libinterpol1D.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol1D.cc.s
 .PHONY : meteoStats/libinterpol1D.cc.s
 
 meteoStats/libinterpol2D.o: meteoStats/libinterpol2D.cc.o
@@ -2764,7 +2764,7 @@ meteoStats/libinterpol2D.o: meteoStats/libinterpol2D.cc.o
 
 # target to build an object file
 meteoStats/libinterpol2D.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.o
 .PHONY : meteoStats/libinterpol2D.cc.o
 
 meteoStats/libinterpol2D.i: meteoStats/libinterpol2D.cc.i
@@ -2773,7 +2773,7 @@ meteoStats/libinterpol2D.i: meteoStats/libinterpol2D.cc.i
 
 # target to preprocess a source file
 meteoStats/libinterpol2D.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.i
 .PHONY : meteoStats/libinterpol2D.cc.i
 
 meteoStats/libinterpol2D.s: meteoStats/libinterpol2D.cc.s
@@ -2782,7 +2782,7 @@ meteoStats/libinterpol2D.s: meteoStats/libinterpol2D.cc.s
 
 # target to generate assembly for a file
 meteoStats/libinterpol2D.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libinterpol2D.cc.s
 .PHONY : meteoStats/libinterpol2D.cc.s
 
 meteoStats/libresampling2D.o: meteoStats/libresampling2D.cc.o
@@ -2791,7 +2791,7 @@ meteoStats/libresampling2D.o: meteoStats/libresampling2D.cc.o
 
 # target to build an object file
 meteoStats/libresampling2D.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.o
 .PHONY : meteoStats/libresampling2D.cc.o
 
 meteoStats/libresampling2D.i: meteoStats/libresampling2D.cc.i
@@ -2800,7 +2800,7 @@ meteoStats/libresampling2D.i: meteoStats/libresampling2D.cc.i
 
 # target to preprocess a source file
 meteoStats/libresampling2D.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.i
 .PHONY : meteoStats/libresampling2D.cc.i
 
 meteoStats/libresampling2D.s: meteoStats/libresampling2D.cc.s
@@ -2809,7 +2809,7 @@ meteoStats/libresampling2D.s: meteoStats/libresampling2D.cc.s
 
 # target to generate assembly for a file
 meteoStats/libresampling2D.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/meteoStats/libresampling2D.cc.s
 .PHONY : meteoStats/libresampling2D.cc.s
 
 plugins/A3DIO.o: plugins/A3DIO.cc.o
@@ -2818,7 +2818,7 @@ plugins/A3DIO.o: plugins/A3DIO.cc.o
 
 # target to build an object file
 plugins/A3DIO.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/A3DIO.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/A3DIO.cc.o
 .PHONY : plugins/A3DIO.cc.o
 
 plugins/A3DIO.i: plugins/A3DIO.cc.i
@@ -2827,7 +2827,7 @@ plugins/A3DIO.i: plugins/A3DIO.cc.i
 
 # target to preprocess a source file
 plugins/A3DIO.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/A3DIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/A3DIO.cc.i
 .PHONY : plugins/A3DIO.cc.i
 
 plugins/A3DIO.s: plugins/A3DIO.cc.s
@@ -2836,7 +2836,7 @@ plugins/A3DIO.s: plugins/A3DIO.cc.s
 
 # target to generate assembly for a file
 plugins/A3DIO.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/A3DIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/A3DIO.cc.s
 .PHONY : plugins/A3DIO.cc.s
 
 plugins/ALPUG.o: plugins/ALPUG.cc.o
@@ -2845,7 +2845,7 @@ plugins/ALPUG.o: plugins/ALPUG.cc.o
 
 # target to build an object file
 plugins/ALPUG.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ALPUG.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ALPUG.cc.o
 .PHONY : plugins/ALPUG.cc.o
 
 plugins/ALPUG.i: plugins/ALPUG.cc.i
@@ -2854,7 +2854,7 @@ plugins/ALPUG.i: plugins/ALPUG.cc.i
 
 # target to preprocess a source file
 plugins/ALPUG.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ALPUG.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ALPUG.cc.i
 .PHONY : plugins/ALPUG.cc.i
 
 plugins/ALPUG.s: plugins/ALPUG.cc.s
@@ -2863,7 +2863,7 @@ plugins/ALPUG.s: plugins/ALPUG.cc.s
 
 # target to generate assembly for a file
 plugins/ALPUG.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ALPUG.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ALPUG.cc.s
 .PHONY : plugins/ALPUG.cc.s
 
 plugins/ARCIO.o: plugins/ARCIO.cc.o
@@ -2872,7 +2872,7 @@ plugins/ARCIO.o: plugins/ARCIO.cc.o
 
 # target to build an object file
 plugins/ARCIO.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ARCIO.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ARCIO.cc.o
 .PHONY : plugins/ARCIO.cc.o
 
 plugins/ARCIO.i: plugins/ARCIO.cc.i
@@ -2881,7 +2881,7 @@ plugins/ARCIO.i: plugins/ARCIO.cc.i
 
 # target to preprocess a source file
 plugins/ARCIO.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ARCIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ARCIO.cc.i
 .PHONY : plugins/ARCIO.cc.i
 
 plugins/ARCIO.s: plugins/ARCIO.cc.s
@@ -2890,7 +2890,7 @@ plugins/ARCIO.s: plugins/ARCIO.cc.s
 
 # target to generate assembly for a file
 plugins/ARCIO.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ARCIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ARCIO.cc.s
 .PHONY : plugins/ARCIO.cc.s
 
 plugins/ARPSIO.o: plugins/ARPSIO.cc.o
@@ -2899,7 +2899,7 @@ plugins/ARPSIO.o: plugins/ARPSIO.cc.o
 
 # target to build an object file
 plugins/ARPSIO.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.o
 .PHONY : plugins/ARPSIO.cc.o
 
 plugins/ARPSIO.i: plugins/ARPSIO.cc.i
@@ -2908,7 +2908,7 @@ plugins/ARPSIO.i: plugins/ARPSIO.cc.i
 
 # target to preprocess a source file
 plugins/ARPSIO.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.i
 .PHONY : plugins/ARPSIO.cc.i
 
 plugins/ARPSIO.s: plugins/ARPSIO.cc.s
@@ -2917,7 +2917,7 @@ plugins/ARPSIO.s: plugins/ARPSIO.cc.s
 
 # target to generate assembly for a file
 plugins/ARPSIO.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/ARPSIO.cc.s
 .PHONY : plugins/ARPSIO.cc.s
 
 plugins/CsvIO.o: plugins/CsvIO.cc.o
@@ -2926,7 +2926,7 @@ plugins/CsvIO.o: plugins/CsvIO.cc.o
 
 # target to build an object file
 plugins/CsvIO.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/CsvIO.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/CsvIO.cc.o
 .PHONY : plugins/CsvIO.cc.o
 
 plugins/CsvIO.i: plugins/CsvIO.cc.i
@@ -2935,7 +2935,7 @@ plugins/CsvIO.i: plugins/CsvIO.cc.i
 
 # target to preprocess a source file
 plugins/CsvIO.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/CsvIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/CsvIO.cc.i
 .PHONY : plugins/CsvIO.cc.i
 
 plugins/CsvIO.s: plugins/CsvIO.cc.s
@@ -2944,7 +2944,7 @@ plugins/CsvIO.s: plugins/CsvIO.cc.s
 
 # target to generate assembly for a file
 plugins/CsvIO.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/CsvIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/CsvIO.cc.s
 .PHONY : plugins/CsvIO.cc.s
 
 plugins/GeotopIO.o: plugins/GeotopIO.cc.o
@@ -2953,7 +2953,7 @@ plugins/GeotopIO.o: plugins/GeotopIO.cc.o
 
 # target to build an object file
 plugins/GeotopIO.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.o
 .PHONY : plugins/GeotopIO.cc.o
 
 plugins/GeotopIO.i: plugins/GeotopIO.cc.i
@@ -2962,7 +2962,7 @@ plugins/GeotopIO.i: plugins/GeotopIO.cc.i
 
 # target to preprocess a source file
 plugins/GeotopIO.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.i
 .PHONY : plugins/GeotopIO.cc.i
 
 plugins/GeotopIO.s: plugins/GeotopIO.cc.s
@@ -2971,7 +2971,7 @@ plugins/GeotopIO.s: plugins/GeotopIO.cc.s
 
 # target to generate assembly for a file
 plugins/GeotopIO.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/GeotopIO.cc.s
 .PHONY : plugins/GeotopIO.cc.s
 
 plugins/Goes.o: plugins/Goes.cc.o
@@ -2980,7 +2980,7 @@ plugins/Goes.o: plugins/Goes.cc.o
 
 # target to build an object file
 plugins/Goes.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/Goes.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/Goes.cc.o
 .PHONY : plugins/Goes.cc.o
 
 plugins/Goes.i: plugins/Goes.cc.i
@@ -2989,7 +2989,7 @@ plugins/Goes.i: plugins/Goes.cc.i
 
 # target to preprocess a source file
 plugins/Goes.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/Goes.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/Goes.cc.i
 .PHONY : plugins/Goes.cc.i
 
 plugins/Goes.s: plugins/Goes.cc.s
@@ -2998,7 +2998,7 @@ plugins/Goes.s: plugins/Goes.cc.s
 
 # target to generate assembly for a file
 plugins/Goes.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/Goes.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/Goes.cc.s
 .PHONY : plugins/Goes.cc.s
 
 plugins/GrassIO.o: plugins/GrassIO.cc.o
@@ -3007,7 +3007,7 @@ plugins/GrassIO.o: plugins/GrassIO.cc.o
 
 # target to build an object file
 plugins/GrassIO.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/GrassIO.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/GrassIO.cc.o
 .PHONY : plugins/GrassIO.cc.o
 
 plugins/GrassIO.i: plugins/GrassIO.cc.i
@@ -3016,7 +3016,7 @@ plugins/GrassIO.i: plugins/GrassIO.cc.i
 
 # target to preprocess a source file
 plugins/GrassIO.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/GrassIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/GrassIO.cc.i
 .PHONY : plugins/GrassIO.cc.i
 
 plugins/GrassIO.s: plugins/GrassIO.cc.s
@@ -3025,7 +3025,7 @@ plugins/GrassIO.s: plugins/GrassIO.cc.s
 
 # target to generate assembly for a file
 plugins/GrassIO.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/GrassIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/GrassIO.cc.s
 .PHONY : plugins/GrassIO.cc.s
 
 plugins/PGMIO.o: plugins/PGMIO.cc.o
@@ -3034,7 +3034,7 @@ plugins/PGMIO.o: plugins/PGMIO.cc.o
 
 # target to build an object file
 plugins/PGMIO.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/PGMIO.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/PGMIO.cc.o
 .PHONY : plugins/PGMIO.cc.o
 
 plugins/PGMIO.i: plugins/PGMIO.cc.i
@@ -3043,7 +3043,7 @@ plugins/PGMIO.i: plugins/PGMIO.cc.i
 
 # target to preprocess a source file
 plugins/PGMIO.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/PGMIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/PGMIO.cc.i
 .PHONY : plugins/PGMIO.cc.i
 
 plugins/PGMIO.s: plugins/PGMIO.cc.s
@@ -3052,7 +3052,7 @@ plugins/PGMIO.s: plugins/PGMIO.cc.s
 
 # target to generate assembly for a file
 plugins/PGMIO.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/PGMIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/PGMIO.cc.s
 .PHONY : plugins/PGMIO.cc.s
 
 plugins/SMETIO.o: plugins/SMETIO.cc.o
@@ -3061,7 +3061,7 @@ plugins/SMETIO.o: plugins/SMETIO.cc.o
 
 # target to build an object file
 plugins/SMETIO.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/SMETIO.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/SMETIO.cc.o
 .PHONY : plugins/SMETIO.cc.o
 
 plugins/SMETIO.i: plugins/SMETIO.cc.i
@@ -3070,7 +3070,7 @@ plugins/SMETIO.i: plugins/SMETIO.cc.i
 
 # target to preprocess a source file
 plugins/SMETIO.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/SMETIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/SMETIO.cc.i
 .PHONY : plugins/SMETIO.cc.i
 
 plugins/SMETIO.s: plugins/SMETIO.cc.s
@@ -3079,7 +3079,7 @@ plugins/SMETIO.s: plugins/SMETIO.cc.s
 
 # target to generate assembly for a file
 plugins/SMETIO.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/SMETIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/SMETIO.cc.s
 .PHONY : plugins/SMETIO.cc.s
 
 plugins/SNIO.o: plugins/SNIO.cc.o
@@ -3088,7 +3088,7 @@ plugins/SNIO.o: plugins/SNIO.cc.o
 
 # target to build an object file
 plugins/SNIO.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/SNIO.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/SNIO.cc.o
 .PHONY : plugins/SNIO.cc.o
 
 plugins/SNIO.i: plugins/SNIO.cc.i
@@ -3097,7 +3097,7 @@ plugins/SNIO.i: plugins/SNIO.cc.i
 
 # target to preprocess a source file
 plugins/SNIO.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/SNIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/SNIO.cc.i
 .PHONY : plugins/SNIO.cc.i
 
 plugins/SNIO.s: plugins/SNIO.cc.s
@@ -3106,7 +3106,7 @@ plugins/SNIO.s: plugins/SNIO.cc.s
 
 # target to generate assembly for a file
 plugins/SNIO.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/SNIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/SNIO.cc.s
 .PHONY : plugins/SNIO.cc.s
 
 plugins/libsmet.o: plugins/libsmet.cc.o
@@ -3115,7 +3115,7 @@ plugins/libsmet.o: plugins/libsmet.cc.o
 
 # target to build an object file
 plugins/libsmet.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/libsmet.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/libsmet.cc.o
 .PHONY : plugins/libsmet.cc.o
 
 plugins/libsmet.i: plugins/libsmet.cc.i
@@ -3124,7 +3124,7 @@ plugins/libsmet.i: plugins/libsmet.cc.i
 
 # target to preprocess a source file
 plugins/libsmet.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/libsmet.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/libsmet.cc.i
 .PHONY : plugins/libsmet.cc.i
 
 plugins/libsmet.s: plugins/libsmet.cc.s
@@ -3133,7 +3133,7 @@ plugins/libsmet.s: plugins/libsmet.cc.s
 
 # target to generate assembly for a file
 plugins/libsmet.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/libsmet.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/plugins/libsmet.cc.s
 .PHONY : plugins/libsmet.cc.s
 
 spatialInterpolations/ALSScaleAlgorithm.o: spatialInterpolations/ALSScaleAlgorithm.cc.o
@@ -3142,7 +3142,7 @@ spatialInterpolations/ALSScaleAlgorithm.o: spatialInterpolations/ALSScaleAlgorit
 
 # target to build an object file
 spatialInterpolations/ALSScaleAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.o
 .PHONY : spatialInterpolations/ALSScaleAlgorithm.cc.o
 
 spatialInterpolations/ALSScaleAlgorithm.i: spatialInterpolations/ALSScaleAlgorithm.cc.i
@@ -3151,7 +3151,7 @@ spatialInterpolations/ALSScaleAlgorithm.i: spatialInterpolations/ALSScaleAlgorit
 
 # target to preprocess a source file
 spatialInterpolations/ALSScaleAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.i
 .PHONY : spatialInterpolations/ALSScaleAlgorithm.cc.i
 
 spatialInterpolations/ALSScaleAlgorithm.s: spatialInterpolations/ALSScaleAlgorithm.cc.s
@@ -3160,7 +3160,7 @@ spatialInterpolations/ALSScaleAlgorithm.s: spatialInterpolations/ALSScaleAlgorit
 
 # target to generate assembly for a file
 spatialInterpolations/ALSScaleAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ALSScaleAlgorithm.cc.s
 .PHONY : spatialInterpolations/ALSScaleAlgorithm.cc.s
 
 spatialInterpolations/AvgAlgorithm.o: spatialInterpolations/AvgAlgorithm.cc.o
@@ -3169,7 +3169,7 @@ spatialInterpolations/AvgAlgorithm.o: spatialInterpolations/AvgAlgorithm.cc.o
 
 # target to build an object file
 spatialInterpolations/AvgAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.o
 .PHONY : spatialInterpolations/AvgAlgorithm.cc.o
 
 spatialInterpolations/AvgAlgorithm.i: spatialInterpolations/AvgAlgorithm.cc.i
@@ -3178,7 +3178,7 @@ spatialInterpolations/AvgAlgorithm.i: spatialInterpolations/AvgAlgorithm.cc.i
 
 # target to preprocess a source file
 spatialInterpolations/AvgAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.i
 .PHONY : spatialInterpolations/AvgAlgorithm.cc.i
 
 spatialInterpolations/AvgAlgorithm.s: spatialInterpolations/AvgAlgorithm.cc.s
@@ -3187,7 +3187,7 @@ spatialInterpolations/AvgAlgorithm.s: spatialInterpolations/AvgAlgorithm.cc.s
 
 # target to generate assembly for a file
 spatialInterpolations/AvgAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgAlgorithm.cc.s
 .PHONY : spatialInterpolations/AvgAlgorithm.cc.s
 
 spatialInterpolations/AvgLapseAlgorithm.o: spatialInterpolations/AvgLapseAlgorithm.cc.o
@@ -3196,7 +3196,7 @@ spatialInterpolations/AvgLapseAlgorithm.o: spatialInterpolations/AvgLapseAlgorit
 
 # target to build an object file
 spatialInterpolations/AvgLapseAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.o
 .PHONY : spatialInterpolations/AvgLapseAlgorithm.cc.o
 
 spatialInterpolations/AvgLapseAlgorithm.i: spatialInterpolations/AvgLapseAlgorithm.cc.i
@@ -3205,7 +3205,7 @@ spatialInterpolations/AvgLapseAlgorithm.i: spatialInterpolations/AvgLapseAlgorit
 
 # target to preprocess a source file
 spatialInterpolations/AvgLapseAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.i
 .PHONY : spatialInterpolations/AvgLapseAlgorithm.cc.i
 
 spatialInterpolations/AvgLapseAlgorithm.s: spatialInterpolations/AvgLapseAlgorithm.cc.s
@@ -3214,7 +3214,7 @@ spatialInterpolations/AvgLapseAlgorithm.s: spatialInterpolations/AvgLapseAlgorit
 
 # target to generate assembly for a file
 spatialInterpolations/AvgLapseAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/AvgLapseAlgorithm.cc.s
 .PHONY : spatialInterpolations/AvgLapseAlgorithm.cc.s
 
 spatialInterpolations/ConstAlgorithm.o: spatialInterpolations/ConstAlgorithm.cc.o
@@ -3223,7 +3223,7 @@ spatialInterpolations/ConstAlgorithm.o: spatialInterpolations/ConstAlgorithm.cc.
 
 # target to build an object file
 spatialInterpolations/ConstAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.o
 .PHONY : spatialInterpolations/ConstAlgorithm.cc.o
 
 spatialInterpolations/ConstAlgorithm.i: spatialInterpolations/ConstAlgorithm.cc.i
@@ -3232,7 +3232,7 @@ spatialInterpolations/ConstAlgorithm.i: spatialInterpolations/ConstAlgorithm.cc.
 
 # target to preprocess a source file
 spatialInterpolations/ConstAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.i
 .PHONY : spatialInterpolations/ConstAlgorithm.cc.i
 
 spatialInterpolations/ConstAlgorithm.s: spatialInterpolations/ConstAlgorithm.cc.s
@@ -3241,7 +3241,7 @@ spatialInterpolations/ConstAlgorithm.s: spatialInterpolations/ConstAlgorithm.cc.
 
 # target to generate assembly for a file
 spatialInterpolations/ConstAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ConstAlgorithm.cc.s
 .PHONY : spatialInterpolations/ConstAlgorithm.cc.s
 
 spatialInterpolations/IDWAlgorithm.o: spatialInterpolations/IDWAlgorithm.cc.o
@@ -3250,7 +3250,7 @@ spatialInterpolations/IDWAlgorithm.o: spatialInterpolations/IDWAlgorithm.cc.o
 
 # target to build an object file
 spatialInterpolations/IDWAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.o
 .PHONY : spatialInterpolations/IDWAlgorithm.cc.o
 
 spatialInterpolations/IDWAlgorithm.i: spatialInterpolations/IDWAlgorithm.cc.i
@@ -3259,7 +3259,7 @@ spatialInterpolations/IDWAlgorithm.i: spatialInterpolations/IDWAlgorithm.cc.i
 
 # target to preprocess a source file
 spatialInterpolations/IDWAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.i
 .PHONY : spatialInterpolations/IDWAlgorithm.cc.i
 
 spatialInterpolations/IDWAlgorithm.s: spatialInterpolations/IDWAlgorithm.cc.s
@@ -3268,7 +3268,7 @@ spatialInterpolations/IDWAlgorithm.s: spatialInterpolations/IDWAlgorithm.cc.s
 
 # target to generate assembly for a file
 spatialInterpolations/IDWAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWAlgorithm.cc.s
 .PHONY : spatialInterpolations/IDWAlgorithm.cc.s
 
 spatialInterpolations/IDWLapseAlgorithm.o: spatialInterpolations/IDWLapseAlgorithm.cc.o
@@ -3277,7 +3277,7 @@ spatialInterpolations/IDWLapseAlgorithm.o: spatialInterpolations/IDWLapseAlgorit
 
 # target to build an object file
 spatialInterpolations/IDWLapseAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.o
 .PHONY : spatialInterpolations/IDWLapseAlgorithm.cc.o
 
 spatialInterpolations/IDWLapseAlgorithm.i: spatialInterpolations/IDWLapseAlgorithm.cc.i
@@ -3286,7 +3286,7 @@ spatialInterpolations/IDWLapseAlgorithm.i: spatialInterpolations/IDWLapseAlgorit
 
 # target to preprocess a source file
 spatialInterpolations/IDWLapseAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.i
 .PHONY : spatialInterpolations/IDWLapseAlgorithm.cc.i
 
 spatialInterpolations/IDWLapseAlgorithm.s: spatialInterpolations/IDWLapseAlgorithm.cc.s
@@ -3295,7 +3295,7 @@ spatialInterpolations/IDWLapseAlgorithm.s: spatialInterpolations/IDWLapseAlgorit
 
 # target to generate assembly for a file
 spatialInterpolations/IDWLapseAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseAlgorithm.cc.s
 .PHONY : spatialInterpolations/IDWLapseAlgorithm.cc.s
 
 spatialInterpolations/IDWLapseLocalAlgorithm.o: spatialInterpolations/IDWLapseLocalAlgorithm.cc.o
@@ -3304,7 +3304,7 @@ spatialInterpolations/IDWLapseLocalAlgorithm.o: spatialInterpolations/IDWLapseLo
 
 # target to build an object file
 spatialInterpolations/IDWLapseLocalAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.o
 .PHONY : spatialInterpolations/IDWLapseLocalAlgorithm.cc.o
 
 spatialInterpolations/IDWLapseLocalAlgorithm.i: spatialInterpolations/IDWLapseLocalAlgorithm.cc.i
@@ -3313,7 +3313,7 @@ spatialInterpolations/IDWLapseLocalAlgorithm.i: spatialInterpolations/IDWLapseLo
 
 # target to preprocess a source file
 spatialInterpolations/IDWLapseLocalAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.i
 .PHONY : spatialInterpolations/IDWLapseLocalAlgorithm.cc.i
 
 spatialInterpolations/IDWLapseLocalAlgorithm.s: spatialInterpolations/IDWLapseLocalAlgorithm.cc.s
@@ -3322,7 +3322,7 @@ spatialInterpolations/IDWLapseLocalAlgorithm.s: spatialInterpolations/IDWLapseLo
 
 # target to generate assembly for a file
 spatialInterpolations/IDWLapseLocalAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWLapseLocalAlgorithm.cc.s
 .PHONY : spatialInterpolations/IDWLapseLocalAlgorithm.cc.s
 
 spatialInterpolations/IDWSlopesAlgorithm.o: spatialInterpolations/IDWSlopesAlgorithm.cc.o
@@ -3331,7 +3331,7 @@ spatialInterpolations/IDWSlopesAlgorithm.o: spatialInterpolations/IDWSlopesAlgor
 
 # target to build an object file
 spatialInterpolations/IDWSlopesAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.o
 .PHONY : spatialInterpolations/IDWSlopesAlgorithm.cc.o
 
 spatialInterpolations/IDWSlopesAlgorithm.i: spatialInterpolations/IDWSlopesAlgorithm.cc.i
@@ -3340,7 +3340,7 @@ spatialInterpolations/IDWSlopesAlgorithm.i: spatialInterpolations/IDWSlopesAlgor
 
 # target to preprocess a source file
 spatialInterpolations/IDWSlopesAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.i
 .PHONY : spatialInterpolations/IDWSlopesAlgorithm.cc.i
 
 spatialInterpolations/IDWSlopesAlgorithm.s: spatialInterpolations/IDWSlopesAlgorithm.cc.s
@@ -3349,7 +3349,7 @@ spatialInterpolations/IDWSlopesAlgorithm.s: spatialInterpolations/IDWSlopesAlgor
 
 # target to generate assembly for a file
 spatialInterpolations/IDWSlopesAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/IDWSlopesAlgorithm.cc.s
 .PHONY : spatialInterpolations/IDWSlopesAlgorithm.cc.s
 
 spatialInterpolations/ILWREpsAlgorithm.o: spatialInterpolations/ILWREpsAlgorithm.cc.o
@@ -3358,7 +3358,7 @@ spatialInterpolations/ILWREpsAlgorithm.o: spatialInterpolations/ILWREpsAlgorithm
 
 # target to build an object file
 spatialInterpolations/ILWREpsAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.o
 .PHONY : spatialInterpolations/ILWREpsAlgorithm.cc.o
 
 spatialInterpolations/ILWREpsAlgorithm.i: spatialInterpolations/ILWREpsAlgorithm.cc.i
@@ -3367,7 +3367,7 @@ spatialInterpolations/ILWREpsAlgorithm.i: spatialInterpolations/ILWREpsAlgorithm
 
 # target to preprocess a source file
 spatialInterpolations/ILWREpsAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.i
 .PHONY : spatialInterpolations/ILWREpsAlgorithm.cc.i
 
 spatialInterpolations/ILWREpsAlgorithm.s: spatialInterpolations/ILWREpsAlgorithm.cc.s
@@ -3376,7 +3376,7 @@ spatialInterpolations/ILWREpsAlgorithm.s: spatialInterpolations/ILWREpsAlgorithm
 
 # target to generate assembly for a file
 spatialInterpolations/ILWREpsAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ILWREpsAlgorithm.cc.s
 .PHONY : spatialInterpolations/ILWREpsAlgorithm.cc.s
 
 spatialInterpolations/InterpolationAlgorithms.o: spatialInterpolations/InterpolationAlgorithms.cc.o
@@ -3385,7 +3385,7 @@ spatialInterpolations/InterpolationAlgorithms.o: spatialInterpolations/Interpola
 
 # target to build an object file
 spatialInterpolations/InterpolationAlgorithms.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.o
 .PHONY : spatialInterpolations/InterpolationAlgorithms.cc.o
 
 spatialInterpolations/InterpolationAlgorithms.i: spatialInterpolations/InterpolationAlgorithms.cc.i
@@ -3394,7 +3394,7 @@ spatialInterpolations/InterpolationAlgorithms.i: spatialInterpolations/Interpola
 
 # target to preprocess a source file
 spatialInterpolations/InterpolationAlgorithms.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.i
 .PHONY : spatialInterpolations/InterpolationAlgorithms.cc.i
 
 spatialInterpolations/InterpolationAlgorithms.s: spatialInterpolations/InterpolationAlgorithms.cc.s
@@ -3403,7 +3403,7 @@ spatialInterpolations/InterpolationAlgorithms.s: spatialInterpolations/Interpola
 
 # target to generate assembly for a file
 spatialInterpolations/InterpolationAlgorithms.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/InterpolationAlgorithms.cc.s
 .PHONY : spatialInterpolations/InterpolationAlgorithms.cc.s
 
 spatialInterpolations/ListonWindAlgorithm.o: spatialInterpolations/ListonWindAlgorithm.cc.o
@@ -3412,7 +3412,7 @@ spatialInterpolations/ListonWindAlgorithm.o: spatialInterpolations/ListonWindAlg
 
 # target to build an object file
 spatialInterpolations/ListonWindAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.o
 .PHONY : spatialInterpolations/ListonWindAlgorithm.cc.o
 
 spatialInterpolations/ListonWindAlgorithm.i: spatialInterpolations/ListonWindAlgorithm.cc.i
@@ -3421,7 +3421,7 @@ spatialInterpolations/ListonWindAlgorithm.i: spatialInterpolations/ListonWindAlg
 
 # target to preprocess a source file
 spatialInterpolations/ListonWindAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.i
 .PHONY : spatialInterpolations/ListonWindAlgorithm.cc.i
 
 spatialInterpolations/ListonWindAlgorithm.s: spatialInterpolations/ListonWindAlgorithm.cc.s
@@ -3430,7 +3430,7 @@ spatialInterpolations/ListonWindAlgorithm.s: spatialInterpolations/ListonWindAlg
 
 # target to generate assembly for a file
 spatialInterpolations/ListonWindAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ListonWindAlgorithm.cc.s
 .PHONY : spatialInterpolations/ListonWindAlgorithm.cc.s
 
 spatialInterpolations/NearestNeighbourAlgorithm.o: spatialInterpolations/NearestNeighbourAlgorithm.cc.o
@@ -3439,7 +3439,7 @@ spatialInterpolations/NearestNeighbourAlgorithm.o: spatialInterpolations/Nearest
 
 # target to build an object file
 spatialInterpolations/NearestNeighbourAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.o
 .PHONY : spatialInterpolations/NearestNeighbourAlgorithm.cc.o
 
 spatialInterpolations/NearestNeighbourAlgorithm.i: spatialInterpolations/NearestNeighbourAlgorithm.cc.i
@@ -3448,7 +3448,7 @@ spatialInterpolations/NearestNeighbourAlgorithm.i: spatialInterpolations/Nearest
 
 # target to preprocess a source file
 spatialInterpolations/NearestNeighbourAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.i
 .PHONY : spatialInterpolations/NearestNeighbourAlgorithm.cc.i
 
 spatialInterpolations/NearestNeighbourAlgorithm.s: spatialInterpolations/NearestNeighbourAlgorithm.cc.s
@@ -3457,7 +3457,7 @@ spatialInterpolations/NearestNeighbourAlgorithm.s: spatialInterpolations/Nearest
 
 # target to generate assembly for a file
 spatialInterpolations/NearestNeighbourAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NearestNeighbourAlgorithm.cc.s
 .PHONY : spatialInterpolations/NearestNeighbourAlgorithm.cc.s
 
 spatialInterpolations/NoneAlgorithm.o: spatialInterpolations/NoneAlgorithm.cc.o
@@ -3466,7 +3466,7 @@ spatialInterpolations/NoneAlgorithm.o: spatialInterpolations/NoneAlgorithm.cc.o
 
 # target to build an object file
 spatialInterpolations/NoneAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.o
 .PHONY : spatialInterpolations/NoneAlgorithm.cc.o
 
 spatialInterpolations/NoneAlgorithm.i: spatialInterpolations/NoneAlgorithm.cc.i
@@ -3475,7 +3475,7 @@ spatialInterpolations/NoneAlgorithm.i: spatialInterpolations/NoneAlgorithm.cc.i
 
 # target to preprocess a source file
 spatialInterpolations/NoneAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.i
 .PHONY : spatialInterpolations/NoneAlgorithm.cc.i
 
 spatialInterpolations/NoneAlgorithm.s: spatialInterpolations/NoneAlgorithm.cc.s
@@ -3484,7 +3484,7 @@ spatialInterpolations/NoneAlgorithm.s: spatialInterpolations/NoneAlgorithm.cc.s
 
 # target to generate assembly for a file
 spatialInterpolations/NoneAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/NoneAlgorithm.cc.s
 .PHONY : spatialInterpolations/NoneAlgorithm.cc.s
 
 spatialInterpolations/ODKrigAlgorithm.o: spatialInterpolations/ODKrigAlgorithm.cc.o
@@ -3493,7 +3493,7 @@ spatialInterpolations/ODKrigAlgorithm.o: spatialInterpolations/ODKrigAlgorithm.c
 
 # target to build an object file
 spatialInterpolations/ODKrigAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.o
 .PHONY : spatialInterpolations/ODKrigAlgorithm.cc.o
 
 spatialInterpolations/ODKrigAlgorithm.i: spatialInterpolations/ODKrigAlgorithm.cc.i
@@ -3502,7 +3502,7 @@ spatialInterpolations/ODKrigAlgorithm.i: spatialInterpolations/ODKrigAlgorithm.c
 
 # target to preprocess a source file
 spatialInterpolations/ODKrigAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.i
 .PHONY : spatialInterpolations/ODKrigAlgorithm.cc.i
 
 spatialInterpolations/ODKrigAlgorithm.s: spatialInterpolations/ODKrigAlgorithm.cc.s
@@ -3511,7 +3511,7 @@ spatialInterpolations/ODKrigAlgorithm.s: spatialInterpolations/ODKrigAlgorithm.c
 
 # target to generate assembly for a file
 spatialInterpolations/ODKrigAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigAlgorithm.cc.s
 .PHONY : spatialInterpolations/ODKrigAlgorithm.cc.s
 
 spatialInterpolations/ODKrigLapseAlgorithm.o: spatialInterpolations/ODKrigLapseAlgorithm.cc.o
@@ -3520,7 +3520,7 @@ spatialInterpolations/ODKrigLapseAlgorithm.o: spatialInterpolations/ODKrigLapseA
 
 # target to build an object file
 spatialInterpolations/ODKrigLapseAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.o
 .PHONY : spatialInterpolations/ODKrigLapseAlgorithm.cc.o
 
 spatialInterpolations/ODKrigLapseAlgorithm.i: spatialInterpolations/ODKrigLapseAlgorithm.cc.i
@@ -3529,7 +3529,7 @@ spatialInterpolations/ODKrigLapseAlgorithm.i: spatialInterpolations/ODKrigLapseA
 
 # target to preprocess a source file
 spatialInterpolations/ODKrigLapseAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.i
 .PHONY : spatialInterpolations/ODKrigLapseAlgorithm.cc.i
 
 spatialInterpolations/ODKrigLapseAlgorithm.s: spatialInterpolations/ODKrigLapseAlgorithm.cc.s
@@ -3538,7 +3538,7 @@ spatialInterpolations/ODKrigLapseAlgorithm.s: spatialInterpolations/ODKrigLapseA
 
 # target to generate assembly for a file
 spatialInterpolations/ODKrigLapseAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/ODKrigLapseAlgorithm.cc.s
 .PHONY : spatialInterpolations/ODKrigLapseAlgorithm.cc.s
 
 spatialInterpolations/PPhaseAlgorithm.o: spatialInterpolations/PPhaseAlgorithm.cc.o
@@ -3547,7 +3547,7 @@ spatialInterpolations/PPhaseAlgorithm.o: spatialInterpolations/PPhaseAlgorithm.c
 
 # target to build an object file
 spatialInterpolations/PPhaseAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.o
 .PHONY : spatialInterpolations/PPhaseAlgorithm.cc.o
 
 spatialInterpolations/PPhaseAlgorithm.i: spatialInterpolations/PPhaseAlgorithm.cc.i
@@ -3556,7 +3556,7 @@ spatialInterpolations/PPhaseAlgorithm.i: spatialInterpolations/PPhaseAlgorithm.c
 
 # target to preprocess a source file
 spatialInterpolations/PPhaseAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.i
 .PHONY : spatialInterpolations/PPhaseAlgorithm.cc.i
 
 spatialInterpolations/PPhaseAlgorithm.s: spatialInterpolations/PPhaseAlgorithm.cc.s
@@ -3565,7 +3565,7 @@ spatialInterpolations/PPhaseAlgorithm.s: spatialInterpolations/PPhaseAlgorithm.c
 
 # target to generate assembly for a file
 spatialInterpolations/PPhaseAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/PPhaseAlgorithm.cc.s
 .PHONY : spatialInterpolations/PPhaseAlgorithm.cc.s
 
 spatialInterpolations/RHListonAlgorithm.o: spatialInterpolations/RHListonAlgorithm.cc.o
@@ -3574,7 +3574,7 @@ spatialInterpolations/RHListonAlgorithm.o: spatialInterpolations/RHListonAlgorit
 
 # target to build an object file
 spatialInterpolations/RHListonAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.o
 .PHONY : spatialInterpolations/RHListonAlgorithm.cc.o
 
 spatialInterpolations/RHListonAlgorithm.i: spatialInterpolations/RHListonAlgorithm.cc.i
@@ -3583,7 +3583,7 @@ spatialInterpolations/RHListonAlgorithm.i: spatialInterpolations/RHListonAlgorit
 
 # target to preprocess a source file
 spatialInterpolations/RHListonAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.i
 .PHONY : spatialInterpolations/RHListonAlgorithm.cc.i
 
 spatialInterpolations/RHListonAlgorithm.s: spatialInterpolations/RHListonAlgorithm.cc.s
@@ -3592,7 +3592,7 @@ spatialInterpolations/RHListonAlgorithm.s: spatialInterpolations/RHListonAlgorit
 
 # target to generate assembly for a file
 spatialInterpolations/RHListonAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RHListonAlgorithm.cc.s
 .PHONY : spatialInterpolations/RHListonAlgorithm.cc.s
 
 spatialInterpolations/RyanWindAlgorithm.o: spatialInterpolations/RyanWindAlgorithm.cc.o
@@ -3601,7 +3601,7 @@ spatialInterpolations/RyanWindAlgorithm.o: spatialInterpolations/RyanWindAlgorit
 
 # target to build an object file
 spatialInterpolations/RyanWindAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.o
 .PHONY : spatialInterpolations/RyanWindAlgorithm.cc.o
 
 spatialInterpolations/RyanWindAlgorithm.i: spatialInterpolations/RyanWindAlgorithm.cc.i
@@ -3610,7 +3610,7 @@ spatialInterpolations/RyanWindAlgorithm.i: spatialInterpolations/RyanWindAlgorit
 
 # target to preprocess a source file
 spatialInterpolations/RyanWindAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.i
 .PHONY : spatialInterpolations/RyanWindAlgorithm.cc.i
 
 spatialInterpolations/RyanWindAlgorithm.s: spatialInterpolations/RyanWindAlgorithm.cc.s
@@ -3619,7 +3619,7 @@ spatialInterpolations/RyanWindAlgorithm.s: spatialInterpolations/RyanWindAlgorit
 
 # target to generate assembly for a file
 spatialInterpolations/RyanWindAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/RyanWindAlgorithm.cc.s
 .PHONY : spatialInterpolations/RyanWindAlgorithm.cc.s
 
 spatialInterpolations/SnowPsumAlgorithm.o: spatialInterpolations/SnowPsumAlgorithm.cc.o
@@ -3628,7 +3628,7 @@ spatialInterpolations/SnowPsumAlgorithm.o: spatialInterpolations/SnowPsumAlgorit
 
 # target to build an object file
 spatialInterpolations/SnowPsumAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.o
 .PHONY : spatialInterpolations/SnowPsumAlgorithm.cc.o
 
 spatialInterpolations/SnowPsumAlgorithm.i: spatialInterpolations/SnowPsumAlgorithm.cc.i
@@ -3637,7 +3637,7 @@ spatialInterpolations/SnowPsumAlgorithm.i: spatialInterpolations/SnowPsumAlgorit
 
 # target to preprocess a source file
 spatialInterpolations/SnowPsumAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.i
 .PHONY : spatialInterpolations/SnowPsumAlgorithm.cc.i
 
 spatialInterpolations/SnowPsumAlgorithm.s: spatialInterpolations/SnowPsumAlgorithm.cc.s
@@ -3646,7 +3646,7 @@ spatialInterpolations/SnowPsumAlgorithm.s: spatialInterpolations/SnowPsumAlgorit
 
 # target to generate assembly for a file
 spatialInterpolations/SnowPsumAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SnowPsumAlgorithm.cc.s
 .PHONY : spatialInterpolations/SnowPsumAlgorithm.cc.s
 
 spatialInterpolations/StdPressAlgorithm.o: spatialInterpolations/StdPressAlgorithm.cc.o
@@ -3655,7 +3655,7 @@ spatialInterpolations/StdPressAlgorithm.o: spatialInterpolations/StdPressAlgorit
 
 # target to build an object file
 spatialInterpolations/StdPressAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.o
 .PHONY : spatialInterpolations/StdPressAlgorithm.cc.o
 
 spatialInterpolations/StdPressAlgorithm.i: spatialInterpolations/StdPressAlgorithm.cc.i
@@ -3664,7 +3664,7 @@ spatialInterpolations/StdPressAlgorithm.i: spatialInterpolations/StdPressAlgorit
 
 # target to preprocess a source file
 spatialInterpolations/StdPressAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.i
 .PHONY : spatialInterpolations/StdPressAlgorithm.cc.i
 
 spatialInterpolations/StdPressAlgorithm.s: spatialInterpolations/StdPressAlgorithm.cc.s
@@ -3673,7 +3673,7 @@ spatialInterpolations/StdPressAlgorithm.s: spatialInterpolations/StdPressAlgorit
 
 # target to generate assembly for a file
 spatialInterpolations/StdPressAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/StdPressAlgorithm.cc.s
 .PHONY : spatialInterpolations/StdPressAlgorithm.cc.s
 
 spatialInterpolations/SwRadAlgorithm.o: spatialInterpolations/SwRadAlgorithm.cc.o
@@ -3682,7 +3682,7 @@ spatialInterpolations/SwRadAlgorithm.o: spatialInterpolations/SwRadAlgorithm.cc.
 
 # target to build an object file
 spatialInterpolations/SwRadAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.o
 .PHONY : spatialInterpolations/SwRadAlgorithm.cc.o
 
 spatialInterpolations/SwRadAlgorithm.i: spatialInterpolations/SwRadAlgorithm.cc.i
@@ -3691,7 +3691,7 @@ spatialInterpolations/SwRadAlgorithm.i: spatialInterpolations/SwRadAlgorithm.cc.
 
 # target to preprocess a source file
 spatialInterpolations/SwRadAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.i
 .PHONY : spatialInterpolations/SwRadAlgorithm.cc.i
 
 spatialInterpolations/SwRadAlgorithm.s: spatialInterpolations/SwRadAlgorithm.cc.s
@@ -3700,7 +3700,7 @@ spatialInterpolations/SwRadAlgorithm.s: spatialInterpolations/SwRadAlgorithm.cc.
 
 # target to generate assembly for a file
 spatialInterpolations/SwRadAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/SwRadAlgorithm.cc.s
 .PHONY : spatialInterpolations/SwRadAlgorithm.cc.s
 
 spatialInterpolations/UserAlgorithm.o: spatialInterpolations/UserAlgorithm.cc.o
@@ -3709,7 +3709,7 @@ spatialInterpolations/UserAlgorithm.o: spatialInterpolations/UserAlgorithm.cc.o
 
 # target to build an object file
 spatialInterpolations/UserAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.o
 .PHONY : spatialInterpolations/UserAlgorithm.cc.o
 
 spatialInterpolations/UserAlgorithm.i: spatialInterpolations/UserAlgorithm.cc.i
@@ -3718,7 +3718,7 @@ spatialInterpolations/UserAlgorithm.i: spatialInterpolations/UserAlgorithm.cc.i
 
 # target to preprocess a source file
 spatialInterpolations/UserAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.i
 .PHONY : spatialInterpolations/UserAlgorithm.cc.i
 
 spatialInterpolations/UserAlgorithm.s: spatialInterpolations/UserAlgorithm.cc.s
@@ -3727,7 +3727,7 @@ spatialInterpolations/UserAlgorithm.s: spatialInterpolations/UserAlgorithm.cc.s
 
 # target to generate assembly for a file
 spatialInterpolations/UserAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/UserAlgorithm.cc.s
 .PHONY : spatialInterpolations/UserAlgorithm.cc.s
 
 spatialInterpolations/WinstralAlgorithm.o: spatialInterpolations/WinstralAlgorithm.cc.o
@@ -3736,7 +3736,7 @@ spatialInterpolations/WinstralAlgorithm.o: spatialInterpolations/WinstralAlgorit
 
 # target to build an object file
 spatialInterpolations/WinstralAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.o
 .PHONY : spatialInterpolations/WinstralAlgorithm.cc.o
 
 spatialInterpolations/WinstralAlgorithm.i: spatialInterpolations/WinstralAlgorithm.cc.i
@@ -3745,7 +3745,7 @@ spatialInterpolations/WinstralAlgorithm.i: spatialInterpolations/WinstralAlgorit
 
 # target to preprocess a source file
 spatialInterpolations/WinstralAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.i
 .PHONY : spatialInterpolations/WinstralAlgorithm.cc.i
 
 spatialInterpolations/WinstralAlgorithm.s: spatialInterpolations/WinstralAlgorithm.cc.s
@@ -3754,7 +3754,7 @@ spatialInterpolations/WinstralAlgorithm.s: spatialInterpolations/WinstralAlgorit
 
 # target to generate assembly for a file
 spatialInterpolations/WinstralAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralAlgorithm.cc.s
 .PHONY : spatialInterpolations/WinstralAlgorithm.cc.s
 
 spatialInterpolations/WinstralListonAlgorithm.o: spatialInterpolations/WinstralListonAlgorithm.cc.o
@@ -3763,7 +3763,7 @@ spatialInterpolations/WinstralListonAlgorithm.o: spatialInterpolations/WinstralL
 
 # target to build an object file
 spatialInterpolations/WinstralListonAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.o
 .PHONY : spatialInterpolations/WinstralListonAlgorithm.cc.o
 
 spatialInterpolations/WinstralListonAlgorithm.i: spatialInterpolations/WinstralListonAlgorithm.cc.i
@@ -3772,7 +3772,7 @@ spatialInterpolations/WinstralListonAlgorithm.i: spatialInterpolations/WinstralL
 
 # target to preprocess a source file
 spatialInterpolations/WinstralListonAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.i
 .PHONY : spatialInterpolations/WinstralListonAlgorithm.cc.i
 
 spatialInterpolations/WinstralListonAlgorithm.s: spatialInterpolations/WinstralListonAlgorithm.cc.s
@@ -3781,7 +3781,7 @@ spatialInterpolations/WinstralListonAlgorithm.s: spatialInterpolations/WinstralL
 
 # target to generate assembly for a file
 spatialInterpolations/WinstralListonAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonAlgorithm.cc.s
 .PHONY : spatialInterpolations/WinstralListonAlgorithm.cc.s
 
 spatialInterpolations/WinstralListonDriftAlgorithm.o: spatialInterpolations/WinstralListonDriftAlgorithm.cc.o
@@ -3790,7 +3790,7 @@ spatialInterpolations/WinstralListonDriftAlgorithm.o: spatialInterpolations/Wins
 
 # target to build an object file
 spatialInterpolations/WinstralListonDriftAlgorithm.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.o
 .PHONY : spatialInterpolations/WinstralListonDriftAlgorithm.cc.o
 
 spatialInterpolations/WinstralListonDriftAlgorithm.i: spatialInterpolations/WinstralListonDriftAlgorithm.cc.i
@@ -3799,7 +3799,7 @@ spatialInterpolations/WinstralListonDriftAlgorithm.i: spatialInterpolations/Wins
 
 # target to preprocess a source file
 spatialInterpolations/WinstralListonDriftAlgorithm.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.i
 .PHONY : spatialInterpolations/WinstralListonDriftAlgorithm.cc.i
 
 spatialInterpolations/WinstralListonDriftAlgorithm.s: spatialInterpolations/WinstralListonDriftAlgorithm.cc.s
@@ -3808,7 +3808,7 @@ spatialInterpolations/WinstralListonDriftAlgorithm.s: spatialInterpolations/Wins
 
 # target to generate assembly for a file
 spatialInterpolations/WinstralListonDriftAlgorithm.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/spatialInterpolations/WinstralListonDriftAlgorithm.cc.s
 .PHONY : spatialInterpolations/WinstralListonDriftAlgorithm.cc.s
 
 tinyexpr.o: tinyexpr.c.o
@@ -3817,7 +3817,7 @@ tinyexpr.o: tinyexpr.c.o
 
 # target to build an object file
 tinyexpr.c.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/tinyexpr.c.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/tinyexpr.c.o
 .PHONY : tinyexpr.c.o
 
 tinyexpr.i: tinyexpr.c.i
@@ -3826,7 +3826,7 @@ tinyexpr.i: tinyexpr.c.i
 
 # target to preprocess a source file
 tinyexpr.c.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/tinyexpr.c.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/tinyexpr.c.i
 .PHONY : tinyexpr.c.i
 
 tinyexpr.s: tinyexpr.c.s
@@ -3835,7 +3835,7 @@ tinyexpr.s: tinyexpr.c.s
 
 # target to generate assembly for a file
 tinyexpr.c.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/tinyexpr.c.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(MAKE) -f meteoio/CMakeFiles/meteoio.dir/build.make meteoio/CMakeFiles/meteoio.dir/tinyexpr.c.s
 .PHONY : tinyexpr.c.s
 
 # Help Target
@@ -4269,6 +4269,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

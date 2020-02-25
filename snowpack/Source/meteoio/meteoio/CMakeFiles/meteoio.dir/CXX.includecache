@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Config.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Config.cc
 meteoio/Config.h
 -
 meteoio/FileUtils.h
@@ -20,15 +20,15 @@ fstream
 cstdio
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/DataCreator.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/DataCreator.cc
 meteoio/DataCreator.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/DataGenerator.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/DataGenerator.cc
 meteoio/DataGenerator.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/FileUtils.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/FileUtils.cc
 algorithm
 -
 iostream
@@ -40,7 +40,7 @@ fstream
 windows.h
 -
 Shlwapi.h
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Shlwapi.h
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Shlwapi.h
 dirent.h
 -
 sys/stat.h
@@ -56,7 +56,7 @@ meteoio/FileUtils.h
 meteoio/IOUtils.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Graphics.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Graphics.cc
 meteoio/Graphics.h
 -
 cmath
@@ -66,7 +66,7 @@ iomanip
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/GridsManager.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/GridsManager.cc
 meteoio/GridsManager.h
 -
 meteoio/dataClasses/Coords.h
@@ -76,7 +76,7 @@ meteoio/meteoLaws/Atmosphere.h
 meteoio/MathOptim.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOExceptions.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOExceptions.cc
 meteoio/IOExceptions.h
 -
 string.h
@@ -94,7 +94,7 @@ windows.h
 CoreFoundation/CoreFoundation.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOHandler.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOHandler.cc
 meteoio/IOHandler.h
 -
 meteoio/IOExceptions.h
@@ -160,15 +160,15 @@ meteoio/plugins/SASEIO.h
 meteoio/plugins/ZRXPIO.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOInterface.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOInterface.cc
 meteoio/IOInterface.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOManager.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOManager.cc
 meteoio/IOManager.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/IOUtils.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/IOUtils.cc
 cstdio
 -
 cmath
@@ -194,7 +194,7 @@ meteoio/dataClasses/MeteoData.h
 meteoio/dataClasses/CoordsAlgorithms.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Meteo1DInterpolator.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Meteo1DInterpolator.cc
 meteoio/Meteo1DInterpolator.h
 -
 meteoio/dataClasses/StationData.h
@@ -204,13 +204,13 @@ iostream
 utility
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Meteo2DInterpolator.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Meteo2DInterpolator.cc
 meteoio/Meteo2DInterpolator.h
 -
 meteoio/Timer.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/MeteoProcessor.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/MeteoProcessor.cc
 meteoio/MeteoProcessor.h
 -
 meteoio/meteoFilters/TimeFilters.h
@@ -218,13 +218,13 @@ meteoio/meteoFilters/TimeFilters.h
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/TimeSeriesManager.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/TimeSeriesManager.cc
 meteoio/TimeSeriesManager.h
 -
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Timer.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Timer.cc
 stdio.h
 -
 windows.h
@@ -232,15 +232,15 @@ windows.h
 sys/time.h
 -
 Timer.h
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Timer.h
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Timer.h
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/Timer.h
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/Timer.h
 sys/resource.h
 -
 meteoio/IOExceptions.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Buffer.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Buffer.cc
 meteoio/dataClasses/Buffer.h
 -
 limits.h
@@ -248,7 +248,7 @@ limits.h
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Coords.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Coords.cc
 meteoio/dataClasses/Coords.h
 -
 meteoio/dataClasses/CoordsAlgorithms.h
@@ -268,7 +268,7 @@ cstdio
 iomanip
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/CoordsAlgorithms.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/CoordsAlgorithms.cc
 meteoio/dataClasses/CoordsAlgorithms.h
 -
 meteoio/IOExceptions.h
@@ -286,7 +286,7 @@ iomanip
 proj_api.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/DEMAlgorithms.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/DEMAlgorithms.cc
 cmath
 -
 limits.h
@@ -304,7 +304,7 @@ meteoio/IOUtils.h
 meteoio/meteoLaws/Meteoconst.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/DEMObject.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/DEMObject.cc
 cmath
 -
 limits.h
@@ -320,7 +320,7 @@ meteoio/IOUtils.h
 meteoio/meteoLaws/Meteoconst.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Date.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Date.cc
 cmath
 -
 cstdio
@@ -338,7 +338,7 @@ meteoio/IOUtils.h
 meteoio/MathOptim.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Grid2DObject.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Grid2DObject.cc
 meteoio/dataClasses/Grid2DObject.h
 -
 meteoio/dataClasses/CoordsAlgorithms.h
@@ -354,7 +354,7 @@ meteoio/meteoStats/libresampling2D.h
 cmath
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Grid3DObject.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Grid3DObject.cc
 meteoio/dataClasses/Grid3DObject.h
 -
 meteoio/IOExceptions.h
@@ -362,7 +362,7 @@ meteoio/IOExceptions.h
 cmath
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/Matrix.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/Matrix.cc
 meteoio/dataClasses/Matrix.h
 -
 meteoio/IOUtils.h
@@ -378,7 +378,7 @@ iostream
 iomanip
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/MeteoData.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/MeteoData.cc
 meteoio/dataClasses/MeteoData.h
 -
 meteoio/dataClasses/StationData.h
@@ -394,7 +394,7 @@ iomanip
 sstream
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataClasses/StationData.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataClasses/StationData.cc
 meteoio/dataClasses/StationData.h
 -
 meteoio/IOUtils.h
@@ -404,7 +404,7 @@ cmath
 sstream
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/AllSkyLWGenerator.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/AllSkyLWGenerator.cc
 meteoio/dataGenerators/AllSkyLWGenerator.h
 -
 meteoio/meteoLaws/Atmosphere.h
@@ -416,7 +416,7 @@ string
 utility
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/AllSkySWGenerator.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/AllSkySWGenerator.cc
 meteoio/dataGenerators/AllSkySWGenerator.h
 -
 meteoio/meteoLaws/Atmosphere.h
@@ -424,13 +424,13 @@ meteoio/meteoLaws/Atmosphere.h
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/ClearSkyLWGenerator.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/ClearSkyLWGenerator.cc
 meteoio/dataGenerators/ClearSkyLWGenerator.h
 -
 meteoio/meteoLaws/Atmosphere.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/ClearSkySWGenerator.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/ClearSkySWGenerator.cc
 meteoio/dataGenerators/ClearSkySWGenerator.h
 -
 meteoio/meteoLaws/Atmosphere.h
@@ -438,11 +438,11 @@ meteoio/meteoLaws/Atmosphere.h
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/ConstGenerator.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/ConstGenerator.cc
 meteoio/dataGenerators/ConstGenerator.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/ESOLIPGenerator.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/ESOLIPGenerator.cc
 meteoio/dataGenerators/ESOLIPGenerator.h
 -
 meteoio/meteoFilters/ProcPSUMDistribute.h
@@ -450,7 +450,7 @@ meteoio/meteoFilters/ProcPSUMDistribute.h
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/GeneratorAlgorithms.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/GeneratorAlgorithms.cc
 meteoio/dataGenerators/GeneratorAlgorithms.h
 -
 meteoio/dataGenerators/AllSkyLWGenerator.h
@@ -484,43 +484,43 @@ meteoio/dataGenerators/WindComponents.h
 meteoio/dataGenerators/RadiationComponents.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/HumidityGenerator.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/HumidityGenerator.cc
 meteoio/dataGenerators/HumidityGenerator.h
 -
 meteoio/meteoLaws/Atmosphere.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/IswrAlbedoGenerator.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/IswrAlbedoGenerator.cc
 meteoio/dataGenerators/IswrAlbedoGenerator.h
 -
 meteoio/meteoLaws/Sun.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/PrecSplitting.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/PrecSplitting.cc
 meteoio/dataGenerators/PrecSplitting.h
 -
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/RadiationComponents.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/RadiationComponents.cc
 meteoio/dataGenerators/RadiationComponents.h
 -
 meteoio/MathOptim.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/SinGenerator.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/SinGenerator.cc
 meteoio/dataGenerators/SinGenerator.h
 -
 meteoio/MathOptim.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/StdPressGenerator.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/StdPressGenerator.cc
 meteoio/dataGenerators/StdPressGenerator.h
 -
 meteoio/meteoLaws/Atmosphere.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/TauCLDGenerator.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/TauCLDGenerator.cc
 meteoio/dataGenerators/TauCLDGenerator.h
 -
 meteoio/meteoLaws/Atmosphere.h
@@ -528,7 +528,7 @@ meteoio/meteoLaws/Atmosphere.h
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/TsGenerator.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/TsGenerator.cc
 meteoio/dataGenerators/TsGenerator.h
 -
 meteoio/meteoLaws/Meteoconst.h
@@ -536,19 +536,19 @@ meteoio/meteoLaws/Meteoconst.h
 meteoio/MathOptim.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/dataGenerators/WindComponents.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/dataGenerators/WindComponents.cc
 meteoio/dataGenerators/WindComponents.h
 -
 meteoio/MathOptim.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterDeGrass.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterDeGrass.cc
 meteoio/meteoFilters/FilterDeGrass.h
 -
 meteoio/meteoStats/libinterpol1D.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterDespikingPS.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterDespikingPS.cc
 meteoio/meteoFilters/FilterDespikingPS.h
 -
 meteoio/meteoStats/libinterpol1D.h
@@ -560,13 +560,13 @@ iostream
 fstream
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterKalman.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterKalman.cc
 meteoio/meteoFilters/FilterKalman.h
 -
 meteoio/IOUtils.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMAD.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMAD.cc
 meteoio/meteoFilters/FilterMAD.h
 -
 meteoio/meteoStats/libinterpol1D.h
@@ -576,7 +576,7 @@ cmath
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMaths.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMaths.cc
 meteoio/IOUtils.h
 -
 meteoio/meteoLaws/Meteoconst.h
@@ -584,29 +584,29 @@ meteoio/meteoLaws/Meteoconst.h
 meteoio/meteoFilters/FilterMaths.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMax.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMax.cc
 meteoio/meteoFilters/FilterMax.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMin.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMin.cc
 meteoio/meteoFilters/FilterMin.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMinMax.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMinMax.cc
 meteoio/meteoFilters/FilterMinMax.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMinMaxConditional.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterMinMaxConditional.cc
 meteoio/meteoFilters/FilterMinMaxConditional.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterNoChange.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterNoChange.cc
 meteoio/meteoFilters/FilterNoChange.h
 -
 meteoio/meteoStats/libinterpol1D.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterParticle.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterParticle.cc
 meteoio/meteoFilters/FilterParticle.h
 -
 meteoio/meteoStats/libfit1D.h
@@ -622,13 +622,13 @@ errno.h
 cstring
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterPotentialSW.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterPotentialSW.cc
 meteoio/meteoFilters/FilterPotentialSW.h
 -
 meteoio/meteoLaws/Sun.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterRate.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterRate.cc
 meteoio/meteoFilters/FilterRate.h
 -
 cmath
@@ -636,7 +636,7 @@ cmath
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterStdDev.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterStdDev.cc
 meteoio/meteoFilters/FilterStdDev.h
 -
 meteoio/meteoStats/libinterpol1D.h
@@ -646,7 +646,7 @@ cmath
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterSuppr.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterSuppr.cc
 ctime
 -
 cstdlib
@@ -662,13 +662,13 @@ meteoio/meteoFilters/FilterSuppr.h
 meteoio/FileUtils.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterTimeconsistency.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterTimeconsistency.cc
 meteoio/meteoFilters/FilterTimeconsistency.h
 -
 meteoio/meteoStats/libinterpol1D.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterTukey.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterTukey.cc
 meteoio/meteoFilters/FilterTukey.h
 -
 meteoio/meteoStats/libinterpol1D.h
@@ -680,11 +680,11 @@ cmath
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterUnheatedPSUM.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/FilterUnheatedPSUM.cc
 meteoio/meteoFilters/FilterUnheatedPSUM.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcAdd.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcAdd.cc
 meteoio/meteoFilters/ProcAdd.h
 -
 meteoio/FileUtils.h
@@ -696,7 +696,7 @@ ctime
 cstdlib
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcAggregate.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcAggregate.cc
 meteoio/meteoFilters/ProcAggregate.h
 -
 meteoio/meteoStats/libinterpol1D.h
@@ -704,11 +704,11 @@ meteoio/meteoStats/libinterpol1D.h
 meteoio/meteoLaws/Meteoconst.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcDeAccumulate.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcDeAccumulate.cc
 meteoio/meteoFilters/ProcDeAccumulate.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcExpSmoothing.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcExpSmoothing.cc
 meteoio/meteoFilters/ProcExpSmoothing.h
 -
 cmath
@@ -716,7 +716,7 @@ cmath
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcIIR.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcIIR.cc
 meteoio/meteoFilters/ProcIIR.h
 -
 meteoio/MathOptim.h
@@ -724,7 +724,7 @@ meteoio/MathOptim.h
 cmath
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcMult.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcMult.cc
 meteoio/meteoFilters/ProcMult.h
 -
 meteoio/FileUtils.h
@@ -736,13 +736,13 @@ ctime
 cstdlib
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcPSUMDistribute.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcPSUMDistribute.cc
 meteoio/meteoFilters/ProcPSUMDistribute.h
 -
 cmath
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcQuantileMapping.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcQuantileMapping.cc
 meteoio/meteoFilters/ProcQuantileMapping.h
 -
 meteoio/FileUtils.h
@@ -754,7 +754,7 @@ ctime
 cstdlib
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcRHWaterToIce.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcRHWaterToIce.cc
 meteoio/meteoFilters/ProcRHWaterToIce.h
 -
 meteoio/meteoLaws/Meteoconst.h
@@ -766,7 +766,7 @@ cmath
 stdio.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcShade.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcShade.cc
 fstream
 -
 sstream
@@ -788,7 +788,7 @@ meteoio/FileUtils.h
 meteoio/dataClasses/DEMAlgorithms.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_Forland.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_Forland.cc
 meteoio/meteoFilters/ProcUndercatch_Forland.h
 -
 meteoio/meteoLaws/Meteoconst.h
@@ -798,7 +798,7 @@ meteoio/meteoLaws/Atmosphere.h
 cmath
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_Hamon.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_Hamon.cc
 meteoio/meteoFilters/ProcUndercatch_Hamon.h
 -
 meteoio/meteoLaws/Atmosphere.h
@@ -806,7 +806,7 @@ meteoio/meteoLaws/Atmosphere.h
 cmath
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_WMO.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUndercatch_WMO.cc
 meteoio/meteoFilters/ProcUndercatch_WMO.h
 -
 meteoio/meteoLaws/Atmosphere.h
@@ -816,13 +816,13 @@ cmath
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUnventilatedT.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcUnventilatedT.cc
 meteoio/meteoFilters/ProcUnventilatedT.h
 -
 cmath
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcWMASmoothing.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcWMASmoothing.cc
 meteoio/meteoFilters/ProcWMASmoothing.h
 -
 cmath
@@ -830,7 +830,7 @@ cmath
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcessingBlock.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcessingBlock.cc
 fstream
 -
 sstream
@@ -912,13 +912,13 @@ meteoio/meteoFilters/FilterKalman.h
 meteoio/meteoFilters/FilterMaths.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcessingStack.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/ProcessingStack.cc
 meteoio/meteoFilters/ProcessingStack.h
 -
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/TimeFilters.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/TimeFilters.cc
 ctime
 -
 cstdlib
@@ -938,13 +938,13 @@ meteoio/meteoFilters/ProcessingStack.h
 meteoio/FileUtils.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoFilters/WindowedFilter.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoFilters/WindowedFilter.cc
 meteoio/meteoFilters/WindowedFilter.h
 -
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoLaws/Atmosphere.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoLaws/Atmosphere.cc
 assert.h
 -
 sstream
@@ -964,7 +964,7 @@ meteoio/MathOptim.h
 meteoio/IOUtils.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoLaws/Sun.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoLaws/Sun.cc
 cmath
 -
 string
@@ -986,7 +986,7 @@ meteoio/MathOptim.h
 meteoio/IOUtils.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoLaws/Suntrajectory.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoLaws/Suntrajectory.cc
 cmath
 -
 string
@@ -1008,7 +1008,7 @@ meteoio/MathOptim.h
 meteoio/IOUtils.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/Accumulate.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/Accumulate.cc
 meteoio/meteoResampling/Accumulate.h
 -
 meteoio/IOUtils.h
@@ -1016,7 +1016,7 @@ meteoio/IOUtils.h
 sstream
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/DailyAverageResampling.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/DailyAverageResampling.cc
 meteoio/meteoResampling/DailyAverageResampling.h
 -
 meteoio/IOUtils.h
@@ -1028,7 +1028,7 @@ sstream
 cmath
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/DailySolarResampling.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/DailySolarResampling.cc
 meteoio/meteoResampling/DailySolarResampling.h
 -
 meteoio/meteoLaws/Sun.h
@@ -1044,7 +1044,7 @@ meteoio/meteoStats/libinterpol1D.h
 sstream
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/LinearResampling.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/LinearResampling.cc
 meteoio/meteoResampling/LinearResampling.h
 -
 meteoio/IOUtils.h
@@ -1052,7 +1052,7 @@ meteoio/IOUtils.h
 sstream
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/NearestNeighbour.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/NearestNeighbour.cc
 meteoio/meteoResampling/NearestNeighbour.h
 -
 meteoio/meteoStats/libinterpol1D.h
@@ -1062,7 +1062,7 @@ meteoio/IOUtils.h
 sstream
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/NoResampling.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/NoResampling.cc
 meteoio/meteoResampling/NoResampling.h
 -
 meteoio/IOUtils.h
@@ -1070,7 +1070,7 @@ meteoio/IOUtils.h
 sstream
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/ResamplingAlgorithms.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/ResamplingAlgorithms.cc
 meteoio/meteoResampling/ResamplingAlgorithms.h
 -
 meteoio/meteoResampling/Accumulate.h
@@ -1088,7 +1088,7 @@ meteoio/meteoResampling/NoResampling.h
 meteoio/meteoResampling/SolarResampling.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoResampling/SolarResampling.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoResampling/SolarResampling.cc
 meteoio/meteoResampling/SolarResampling.h
 -
 meteoio/meteoLaws/Sun.h
@@ -1102,7 +1102,7 @@ meteoio/meteoStats/libinterpol1D.h
 sstream
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/RandomNumberGenerator.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/RandomNumberGenerator.cc
 meteoio/IOUtils.h
 -
 meteoio/meteoLaws/Meteoconst.h
@@ -1118,7 +1118,7 @@ limits
 sstream
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libfit1D.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libfit1D.cc
 meteoio/meteoStats/libfit1D.h
 -
 meteoio/meteoStats/libinterpol1D.h
@@ -1134,7 +1134,7 @@ algorithm
 iomanip
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libfit1DCore.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libfit1DCore.cc
 meteoio/meteoStats/libfit1DCore.h
 -
 meteoio/meteoStats/libinterpol1D.h
@@ -1148,7 +1148,7 @@ cmath
 iomanip
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libinterpol1D.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libinterpol1D.cc
 meteoio/meteoStats/libinterpol1D.h
 -
 meteoio/IOExceptions.h
@@ -1168,7 +1168,7 @@ cmath
 iomanip
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libinterpol2D.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libinterpol2D.cc
 cmath
 -
 algorithm
@@ -1182,7 +1182,7 @@ meteoio/meteoLaws/Meteoconst.h
 meteoio/MathOptim.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/meteoStats/libresampling2D.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/meteoStats/libresampling2D.cc
 meteoio/IOUtils.h
 -
 meteoio/MathOptim.h
@@ -1196,7 +1196,7 @@ sstream
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/A3DIO.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/A3DIO.cc
 meteoio/plugins/A3DIO.h
 -
 meteoio/IOExceptions.h
@@ -1208,7 +1208,7 @@ meteoio/FileUtils.h
 fstream
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/ALPUG.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/ALPUG.cc
 meteoio/plugins/ALPUG.h
 -
 meteoio/plugins/libsmet.h
@@ -1228,7 +1228,7 @@ fstream
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/ARCIO.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/ARCIO.cc
 meteoio/plugins/ARCIO.h
 -
 meteoio/IOUtils.h
@@ -1254,7 +1254,7 @@ fstream
 iostream
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/ARPSIO.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/ARPSIO.cc
 meteoio/plugins/ARPSIO.h
 -
 meteoio/IOUtils.h
@@ -1274,7 +1274,7 @@ algorithm
 fstream
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/CsvIO.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/CsvIO.cc
 meteoio/plugins/CsvIO.h
 -
 algorithm
@@ -1290,7 +1290,7 @@ utility
 errno.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/GeotopIO.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/GeotopIO.cc
 meteoio/plugins/GeotopIO.h
 -
 meteoio/IOUtils.h
@@ -1308,7 +1308,7 @@ iostream
 fstream
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/Goes.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/Goes.cc
 meteoio/plugins/Goes.h
 -
 meteoio/FileUtils.h
@@ -1328,7 +1328,7 @@ errno.h
 cstdlib
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/GrassIO.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/GrassIO.cc
 meteoio/plugins/GrassIO.h
 -
 meteoio/IOUtils.h
@@ -1346,7 +1346,7 @@ iostream
 iomanip
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/PGMIO.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/PGMIO.cc
 meteoio/plugins/PGMIO.h
 -
 meteoio/IOUtils.h
@@ -1368,7 +1368,7 @@ string.h
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/SMETIO.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/SMETIO.cc
 meteoio/plugins/SMETIO.h
 -
 meteoio/IOUtils.h
@@ -1378,7 +1378,7 @@ cstdio
 ctime
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/SNIO.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/SNIO.cc
 meteoio/plugins/SNIO.h
 -
 meteoio/IOUtils.h
@@ -1396,7 +1396,7 @@ iostream
 fstream
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/plugins/libsmet.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/plugins/libsmet.cc
 meteoio/plugins/libsmet.h
 -
 errno.h
@@ -1426,7 +1426,7 @@ windows.h
 sys/stat.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ALSScaleAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ALSScaleAlgorithm.cc
 meteoio/spatialInterpolations/ALSScaleAlgorithm.h
 -
 meteoio/FileUtils.h
@@ -1434,7 +1434,7 @@ meteoio/FileUtils.h
 meteoio/meteoStats/libinterpol2D.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/AvgAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/AvgAlgorithm.cc
 meteoio/spatialInterpolations/AvgAlgorithm.h
 -
 meteoio/meteoStats/libinterpol1D.h
@@ -1442,7 +1442,7 @@ meteoio/meteoStats/libinterpol1D.h
 meteoio/meteoStats/libinterpol2D.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/AvgLapseAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/AvgLapseAlgorithm.cc
 meteoio/spatialInterpolations/AvgLapseAlgorithm.h
 -
 meteoio/meteoStats/libinterpol1D.h
@@ -1450,37 +1450,37 @@ meteoio/meteoStats/libinterpol1D.h
 meteoio/meteoStats/libinterpol2D.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ConstAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ConstAlgorithm.cc
 meteoio/spatialInterpolations/ConstAlgorithm.h
 -
 meteoio/meteoStats/libinterpol2D.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWAlgorithm.cc
 meteoio/spatialInterpolations/IDWAlgorithm.h
 -
 meteoio/meteoStats/libinterpol2D.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWLapseAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWLapseAlgorithm.cc
 meteoio/spatialInterpolations/IDWLapseAlgorithm.h
 -
 meteoio/meteoStats/libinterpol2D.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWLapseLocalAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWLapseLocalAlgorithm.cc
 meteoio/spatialInterpolations/IDWLapseLocalAlgorithm.h
 -
 meteoio/meteoStats/libinterpol2D.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWSlopesAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/IDWSlopesAlgorithm.cc
 meteoio/spatialInterpolations/IDWSlopesAlgorithm.h
 -
 meteoio/meteoStats/libinterpol2D.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ILWREpsAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ILWREpsAlgorithm.cc
 meteoio/spatialInterpolations/ILWREpsAlgorithm.h
 -
 meteoio/meteoStats/libinterpol1D.h
@@ -1490,7 +1490,7 @@ meteoio/meteoStats/libinterpol2D.h
 meteoio/meteoLaws/Atmosphere.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/InterpolationAlgorithms.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/InterpolationAlgorithms.cc
 meteoio/spatialInterpolations/InterpolationAlgorithms.h
 -
 meteoio/meteoStats/libinterpol2D.h
@@ -1554,7 +1554,7 @@ vector
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ListonWindAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ListonWindAlgorithm.cc
 meteoio/spatialInterpolations/ListonWindAlgorithm.h
 -
 meteoio/meteoStats/libinterpol2D.h
@@ -1562,17 +1562,17 @@ meteoio/meteoStats/libinterpol2D.h
 meteoio/MathOptim.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/NearestNeighbourAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/NearestNeighbourAlgorithm.cc
 meteoio/spatialInterpolations/NearestNeighbourAlgorithm.h
 -
 meteoio/meteoLaws/Meteoconst.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/NoneAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/NoneAlgorithm.cc
 meteoio/spatialInterpolations/NoneAlgorithm.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ODKrigAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ODKrigAlgorithm.cc
 meteoio/spatialInterpolations/ODKrigAlgorithm.h
 -
 meteoio/meteoStats/libinterpol2D.h
@@ -1580,17 +1580,17 @@ meteoio/meteoStats/libinterpol2D.h
 meteoio/MathOptim.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ODKrigLapseAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/ODKrigLapseAlgorithm.cc
 meteoio/spatialInterpolations/ODKrigLapseAlgorithm.h
 -
 meteoio/meteoStats/libinterpol2D.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/PPhaseAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/PPhaseAlgorithm.cc
 meteoio/spatialInterpolations/PPhaseAlgorithm.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/RHListonAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/RHListonAlgorithm.cc
 meteoio/spatialInterpolations/RHListonAlgorithm.h
 -
 meteoio/meteoStats/libinterpol2D.h
@@ -1600,19 +1600,19 @@ meteoio/meteoLaws/Atmosphere.h
 sstream
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/RyanWindAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/RyanWindAlgorithm.cc
 meteoio/spatialInterpolations/RyanWindAlgorithm.h
 -
 meteoio/meteoStats/libinterpol2D.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/SnowPsumAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/SnowPsumAlgorithm.cc
 meteoio/spatialInterpolations/SnowPsumAlgorithm.h
 -
 meteoio/meteoStats/libinterpol2D.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/StdPressAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/StdPressAlgorithm.cc
 meteoio/spatialInterpolations/StdPressAlgorithm.h
 -
 meteoio/meteoStats/libinterpol2D.h
@@ -1620,7 +1620,7 @@ meteoio/meteoStats/libinterpol2D.h
 meteoio/meteoLaws/Atmosphere.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/SwRadAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/SwRadAlgorithm.cc
 meteoio/spatialInterpolations/SwRadAlgorithm.h
 -
 meteoio/meteoStats/libinterpol2D.h
@@ -1628,13 +1628,13 @@ meteoio/meteoStats/libinterpol2D.h
 meteoio/dataClasses/DEMAlgorithms.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/UserAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/UserAlgorithm.cc
 meteoio/spatialInterpolations/UserAlgorithm.h
 -
 meteoio/FileUtils.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralAlgorithm.cc
 meteoio/spatialInterpolations/WinstralAlgorithm.h
 -
 meteoio/meteoStats/libinterpol2D.h
@@ -1644,7 +1644,7 @@ meteoio/MathOptim.h
 algorithm
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralListonAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralListonAlgorithm.cc
 meteoio/spatialInterpolations/WinstralListonAlgorithm.h
 -
 meteoio/spatialInterpolations/WinstralAlgorithm.h
@@ -1652,7 +1652,7 @@ meteoio/spatialInterpolations/WinstralAlgorithm.h
 meteoio/meteoStats/libinterpol2D.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralListonDriftAlgorithm.cc
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/spatialInterpolations/WinstralListonDriftAlgorithm.cc
 meteoio/spatialInterpolations/WinstralListonDriftAlgorithm.h
 -
 meteoio/spatialInterpolations/WinstralAlgorithm.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/applications/snowpack
+# Install script for directory: /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/applications/snowpack
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,15 +42,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xexex" OR NOT CMAKE_INSTALL_COMPONEN
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/snowpack")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/snowpack"
-         RPATH "/usr/local/lib:/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/lib")
+         RPATH "/usr/local/lib:/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/bin/snowpack")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/bin/snowpack")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/snowpack" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/snowpack")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/snowpack"
-         OLD_RPATH "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/lib:/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/lib:"
-         NEW_RPATH "/usr/local/lib:/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/lib")
+         OLD_RPATH "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/lib:/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/lib:"
+         NEW_RPATH "/usr/local/lib:/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/snowpack")
     endif()

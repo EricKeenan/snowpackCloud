@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack
+CMAKE_SOURCE_DIR = /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack
+CMAKE_BINARY_DIR = /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack
 
 # Utility rule file for distclean.
 
@@ -82,6 +82,6 @@ CMakeFiles/distclean.dir/clean:
 .PHONY : CMakeFiles/distclean.dir/clean
 
 CMakeFiles/distclean.dir/depend:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles/distclean.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles/distclean.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/distclean.dir/depend
 

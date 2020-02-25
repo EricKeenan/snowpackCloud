@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/tinyexpr.c
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/tinyexpr.c
 tinyexpr.h
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/tinyexpr.h
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/tinyexpr.h
 stdlib.h
 -
 math.h
@@ -20,5 +20,5 @@ stdio.h
 limits.h
 -
 
-/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio/tinyexpr.h
+/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio/tinyexpr.h
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/meteoio
+# Install script for directory: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/meteoio
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -51,9 +51,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibrariesx" OR NOT CMAKE_INSTALL_CO
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/lib/libmeteoio.so.2.8.1"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/lib/libmeteoio.so.2"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/lib/libmeteoio.so"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/lib/libmeteoio.so.2.8.1"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/lib/libmeteoio.so.2"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/lib/libmeteoio.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmeteoio.so.2.8.1"

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack
+CMAKE_SOURCE_DIR = /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack
+CMAKE_BINARY_DIR = /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -95,7 +95,7 @@ install/fast: preinstall/fast
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -106,7 +106,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CPackSourceConfig.cmake
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -148,14 +148,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -E cmake_progress_start /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/applications/snowpack/CMakeFiles/progress.marks
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 applications/snowpack/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles 0
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -E cmake_progress_start /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/applications/snowpack/CMakeFiles/progress.marks
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 applications/snowpack/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 applications/snowpack/clean
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 applications/snowpack/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 applications/snowpack/preinstall
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 applications/snowpack/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 applications/snowpack/preinstall
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 applications/snowpack/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 applications/snowpack/CMakeFiles/snowpack.app.dir/rule:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 applications/snowpack/CMakeFiles/snowpack.app.dir/rule
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 applications/snowpack/CMakeFiles/snowpack.app.dir/rule
 .PHONY : applications/snowpack/CMakeFiles/snowpack.app.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ snowpack.app: applications/snowpack/CMakeFiles/snowpack.app.dir/rule
 
 # fast build rule for target.
 snowpack.app/fast:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f applications/snowpack/CMakeFiles/snowpack.app.dir/build.make applications/snowpack/CMakeFiles/snowpack.app.dir/build
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f applications/snowpack/CMakeFiles/snowpack.app.dir/build.make applications/snowpack/CMakeFiles/snowpack.app.dir/build
 .PHONY : snowpack.app/fast
 
 Main.o: Main.cc.o
@@ -199,7 +199,7 @@ Main.o: Main.cc.o
 
 # target to build an object file
 Main.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f applications/snowpack/CMakeFiles/snowpack.app.dir/build.make applications/snowpack/CMakeFiles/snowpack.app.dir/Main.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f applications/snowpack/CMakeFiles/snowpack.app.dir/build.make applications/snowpack/CMakeFiles/snowpack.app.dir/Main.cc.o
 .PHONY : Main.cc.o
 
 Main.i: Main.cc.i
@@ -208,7 +208,7 @@ Main.i: Main.cc.i
 
 # target to preprocess a source file
 Main.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f applications/snowpack/CMakeFiles/snowpack.app.dir/build.make applications/snowpack/CMakeFiles/snowpack.app.dir/Main.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f applications/snowpack/CMakeFiles/snowpack.app.dir/build.make applications/snowpack/CMakeFiles/snowpack.app.dir/Main.cc.i
 .PHONY : Main.cc.i
 
 Main.s: Main.cc.s
@@ -217,7 +217,7 @@ Main.s: Main.cc.s
 
 # target to generate assembly for a file
 Main.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f applications/snowpack/CMakeFiles/snowpack.app.dir/build.make applications/snowpack/CMakeFiles/snowpack.app.dir/Main.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f applications/snowpack/CMakeFiles/snowpack.app.dir/build.make applications/snowpack/CMakeFiles/snowpack.app.dir/Main.cc.s
 .PHONY : Main.cc.s
 
 # Help Target
@@ -249,6 +249,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

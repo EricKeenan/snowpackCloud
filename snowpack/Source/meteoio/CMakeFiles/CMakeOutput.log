@@ -1,4 +1,4 @@
-The system is: Linux - 5.0.0-1029-gcp - x86_64
+The system is: Linux - 5.0.0-1031-gcp - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
+Change Dir: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_09cd5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_09cd5.dir/build.make CMakeFiles/cmTC_09cd5.dir/build
-make[1]: Entering directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_09cd5.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_09cd5.dir/testCCompiler.c.o   -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_09cd5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09cd5.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_09cd5.dir/testCCompiler.c.o  -o cmTC_09cd5 
-make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e0369/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0369.dir/build.make CMakeFiles/cmTC_e0369.dir/build
+make[1]: Entering directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0369.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e0369.dir/testCCompiler.c.o   -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e0369
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0369.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e0369.dir/testCCompiler.c.o  -o cmTC_e0369 
+make[1]: Leaving directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
+Change Dir: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f100e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f100e.dir/build.make CMakeFiles/cmTC_f100e.dir/build
-make[1]: Entering directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f100e.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_f100e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_f100e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f100e.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_f100e.dir/CMakeCCompilerABI.c.o  -o cmTC_f100e 
+Run Build Command:"/usr/bin/make" "cmTC_690e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_690e5.dir/build.make CMakeFiles/cmTC_690e5.dir/build
+make[1]: Entering directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_690e5.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_690e5.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_690e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_690e5.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_690e5.dir/CMakeCCompilerABI.c.o  -o cmTC_690e5 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f100e' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5A4Bqw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f100e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f100e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f100e' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_690e5' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnK77Gt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_690e5 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_690e5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_690e5' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f100e/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f100e.dir/build.make CMakeFiles/cmTC_f100e.dir/build]
-  ignore line: [make[1]: Entering directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_f100e.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_f100e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_f100e]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f100e.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_f100e.dir/CMakeCCompilerABI.c.o  -o cmTC_f100e ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_690e5/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_690e5.dir/build.make CMakeFiles/cmTC_690e5.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_690e5.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_690e5.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_690e5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_690e5.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_690e5.dir/CMakeCCompilerABI.c.o  -o cmTC_690e5 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f100e' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5A4Bqw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f100e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f100e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_690e5' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnK77Gt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_690e5 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_690e5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc5A4Bqw.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccnK77Gt.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -116,7 +116,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f100e] ==> ignore
+    arg [cmTC_690e5] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -128,7 +128,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_f100e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_690e5.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -158,17 +158,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
+Change Dir: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e8046/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e8046.dir/build.make CMakeFiles/cmTC_e8046.dir/build
-make[1]: Entering directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e8046.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_e8046.dir/feature_tests.c.o   -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e8046
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8046.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e8046.dir/feature_tests.c.o  -o cmTC_e8046 
-make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_73d88/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73d88.dir/build.make CMakeFiles/cmTC_73d88.dir/build
+make[1]: Entering directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73d88.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_73d88.dir/feature_tests.c.o   -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/feature_tests.c
+Linking C executable cmTC_73d88
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73d88.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_73d88.dir/feature_tests.c.o  -o cmTC_73d88 
+make[1]: Leaving directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -178,17 +178,17 @@ make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/So
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
+Change Dir: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_20334/fast"
-/usr/bin/make -f CMakeFiles/cmTC_20334.dir/build.make CMakeFiles/cmTC_20334.dir/build
-make[1]: Entering directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_20334.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_20334.dir/feature_tests.c.o   -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/feature_tests.c
-Linking C executable cmTC_20334
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20334.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_20334.dir/feature_tests.c.o  -o cmTC_20334 
-make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_bc4c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc4c4.dir/build.make CMakeFiles/cmTC_bc4c4.dir/build
+make[1]: Entering directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc4c4.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_bc4c4.dir/feature_tests.c.o   -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bc4c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc4c4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bc4c4.dir/feature_tests.c.o  -o cmTC_bc4c4 
+make[1]: Leaving directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -198,17 +198,17 @@ make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/So
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
+Change Dir: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_65e1b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_65e1b.dir/build.make CMakeFiles/cmTC_65e1b.dir/build
-make[1]: Entering directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_65e1b.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_65e1b.dir/feature_tests.c.o   -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/feature_tests.c
-Linking C executable cmTC_65e1b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65e1b.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_65e1b.dir/feature_tests.c.o  -o cmTC_65e1b 
-make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f6ef3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6ef3.dir/build.make CMakeFiles/cmTC_f6ef3.dir/build
+make[1]: Entering directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6ef3.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_f6ef3.dir/feature_tests.c.o   -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f6ef3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6ef3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f6ef3.dir/feature_tests.c.o  -o cmTC_f6ef3 
+make[1]: Leaving directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -216,30 +216,30 @@ make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/So
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
+Change Dir: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a571f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a571f.dir/build.make CMakeFiles/cmTC_a571f.dir/build
-make[1]: Entering directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a571f.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_a571f.dir/testCXXCompiler.cxx.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_a571f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a571f.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a571f.dir/testCXXCompiler.cxx.o  -o cmTC_a571f 
-make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_771a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_771a1.dir/build.make CMakeFiles/cmTC_771a1.dir/build
+make[1]: Entering directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_771a1.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_771a1.dir/testCXXCompiler.cxx.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_771a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_771a1.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_771a1.dir/testCXXCompiler.cxx.o  -o cmTC_771a1 
+make[1]: Leaving directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
+Change Dir: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_63b5b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_63b5b.dir/build.make CMakeFiles/cmTC_63b5b.dir/build
-make[1]: Entering directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_63b5b.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_63b5b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_63b5b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63b5b.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_63b5b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_63b5b 
+Run Build Command:"/usr/bin/make" "cmTC_8144a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8144a.dir/build.make CMakeFiles/cmTC_8144a.dir/build
+make[1]: Entering directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8144a.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_8144a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_8144a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8144a.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_8144a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8144a 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -251,24 +251,24 @@ Thread model: posix
 gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_63b5b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxqDLg9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_63b5b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_63b5b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_63b5b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8144a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cccBQWnV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8144a /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8144a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8144a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_63b5b/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_63b5b.dir/build.make CMakeFiles/cmTC_63b5b.dir/build]
-  ignore line: [make[1]: Entering directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_63b5b.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_63b5b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_63b5b]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63b5b.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_63b5b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_63b5b ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8144a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8144a.dir/build.make CMakeFiles/cmTC_8144a.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_8144a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_8144a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_8144a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8144a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_8144a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8144a ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -280,13 +280,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_63b5b' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxqDLg9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_63b5b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_63b5b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8144a' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cccBQWnV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8144a /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8144a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccxqDLg9.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cccBQWnV.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_63b5b] ==> ignore
+    arg [cmTC_8144a] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -318,7 +318,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_63b5b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_8144a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,17 +344,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
+Change Dir: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b14bd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b14bd.dir/build.make CMakeFiles/cmTC_b14bd.dir/build
-make[1]: Entering directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b14bd.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_b14bd.dir/feature_tests.cxx.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b14bd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b14bd.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_b14bd.dir/feature_tests.cxx.o  -o cmTC_b14bd 
-make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_de430/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de430.dir/build.make CMakeFiles/cmTC_de430.dir/build
+make[1]: Entering directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_de430.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_de430.dir/feature_tests.cxx.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_de430
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de430.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_de430.dir/feature_tests.cxx.o  -o cmTC_de430 
+make[1]: Leaving directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -417,17 +417,17 @@ make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/So
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
+Change Dir: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aa585/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aa585.dir/build.make CMakeFiles/cmTC_aa585.dir/build
-make[1]: Entering directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_aa585.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_aa585.dir/feature_tests.cxx.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_aa585
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa585.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_aa585.dir/feature_tests.cxx.o  -o cmTC_aa585 
-make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e3933/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e3933.dir/build.make CMakeFiles/cmTC_e3933.dir/build
+make[1]: Entering directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e3933.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_e3933.dir/feature_tests.cxx.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e3933
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3933.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e3933.dir/feature_tests.cxx.o  -o cmTC_e3933 
+make[1]: Leaving directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -490,17 +490,17 @@ make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/So
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
+Change Dir: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8f2c9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8f2c9.dir/build.make CMakeFiles/cmTC_8f2c9.dir/build
-make[1]: Entering directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8f2c9.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_8f2c9.dir/feature_tests.cxx.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8f2c9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f2c9.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8f2c9.dir/feature_tests.cxx.o  -o cmTC_8f2c9 
-make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_bc1c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc1c5.dir/build.make CMakeFiles/cmTC_bc1c5.dir/build
+make[1]: Entering directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bc1c5.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_bc1c5.dir/feature_tests.cxx.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bc1c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc1c5.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_bc1c5.dir/feature_tests.cxx.o  -o cmTC_bc1c5 
+make[1]: Leaving directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -563,17 +563,17 @@ make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/So
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
+Change Dir: /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e2a1c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e2a1c.dir/build.make CMakeFiles/cmTC_e2a1c.dir/build
-make[1]: Entering directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e2a1c.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_e2a1c.dir/feature_tests.cxx.o -c /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_e2a1c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2a1c.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e2a1c.dir/feature_tests.cxx.o  -o cmTC_e2a1c 
-make[1]: Leaving directory '/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_447fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_447fb.dir/build.make CMakeFiles/cmTC_447fb.dir/build
+make[1]: Entering directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_447fb.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_447fb.dir/feature_tests.cxx.o -c /home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_447fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_447fb.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_447fb.dir/feature_tests.cxx.o  -o cmTC_447fb 
+make[1]: Leaving directory '/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

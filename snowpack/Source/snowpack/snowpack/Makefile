@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack
+CMAKE_SOURCE_DIR = /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack
+CMAKE_BINARY_DIR = /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -95,7 +95,7 @@ install/fast: preinstall/fast
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -106,7 +106,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CPackSourceConfig.cmake
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -148,14 +148,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -E cmake_progress_start /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack/CMakeFiles/progress.marks
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 snowpack/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/CMakeFiles 0
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -E cmake_progress_start /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack/CMakeFiles/progress.marks
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 snowpack/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 snowpack/clean
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 snowpack/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 snowpack/preinstall
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 snowpack/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 snowpack/preinstall
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 snowpack/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 snowpack/CMakeFiles/snowpack.dir/rule:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 snowpack/CMakeFiles/snowpack.dir/rule
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f CMakeFiles/Makefile2 snowpack/CMakeFiles/snowpack.dir/rule
 .PHONY : snowpack/CMakeFiles/snowpack.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ snowpack: snowpack/CMakeFiles/snowpack.dir/rule
 
 # fast build rule for target.
 snowpack/fast:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/build
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/build
 .PHONY : snowpack/fast
 
 DataClasses.o: DataClasses.cc.o
@@ -199,7 +199,7 @@ DataClasses.o: DataClasses.cc.o
 
 # target to build an object file
 DataClasses.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/DataClasses.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/DataClasses.cc.o
 .PHONY : DataClasses.cc.o
 
 DataClasses.i: DataClasses.cc.i
@@ -208,7 +208,7 @@ DataClasses.i: DataClasses.cc.i
 
 # target to preprocess a source file
 DataClasses.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/DataClasses.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/DataClasses.cc.i
 .PHONY : DataClasses.cc.i
 
 DataClasses.s: DataClasses.cc.s
@@ -217,7 +217,7 @@ DataClasses.s: DataClasses.cc.s
 
 # target to generate assembly for a file
 DataClasses.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/DataClasses.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/DataClasses.cc.s
 .PHONY : DataClasses.cc.s
 
 Hazard.o: Hazard.cc.o
@@ -226,7 +226,7 @@ Hazard.o: Hazard.cc.o
 
 # target to build an object file
 Hazard.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Hazard.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Hazard.cc.o
 .PHONY : Hazard.cc.o
 
 Hazard.i: Hazard.cc.i
@@ -235,7 +235,7 @@ Hazard.i: Hazard.cc.i
 
 # target to preprocess a source file
 Hazard.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Hazard.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Hazard.cc.i
 .PHONY : Hazard.cc.i
 
 Hazard.s: Hazard.cc.s
@@ -244,7 +244,7 @@ Hazard.s: Hazard.cc.s
 
 # target to generate assembly for a file
 Hazard.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Hazard.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Hazard.cc.s
 .PHONY : Hazard.cc.s
 
 Laws_sn.o: Laws_sn.cc.o
@@ -253,7 +253,7 @@ Laws_sn.o: Laws_sn.cc.o
 
 # target to build an object file
 Laws_sn.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Laws_sn.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Laws_sn.cc.o
 .PHONY : Laws_sn.cc.o
 
 Laws_sn.i: Laws_sn.cc.i
@@ -262,7 +262,7 @@ Laws_sn.i: Laws_sn.cc.i
 
 # target to preprocess a source file
 Laws_sn.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Laws_sn.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Laws_sn.cc.i
 .PHONY : Laws_sn.cc.i
 
 Laws_sn.s: Laws_sn.cc.s
@@ -271,7 +271,7 @@ Laws_sn.s: Laws_sn.cc.s
 
 # target to generate assembly for a file
 Laws_sn.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Laws_sn.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Laws_sn.cc.s
 .PHONY : Laws_sn.cc.s
 
 Meteo.o: Meteo.cc.o
@@ -280,7 +280,7 @@ Meteo.o: Meteo.cc.o
 
 # target to build an object file
 Meteo.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Meteo.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Meteo.cc.o
 .PHONY : Meteo.cc.o
 
 Meteo.i: Meteo.cc.i
@@ -289,7 +289,7 @@ Meteo.i: Meteo.cc.i
 
 # target to preprocess a source file
 Meteo.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Meteo.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Meteo.cc.i
 .PHONY : Meteo.cc.i
 
 Meteo.s: Meteo.cc.s
@@ -298,7 +298,7 @@ Meteo.s: Meteo.cc.s
 
 # target to generate assembly for a file
 Meteo.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Meteo.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Meteo.cc.s
 .PHONY : Meteo.cc.s
 
 Saltation.o: Saltation.cc.o
@@ -307,7 +307,7 @@ Saltation.o: Saltation.cc.o
 
 # target to build an object file
 Saltation.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Saltation.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Saltation.cc.o
 .PHONY : Saltation.cc.o
 
 Saltation.i: Saltation.cc.i
@@ -316,7 +316,7 @@ Saltation.i: Saltation.cc.i
 
 # target to preprocess a source file
 Saltation.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Saltation.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Saltation.cc.i
 .PHONY : Saltation.cc.i
 
 Saltation.s: Saltation.cc.s
@@ -325,7 +325,7 @@ Saltation.s: Saltation.cc.s
 
 # target to generate assembly for a file
 Saltation.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Saltation.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Saltation.cc.s
 .PHONY : Saltation.cc.s
 
 SnowDrift.o: SnowDrift.cc.o
@@ -334,7 +334,7 @@ SnowDrift.o: SnowDrift.cc.o
 
 # target to build an object file
 SnowDrift.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/SnowDrift.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/SnowDrift.cc.o
 .PHONY : SnowDrift.cc.o
 
 SnowDrift.i: SnowDrift.cc.i
@@ -343,7 +343,7 @@ SnowDrift.i: SnowDrift.cc.i
 
 # target to preprocess a source file
 SnowDrift.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/SnowDrift.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/SnowDrift.cc.i
 .PHONY : SnowDrift.cc.i
 
 SnowDrift.s: SnowDrift.cc.s
@@ -352,7 +352,7 @@ SnowDrift.s: SnowDrift.cc.s
 
 # target to generate assembly for a file
 SnowDrift.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/SnowDrift.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/SnowDrift.cc.s
 .PHONY : SnowDrift.cc.s
 
 SnowpackConfig.o: SnowpackConfig.cc.o
@@ -361,7 +361,7 @@ SnowpackConfig.o: SnowpackConfig.cc.o
 
 # target to build an object file
 SnowpackConfig.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/SnowpackConfig.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/SnowpackConfig.cc.o
 .PHONY : SnowpackConfig.cc.o
 
 SnowpackConfig.i: SnowpackConfig.cc.i
@@ -370,7 +370,7 @@ SnowpackConfig.i: SnowpackConfig.cc.i
 
 # target to preprocess a source file
 SnowpackConfig.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/SnowpackConfig.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/SnowpackConfig.cc.i
 .PHONY : SnowpackConfig.cc.i
 
 SnowpackConfig.s: SnowpackConfig.cc.s
@@ -379,7 +379,7 @@ SnowpackConfig.s: SnowpackConfig.cc.s
 
 # target to generate assembly for a file
 SnowpackConfig.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/SnowpackConfig.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/SnowpackConfig.cc.s
 .PHONY : SnowpackConfig.cc.s
 
 Stability.o: Stability.cc.o
@@ -388,7 +388,7 @@ Stability.o: Stability.cc.o
 
 # target to build an object file
 Stability.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Stability.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Stability.cc.o
 .PHONY : Stability.cc.o
 
 Stability.i: Stability.cc.i
@@ -397,7 +397,7 @@ Stability.i: Stability.cc.i
 
 # target to preprocess a source file
 Stability.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Stability.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Stability.cc.i
 .PHONY : Stability.cc.i
 
 Stability.s: Stability.cc.s
@@ -406,7 +406,7 @@ Stability.s: Stability.cc.s
 
 # target to generate assembly for a file
 Stability.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Stability.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Stability.cc.s
 .PHONY : Stability.cc.s
 
 StabilityAlgorithms.o: StabilityAlgorithms.cc.o
@@ -415,7 +415,7 @@ StabilityAlgorithms.o: StabilityAlgorithms.cc.o
 
 # target to build an object file
 StabilityAlgorithms.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.o
 .PHONY : StabilityAlgorithms.cc.o
 
 StabilityAlgorithms.i: StabilityAlgorithms.cc.i
@@ -424,7 +424,7 @@ StabilityAlgorithms.i: StabilityAlgorithms.cc.i
 
 # target to preprocess a source file
 StabilityAlgorithms.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.i
 .PHONY : StabilityAlgorithms.cc.i
 
 StabilityAlgorithms.s: StabilityAlgorithms.cc.s
@@ -433,7 +433,7 @@ StabilityAlgorithms.s: StabilityAlgorithms.cc.s
 
 # target to generate assembly for a file
 StabilityAlgorithms.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/StabilityAlgorithms.cc.s
 .PHONY : StabilityAlgorithms.cc.s
 
 TechnicalSnow.o: TechnicalSnow.cc.o
@@ -442,7 +442,7 @@ TechnicalSnow.o: TechnicalSnow.cc.o
 
 # target to build an object file
 TechnicalSnow.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/TechnicalSnow.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/TechnicalSnow.cc.o
 .PHONY : TechnicalSnow.cc.o
 
 TechnicalSnow.i: TechnicalSnow.cc.i
@@ -451,7 +451,7 @@ TechnicalSnow.i: TechnicalSnow.cc.i
 
 # target to preprocess a source file
 TechnicalSnow.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/TechnicalSnow.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/TechnicalSnow.cc.i
 .PHONY : TechnicalSnow.cc.i
 
 TechnicalSnow.s: TechnicalSnow.cc.s
@@ -460,7 +460,7 @@ TechnicalSnow.s: TechnicalSnow.cc.s
 
 # target to generate assembly for a file
 TechnicalSnow.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/TechnicalSnow.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/TechnicalSnow.cc.s
 .PHONY : TechnicalSnow.cc.s
 
 Utils.o: Utils.cc.o
@@ -469,7 +469,7 @@ Utils.o: Utils.cc.o
 
 # target to build an object file
 Utils.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Utils.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Utils.cc.o
 .PHONY : Utils.cc.o
 
 Utils.i: Utils.cc.i
@@ -478,7 +478,7 @@ Utils.i: Utils.cc.i
 
 # target to preprocess a source file
 Utils.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Utils.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Utils.cc.i
 .PHONY : Utils.cc.i
 
 Utils.s: Utils.cc.s
@@ -487,7 +487,7 @@ Utils.s: Utils.cc.s
 
 # target to generate assembly for a file
 Utils.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Utils.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/Utils.cc.s
 .PHONY : Utils.cc.s
 
 plugins/AsciiIO.o: plugins/AsciiIO.cc.o
@@ -496,7 +496,7 @@ plugins/AsciiIO.o: plugins/AsciiIO.cc.o
 
 # target to build an object file
 plugins/AsciiIO.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.o
 .PHONY : plugins/AsciiIO.cc.o
 
 plugins/AsciiIO.i: plugins/AsciiIO.cc.i
@@ -505,7 +505,7 @@ plugins/AsciiIO.i: plugins/AsciiIO.cc.i
 
 # target to preprocess a source file
 plugins/AsciiIO.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.i
 .PHONY : plugins/AsciiIO.cc.i
 
 plugins/AsciiIO.s: plugins/AsciiIO.cc.s
@@ -514,7 +514,7 @@ plugins/AsciiIO.s: plugins/AsciiIO.cc.s
 
 # target to generate assembly for a file
 plugins/AsciiIO.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/AsciiIO.cc.s
 .PHONY : plugins/AsciiIO.cc.s
 
 plugins/SmetIO.o: plugins/SmetIO.cc.o
@@ -523,7 +523,7 @@ plugins/SmetIO.o: plugins/SmetIO.cc.o
 
 # target to build an object file
 plugins/SmetIO.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/SmetIO.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/SmetIO.cc.o
 .PHONY : plugins/SmetIO.cc.o
 
 plugins/SmetIO.i: plugins/SmetIO.cc.i
@@ -532,7 +532,7 @@ plugins/SmetIO.i: plugins/SmetIO.cc.i
 
 # target to preprocess a source file
 plugins/SmetIO.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/SmetIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/SmetIO.cc.i
 .PHONY : plugins/SmetIO.cc.i
 
 plugins/SmetIO.s: plugins/SmetIO.cc.s
@@ -541,7 +541,7 @@ plugins/SmetIO.s: plugins/SmetIO.cc.s
 
 # target to generate assembly for a file
 plugins/SmetIO.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/SmetIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/SmetIO.cc.s
 .PHONY : plugins/SmetIO.cc.s
 
 plugins/SnowpackIO.o: plugins/SnowpackIO.cc.o
@@ -550,7 +550,7 @@ plugins/SnowpackIO.o: plugins/SnowpackIO.cc.o
 
 # target to build an object file
 plugins/SnowpackIO.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.o
 .PHONY : plugins/SnowpackIO.cc.o
 
 plugins/SnowpackIO.i: plugins/SnowpackIO.cc.i
@@ -559,7 +559,7 @@ plugins/SnowpackIO.i: plugins/SnowpackIO.cc.i
 
 # target to preprocess a source file
 plugins/SnowpackIO.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.i
 .PHONY : plugins/SnowpackIO.cc.i
 
 plugins/SnowpackIO.s: plugins/SnowpackIO.cc.s
@@ -568,7 +568,7 @@ plugins/SnowpackIO.s: plugins/SnowpackIO.cc.s
 
 # target to generate assembly for a file
 plugins/SnowpackIO.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/plugins/SnowpackIO.cc.s
 .PHONY : plugins/SnowpackIO.cc.s
 
 snowpackCore/Aggregate.o: snowpackCore/Aggregate.cc.o
@@ -577,7 +577,7 @@ snowpackCore/Aggregate.o: snowpackCore/Aggregate.cc.o
 
 # target to build an object file
 snowpackCore/Aggregate.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.o
 .PHONY : snowpackCore/Aggregate.cc.o
 
 snowpackCore/Aggregate.i: snowpackCore/Aggregate.cc.i
@@ -586,7 +586,7 @@ snowpackCore/Aggregate.i: snowpackCore/Aggregate.cc.i
 
 # target to preprocess a source file
 snowpackCore/Aggregate.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.i
 .PHONY : snowpackCore/Aggregate.cc.i
 
 snowpackCore/Aggregate.s: snowpackCore/Aggregate.cc.s
@@ -595,7 +595,7 @@ snowpackCore/Aggregate.s: snowpackCore/Aggregate.cc.s
 
 # target to generate assembly for a file
 snowpackCore/Aggregate.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Aggregate.cc.s
 .PHONY : snowpackCore/Aggregate.cc.s
 
 snowpackCore/Canopy.o: snowpackCore/Canopy.cc.o
@@ -604,7 +604,7 @@ snowpackCore/Canopy.o: snowpackCore/Canopy.cc.o
 
 # target to build an object file
 snowpackCore/Canopy.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.o
 .PHONY : snowpackCore/Canopy.cc.o
 
 snowpackCore/Canopy.i: snowpackCore/Canopy.cc.i
@@ -613,7 +613,7 @@ snowpackCore/Canopy.i: snowpackCore/Canopy.cc.i
 
 # target to preprocess a source file
 snowpackCore/Canopy.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.i
 .PHONY : snowpackCore/Canopy.cc.i
 
 snowpackCore/Canopy.s: snowpackCore/Canopy.cc.s
@@ -622,7 +622,7 @@ snowpackCore/Canopy.s: snowpackCore/Canopy.cc.s
 
 # target to generate assembly for a file
 snowpackCore/Canopy.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Canopy.cc.s
 .PHONY : snowpackCore/Canopy.cc.s
 
 snowpackCore/Metamorphism.o: snowpackCore/Metamorphism.cc.o
@@ -631,7 +631,7 @@ snowpackCore/Metamorphism.o: snowpackCore/Metamorphism.cc.o
 
 # target to build an object file
 snowpackCore/Metamorphism.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.o
 .PHONY : snowpackCore/Metamorphism.cc.o
 
 snowpackCore/Metamorphism.i: snowpackCore/Metamorphism.cc.i
@@ -640,7 +640,7 @@ snowpackCore/Metamorphism.i: snowpackCore/Metamorphism.cc.i
 
 # target to preprocess a source file
 snowpackCore/Metamorphism.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.i
 .PHONY : snowpackCore/Metamorphism.cc.i
 
 snowpackCore/Metamorphism.s: snowpackCore/Metamorphism.cc.s
@@ -649,7 +649,7 @@ snowpackCore/Metamorphism.s: snowpackCore/Metamorphism.cc.s
 
 # target to generate assembly for a file
 snowpackCore/Metamorphism.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Metamorphism.cc.s
 .PHONY : snowpackCore/Metamorphism.cc.s
 
 snowpackCore/PhaseChange.o: snowpackCore/PhaseChange.cc.o
@@ -658,7 +658,7 @@ snowpackCore/PhaseChange.o: snowpackCore/PhaseChange.cc.o
 
 # target to build an object file
 snowpackCore/PhaseChange.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.o
 .PHONY : snowpackCore/PhaseChange.cc.o
 
 snowpackCore/PhaseChange.i: snowpackCore/PhaseChange.cc.i
@@ -667,7 +667,7 @@ snowpackCore/PhaseChange.i: snowpackCore/PhaseChange.cc.i
 
 # target to preprocess a source file
 snowpackCore/PhaseChange.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.i
 .PHONY : snowpackCore/PhaseChange.cc.i
 
 snowpackCore/PhaseChange.s: snowpackCore/PhaseChange.cc.s
@@ -676,7 +676,7 @@ snowpackCore/PhaseChange.s: snowpackCore/PhaseChange.cc.s
 
 # target to generate assembly for a file
 snowpackCore/PhaseChange.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/PhaseChange.cc.s
 .PHONY : snowpackCore/PhaseChange.cc.s
 
 snowpackCore/ReSolver1d.o: snowpackCore/ReSolver1d.cc.o
@@ -685,7 +685,7 @@ snowpackCore/ReSolver1d.o: snowpackCore/ReSolver1d.cc.o
 
 # target to build an object file
 snowpackCore/ReSolver1d.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.o
 .PHONY : snowpackCore/ReSolver1d.cc.o
 
 snowpackCore/ReSolver1d.i: snowpackCore/ReSolver1d.cc.i
@@ -694,7 +694,7 @@ snowpackCore/ReSolver1d.i: snowpackCore/ReSolver1d.cc.i
 
 # target to preprocess a source file
 snowpackCore/ReSolver1d.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.i
 .PHONY : snowpackCore/ReSolver1d.cc.i
 
 snowpackCore/ReSolver1d.s: snowpackCore/ReSolver1d.cc.s
@@ -703,7 +703,7 @@ snowpackCore/ReSolver1d.s: snowpackCore/ReSolver1d.cc.s
 
 # target to generate assembly for a file
 snowpackCore/ReSolver1d.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/ReSolver1d.cc.s
 .PHONY : snowpackCore/ReSolver1d.cc.s
 
 snowpackCore/SalinityTransport.o: snowpackCore/SalinityTransport.cc.o
@@ -712,7 +712,7 @@ snowpackCore/SalinityTransport.o: snowpackCore/SalinityTransport.cc.o
 
 # target to build an object file
 snowpackCore/SalinityTransport.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.o
 .PHONY : snowpackCore/SalinityTransport.cc.o
 
 snowpackCore/SalinityTransport.i: snowpackCore/SalinityTransport.cc.i
@@ -721,7 +721,7 @@ snowpackCore/SalinityTransport.i: snowpackCore/SalinityTransport.cc.i
 
 # target to preprocess a source file
 snowpackCore/SalinityTransport.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.i
 .PHONY : snowpackCore/SalinityTransport.cc.i
 
 snowpackCore/SalinityTransport.s: snowpackCore/SalinityTransport.cc.s
@@ -730,7 +730,7 @@ snowpackCore/SalinityTransport.s: snowpackCore/SalinityTransport.cc.s
 
 # target to generate assembly for a file
 snowpackCore/SalinityTransport.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/SalinityTransport.cc.s
 .PHONY : snowpackCore/SalinityTransport.cc.s
 
 snowpackCore/SeaIce.o: snowpackCore/SeaIce.cc.o
@@ -739,7 +739,7 @@ snowpackCore/SeaIce.o: snowpackCore/SeaIce.cc.o
 
 # target to build an object file
 snowpackCore/SeaIce.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.o
 .PHONY : snowpackCore/SeaIce.cc.o
 
 snowpackCore/SeaIce.i: snowpackCore/SeaIce.cc.i
@@ -748,7 +748,7 @@ snowpackCore/SeaIce.i: snowpackCore/SeaIce.cc.i
 
 # target to preprocess a source file
 snowpackCore/SeaIce.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.i
 .PHONY : snowpackCore/SeaIce.cc.i
 
 snowpackCore/SeaIce.s: snowpackCore/SeaIce.cc.s
@@ -757,7 +757,7 @@ snowpackCore/SeaIce.s: snowpackCore/SeaIce.cc.s
 
 # target to generate assembly for a file
 snowpackCore/SeaIce.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/SeaIce.cc.s
 .PHONY : snowpackCore/SeaIce.cc.s
 
 snowpackCore/Snowpack.o: snowpackCore/Snowpack.cc.o
@@ -766,7 +766,7 @@ snowpackCore/Snowpack.o: snowpackCore/Snowpack.cc.o
 
 # target to build an object file
 snowpackCore/Snowpack.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.o
 .PHONY : snowpackCore/Snowpack.cc.o
 
 snowpackCore/Snowpack.i: snowpackCore/Snowpack.cc.i
@@ -775,7 +775,7 @@ snowpackCore/Snowpack.i: snowpackCore/Snowpack.cc.i
 
 # target to preprocess a source file
 snowpackCore/Snowpack.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.i
 .PHONY : snowpackCore/Snowpack.cc.i
 
 snowpackCore/Snowpack.s: snowpackCore/Snowpack.cc.s
@@ -784,7 +784,7 @@ snowpackCore/Snowpack.s: snowpackCore/Snowpack.cc.s
 
 # target to generate assembly for a file
 snowpackCore/Snowpack.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Snowpack.cc.s
 .PHONY : snowpackCore/Snowpack.cc.s
 
 snowpackCore/Solver.o: snowpackCore/Solver.cc.o
@@ -793,7 +793,7 @@ snowpackCore/Solver.o: snowpackCore/Solver.cc.o
 
 # target to build an object file
 snowpackCore/Solver.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.o
 .PHONY : snowpackCore/Solver.cc.o
 
 snowpackCore/Solver.i: snowpackCore/Solver.cc.i
@@ -802,7 +802,7 @@ snowpackCore/Solver.i: snowpackCore/Solver.cc.i
 
 # target to preprocess a source file
 snowpackCore/Solver.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.i
 .PHONY : snowpackCore/Solver.cc.i
 
 snowpackCore/Solver.s: snowpackCore/Solver.cc.s
@@ -811,7 +811,7 @@ snowpackCore/Solver.s: snowpackCore/Solver.cc.s
 
 # target to generate assembly for a file
 snowpackCore/Solver.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/Solver.cc.s
 .PHONY : snowpackCore/Solver.cc.s
 
 snowpackCore/VapourTransport.o: snowpackCore/VapourTransport.cc.o
@@ -820,7 +820,7 @@ snowpackCore/VapourTransport.o: snowpackCore/VapourTransport.cc.o
 
 # target to build an object file
 snowpackCore/VapourTransport.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.o
 .PHONY : snowpackCore/VapourTransport.cc.o
 
 snowpackCore/VapourTransport.i: snowpackCore/VapourTransport.cc.i
@@ -829,7 +829,7 @@ snowpackCore/VapourTransport.i: snowpackCore/VapourTransport.cc.i
 
 # target to preprocess a source file
 snowpackCore/VapourTransport.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.i
 .PHONY : snowpackCore/VapourTransport.cc.i
 
 snowpackCore/VapourTransport.s: snowpackCore/VapourTransport.cc.s
@@ -838,7 +838,7 @@ snowpackCore/VapourTransport.s: snowpackCore/VapourTransport.cc.s
 
 # target to generate assembly for a file
 snowpackCore/VapourTransport.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/VapourTransport.cc.s
 .PHONY : snowpackCore/VapourTransport.cc.s
 
 snowpackCore/WaterTransport.o: snowpackCore/WaterTransport.cc.o
@@ -847,7 +847,7 @@ snowpackCore/WaterTransport.o: snowpackCore/WaterTransport.cc.o
 
 # target to build an object file
 snowpackCore/WaterTransport.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.o
 .PHONY : snowpackCore/WaterTransport.cc.o
 
 snowpackCore/WaterTransport.i: snowpackCore/WaterTransport.cc.i
@@ -856,7 +856,7 @@ snowpackCore/WaterTransport.i: snowpackCore/WaterTransport.cc.i
 
 # target to preprocess a source file
 snowpackCore/WaterTransport.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.i
 .PHONY : snowpackCore/WaterTransport.cc.i
 
 snowpackCore/WaterTransport.s: snowpackCore/WaterTransport.cc.s
@@ -865,7 +865,7 @@ snowpackCore/WaterTransport.s: snowpackCore/WaterTransport.cc.s
 
 # target to generate assembly for a file
 snowpackCore/WaterTransport.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/snowpackCore/WaterTransport.cc.s
 .PHONY : snowpackCore/WaterTransport.cc.s
 
 vanGenuchten.o: vanGenuchten.cc.o
@@ -874,7 +874,7 @@ vanGenuchten.o: vanGenuchten.cc.o
 
 # target to build an object file
 vanGenuchten.cc.o:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/vanGenuchten.cc.o
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/vanGenuchten.cc.o
 .PHONY : vanGenuchten.cc.o
 
 vanGenuchten.i: vanGenuchten.cc.i
@@ -883,7 +883,7 @@ vanGenuchten.i: vanGenuchten.cc.i
 
 # target to preprocess a source file
 vanGenuchten.cc.i:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/vanGenuchten.cc.i
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/vanGenuchten.cc.i
 .PHONY : vanGenuchten.cc.i
 
 vanGenuchten.s: vanGenuchten.cc.s
@@ -892,7 +892,7 @@ vanGenuchten.s: vanGenuchten.cc.s
 
 # target to generate assembly for a file
 vanGenuchten.cc.s:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/vanGenuchten.cc.s
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(MAKE) -f snowpack/CMakeFiles/snowpack.dir/build.make snowpack/CMakeFiles/snowpack.dir/vanGenuchten.cc.s
 .PHONY : vanGenuchten.cc.s
 
 # Help Target
@@ -999,6 +999,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

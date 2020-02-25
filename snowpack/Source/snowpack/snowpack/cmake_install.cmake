@@ -1,4 +1,4 @@
-# Install script for directory: /home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/snowpack
+# Install script for directory: /home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/snowpack
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,13 +47,13 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xexex" OR NOT CMAKE_INSTALL_COMPONEN
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHECK
            FILE "${file}"
-           RPATH "/usr/local/lib:/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/lib")
+           RPATH "/usr/local/lib:/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/lib")
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/lib/libsnowpack.so.3.4.5"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/lib/libsnowpack.so.3"
-    "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/snowpack/lib/libsnowpack.so"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/lib/libsnowpack.so.3.4.5"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/lib/libsnowpack.so.3"
+    "/home/jupyter-eric/snowpackCloud/snowpack/Source/snowpack/lib/libsnowpack.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsnowpack.so.3.4.5"
@@ -64,8 +64,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xexex" OR NOT CMAKE_INSTALL_COMPONEN
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/lib:::::::::::::::"
-           NEW_RPATH "/usr/local/lib:/home/jupyter-eric/SNOWPACK_in_the_cloud/snowpack/Source/meteoio/lib")
+           OLD_RPATH "/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/lib:::::::::::::::"
+           NEW_RPATH "/usr/local/lib:/home/jupyter-eric/snowpackCloud/snowpack/Source/meteoio/lib")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")
       endif()
