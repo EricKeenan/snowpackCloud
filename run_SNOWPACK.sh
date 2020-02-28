@@ -19,10 +19,10 @@ site=${15}
 
 # Set up simulation folder for each unique exerpiment_id.
 cd ${site}
-mkdir ${experiment_id}
+mkdir -p ${experiment_id}
 cp {"${site}.smet","${site}.sno","${site}.ini","base.ini"} $experiment_id
 cd $experiment_id
-mkdir output
+mkdir -p output
 
 # Definite paths to initialization file (.ini) and SNOWPACK binary. 
 ini_path="${site}.ini"
