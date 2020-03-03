@@ -13,7 +13,12 @@ drylake/standard/output/*
 drylake/standard/output.zip
 drylake/standard/drylake.smet
 
+drylake_tea/standard/output/*
+drylake_tea/standard/output.zip
+drylake_tea/standard/drylake_tea.smet
+
 # Exclusions
 !AP/standard/output/README.txt
 !SP/standard/output/README.txt
 !drylake/standard/output/README.txt
+!drylake_tea/standard/output/README.txt
