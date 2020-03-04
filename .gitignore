@@ -21,9 +21,14 @@ G1/standard/output/*
 G1/standard/output.zip
 G1/standard/G1.smet
 
+G2/standard/output/*
+G2/standard/output.zip
+G2/standard/G2.smet
+
 # Exclusions
 !AP/standard/output/README.txt
 !SP/standard/output/README.txt
 !drylake/standard/output/README.txt
 !drylake_tea/standard/output/README.txt
 !G1/standard/output/README.txt
+!G2/standard/output/README.txt
