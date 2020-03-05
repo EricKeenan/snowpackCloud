@@ -32,8 +32,8 @@ export LD_LIBRARY_PATH=/usr/local/lib:${LD_LIBRARY_PATH}
 
 # Modify forcing file
 # Units multiplier 
-# um_line="units_multiplier = 1 $2 $3 $4 1 1 $5 1 $6 $7"
-# sed -i "s/units_multiplier = 1 1 1 1 1 1 1 1 1 1/${um_line}/g" "${site}.smet"
+um_line="units_multiplier = 1 $2 $3 $4 1 1 $5 1 $6 $7"
+sed -i "s/units_multiplier = 1 1 1 1 1 1 1 1 1 1/${um_line}/g" "${site}.smet"
 um_line="units_multiplier = 1 $2 $3 $4 $6 $7 $5"
 sed -i "s/units_multiplier = 1 1 1 1 1 1 1/${um_line}/g" "${site}.smet"
 
@@ -42,8 +42,8 @@ sed -i "/epsg             = 3031/d" "${site}.smet"
 sed -i "/epsg             = 3413/d" "${site}.smet"
 
 # Units offset
-# uo_line="units_offset = 0 $8 $9 ${10} 0 0 ${11} 0 ${12} ${13}"
-# sed -i "s/units_offset = 0 0 0 0 0 0 0 0 0 0/${uo_line}/g" "${site}.smet"
+uo_line="units_offset = 0 $8 $9 ${10} 0 0 ${11} 0 ${12} ${13}"
+sed -i "s/units_offset = 0 0 0 0 0 0 0 0 0 0/${uo_line}/g" "${site}.smet"
 uo_line="units_offset = 0 $8 $9 ${10} ${12} ${13} ${11}"
 sed -i "s/units_offset = 0 0 0 0 0 0 0/${uo_line}/g" "${site}.smet"
 
